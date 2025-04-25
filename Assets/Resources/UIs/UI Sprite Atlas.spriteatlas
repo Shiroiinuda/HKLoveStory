@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 74e0f57a62e50a647b29d76a3303b2a7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5a455a10b5b2842459e7ad841324446a, type: 3}
+  - {fileID: 21300000, guid: 3c6abcc0bc6740a4e9d3ec11838054f2, type: 3}
+  - {fileID: 21300000, guid: dcef6bc18fe51334693f6babcf73ca17, type: 3}
+  - {fileID: 21300000, guid: 08c685e1dd396f14d9872f545b39cc93, type: 3}
+  - {fileID: 21300000, guid: b22e7ee1f8e77304097249ad3431b6d8, type: 3}
+  - {fileID: 21300000, guid: 21d17d529f903fa4ab50e1f97f42120c, type: 3}
+  - {fileID: 21300000, guid: 24dcc5e2cbea5b94cbbd37b026015bd5, type: 3}
+  - {fileID: 21300000, guid: b0b498831deccf145b31aa54ad150298, type: 3}
+  - {fileID: 21300000, guid: 03659cf3427904e4da520b5af39d1756, type: 3}
+  - {fileID: 21300000, guid: 64565464ee5443749adeb37d51d9cb2b, type: 3}
+  - {fileID: 21300000, guid: 675e4594b81e4344d83326d7c80ad50f, type: 3}
+  - {fileID: 21300000, guid: 563f4aa42bed1114ea29e707b56d87f4, type: 3}
+  - {fileID: 21300000, guid: d47b09b44e9c0ae4c81efda7215bb7f2, type: 3}
+  - {fileID: 21300000, guid: f9432bb4eb0f10a42901458316c1a77b, type: 3}
+  - {fileID: 21300000, guid: e2e43a15692b6cd4ca5c7aea66b88693, type: 3}
+  - {fileID: 21300000, guid: 0be3c65509f4b5a46be58ef16642c0f3, type: 3}
+  - {fileID: 21300000, guid: 34cad36510c75344d916159f1cd4cfc9, type: 3}
+  - {fileID: 21300000, guid: e7e1eb65732968c4098b43bde71b4f49, type: 3}
+  - {fileID: 21300000, guid: 63409175dbdd8e94ba5d0f4f7add8241, type: 3}
+  - {fileID: 21300000, guid: 517a8375890820f4eb6228aca545743b, type: 3}
+  - {fileID: 21300000, guid: 265bf4b52fbf06246b3b4621ac54a8c3, type: 3}
+  - {fileID: 21300000, guid: 3300c02681d72cc4d8618de533caebcf, type: 3}
+  - {fileID: 21300000, guid: dd70d42668518094ab694e29fea984df, type: 3}
+  - {fileID: 21300000, guid: ed731e66649e7fd4c9558620727f43f7, type: 3}
+  - {fileID: 21300000, guid: fa691dd6b3a991449b288a4791878ba5, type: 3}
+  - {fileID: 21300000, guid: 3c279dc72b3dd124e88b112ff5f4ba3a, type: 3}
+  - {fileID: 21300000, guid: 9248252849102324989b79f41dc94fc5, type: 3}
+  - {fileID: 21300000, guid: 257b372820ad27949a33124c8dcf3ff9, type: 3}
+  - {fileID: 21300000, guid: 375f7958ebaeb7645a89073d8c486b69, type: 3}
+  - {fileID: 21300000, guid: f8522268cfecec548bd409c24e858f8d, type: 3}
+  - {fileID: 21300000, guid: 1cc2908842e3c6c438f6007b97af1c8f, type: 3}
+  - {fileID: 21300000, guid: e19648d8f87559e4a88ac32cbad805a7, type: 3}
+  - {fileID: 21300000, guid: ee8e23e8aab84a14cb586e76bd25135b, type: 3}
+  - {fileID: 21300000, guid: 94ce666974cb87c458c27a38f5209284, type: 3}
+  - {fileID: 21300000, guid: c2a593794df40ab41b0972d05a4881b3, type: 3}
+  - {fileID: 21300000, guid: 9f0830c94c054114db2f85dc924cf712, type: 3}
+  - {fileID: 21300000, guid: 2a34050a05b07094397a952ba39b6963, type: 3}
+  - {fileID: 21300000, guid: 7aa1305a1723d154e847a980a2b46334, type: 3}
+  - {fileID: 21300000, guid: 5f5342aa318547f43b535623b4cda7bd, type: 3}
+  - {fileID: 21300000, guid: f689611b738319f47a727ed6f7e18f17, type: 3}
+  - {fileID: 21300000, guid: 4951e6abc9ed1d5478b780e323ba35fe, type: 3}
+  - {fileID: 21300000, guid: 35d565bba9b301b44abae971f22d7f2e, type: 3}
+  - {fileID: 21300000, guid: 1a5ba4eb65d712b41b602a02865f427d, type: 3}
+  - {fileID: 21300000, guid: a7f3a67c7d1805346ba070510769b5dc, type: 3}
+  - {fileID: 21300000, guid: 8447fdbcad14b7d46af7ad626f4b042f, type: 3}
+  - {fileID: 21300000, guid: 1dddadcc65b9cc94ebf2fb478b3e329a, type: 3}
+  - {fileID: 21300000, guid: d011d3fcabc1af04d812f2c0368ed100, type: 3}
+  - {fileID: 21300000, guid: 4028c91d8e18edd49b550c7d789f79d0, type: 3}
+  - {fileID: 21300000, guid: c21e226d680d323458ad6015fc846bef, type: 3}
+  - {fileID: 21300000, guid: 95571a6db0e64054aa68845467b24bb6, type: 3}
+  - {fileID: 21300000, guid: d2f56f6da8a7d694a947a5094392d700, type: 3}
+  - {fileID: 21300000, guid: 882b4bad49130624badbe8829d218017, type: 3}
+  - {fileID: 21300000, guid: 223aebadf56220f45b987708806d2e2b, type: 3}
+  - {fileID: 21300000, guid: 2cb9cc1eecf9b8e4eb02e5c50df505da, type: 3}
+  - {fileID: 21300000, guid: a76326bec65c51946b4b87203c58857b, type: 3}
+  - {fileID: 21300000, guid: 3dc76cee3fb7a45429913e15c304b9cd, type: 3}
+  - {fileID: 21300000, guid: e8b19a0f838d29e458a465d1602a6296, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Currency
+  - btn_mouthOn
+  - thankyou
+  - achievement_Off
+  - btn_moveOn
+  - btn_runright
+  - btn_runleftOn
+  - ROPE2_right
+  - next btn
+  - Choose
+  - Handle
+  - Choose2
+  - line
+  - SquareBox2
+  - achievement_On
+  - ToArrow
+  - btn_mouth
+  - btn_move
+  - Unlimited2
+  - Arrow
+  - circle
+  - AboutUsIcon_On
+  - OneJadeDraw
+  - x_White
+  - TwentyJade
+  - missedClick
+  - WatchADSButton
+  - btn_jumpOn
+  - zstore
+  - Lock
+  - waitingClick
+  - titlebase
+  - ChapterBox
+  - HundredJade
+  - nametag
+  - x
+  - btn_runleftAOn
+  - SquareBox
+  - AboutUsIcon
+  - btn_jump
+  - Tick
+  - VibrateBox
+  - RectangleBox
+  - goodClick
+  - btn_walkright
+  - btn_runleft
+  - talkcloud
+  - TutFinger
+  - btn_runleftA
+  - back
+  - SlotArrow
+  - btn_runrightDOn
+  - btn_runrightD
+  - CGMask
+  - Info
+  - btn_runrightOn
+  - thankyouCN
+  m_RenderDataMap: {}
+  m_Tag: UI Sprite Atlas
+  m_IsVariant: 0
