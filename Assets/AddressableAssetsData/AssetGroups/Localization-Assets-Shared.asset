@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 53047ce9131c473429d3754f332a1a40
+  m_SerializeEntries:
+  - m_GUID: e55fd32eb3bde7e4d89dd8c606c7011a
+    m_Address: Assets/LocalizationSettings/Tables/UITextTables/UITextTable Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965ef7fae034c51409eb2ae295cce414
+    m_Address: Assets/LocalizationSettings/Tables/UIImageTable/UIImageTable Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81770b06334d3544ea27d1ae7ce573b6
+    m_Address: storeWORD
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Locale-zh-CN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 403dd98fdee9efc45a1d0ff67905504e
+    m_Address: Assets/LocalizationSettings/Tables/SpeakerNameTable/SpeakerNameTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddc6a5ca04ec38b469256da6a5e9914b
+    m_Address: Assets/LocalizationSettings/Tables/DialogueTable/DialogueTable Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba49984f0e9946446afec553dfbda25d
+    m_Address: Assets/LocalizationSettings/Tables/CR_Chapters/CR_Chapters Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3e0a6d23d26d9944977d924587a0c24
+    m_Address: Assets/LocalizationSettings/Tables/CR_ChapterName/CR_ChaptersName
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1d3ffd59774b1646bde3d170692b4e2
+    m_Address: Assets/LocalizationSettings/Tables/UIButtonsAssets/UIButtonsAssets
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f16ad0c93d202974fac9458994301485
+    m_Address: Assets/LocalizationSettings/Tables/InventoryItemName/InventoryItemName
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c0a64b9bb624cc4ebf7855a0c61ef58
+    m_Address: Assets/LocalizationSettings/Tables/InventoryItemDescription/InventoryItemDescription
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25210da4e28df8d44a4fe70b02d3f131
+    m_Address: Assets/LocalizationSettings/Tables/ItemTextTable/ItemTextTable Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbb90e955e272fa4d96d6426288c6383
+    m_Address: Assets/LocalizationSettings/Tables/ItemUnlockTextTable/ItemUnlockTextTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab57017e24d417a4c8b2ea4b48d59432
+    m_Address: Assets/LocalizationSettings/Tables/InventoryItemText/InventoryItemText
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 160a9793397646548a493467712d7fe7
+    m_Address: StartInvestigationCN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-CN
+    - Locale-en-US
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 3974a96333eb2944ab35a6383bf11fec, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7801c1865fb8ef244a784ddf2b05e728, type: 2}
+    - {fileID: 11400000, guid: 6b495ab80e534064f9f397fd0841e0fc, type: 2}
