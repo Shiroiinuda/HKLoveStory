@@ -26,13 +26,13 @@ namespace Chapters
 
         protected override void CheckStageClear()
         {
-            bool isClear = gameControl.unlockTrueEndDrug == 1 && gameControl.unlockTrueEndLoveLetter == 1;
+            /*bool isClear = gameControl.unlockTrueEndDrug == 1 && gameControl.unlockTrueEndLoveLetter == 1;
             chapterUI.enabled = isClear;
             chapterNameUI.enabled = isClear;
             lockImg.SetActive(!isClear);
             canClick = isClear;
             gameObject.GetComponent<Button>().interactable = isClear;
-            trueEndHintPanel.SetActive(!isClear);
+            trueEndHintPanel.SetActive(!isClear);*/
         }
 
         public void OnChapterClicked()

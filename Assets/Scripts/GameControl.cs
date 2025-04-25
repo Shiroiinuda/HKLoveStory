@@ -46,27 +46,26 @@ public class GameControl : MonoBehaviour
     }
 
     public bool reopen;
-
-    [Header("Player Data")] public PlayerData playerSaveData;
+    
 
     public int currentBookmark
     {
         get
         {
-            Debug.Log($"Get BookMark:{playerSaveData.currentBookmark}");
-           return playerSaveData.currentBookmark;
+            Debug.Log($"Get BookMark:{SaveData.Instance.data.currentBookmark}");
+           return SaveData.Instance.data.currentBookmark;
         }
         set
         {
             Debug.Log($"Save BookMark:{value}");
-            playerSaveData.currentBookmark = value;
+            SaveData.Instance.data.currentBookmark = value;
             saveData.Save(SaveplayerData());
         }
     }
 
     public void CheatMode()
     {
-        playerSaveData.isTester = !playerSaveData.isTester;
+        SaveData.Instance.data.isTester = !SaveData.Instance.data.isTester;
     }
     public List<SaveBookMark> SaveBookMarks
     {
@@ -80,156 +79,96 @@ public class GameControl : MonoBehaviour
 hasSave = false
                 });
             }
-            Debug.Log(playerSaveData.SaveBookMarks.Count);
-            if (playerSaveData.SaveBookMarks.Count != 6 || playerSaveData.SaveBookMarks.Count !=0)
+            Debug.Log(SaveData.Instance.data.saveBookMarks.Count);
+            if (SaveData.Instance.data.saveBookMarks.Count != 6 || SaveData.Instance.data.saveBookMarks.Count !=0)
             {
 
-                for (int i = 0; i < playerSaveData.SaveBookMarks.Count; i++)
+                for (int i = 0; i < SaveData.Instance.data.saveBookMarks.Count; i++)
                 {
-                    if (playerSaveData.SaveBookMarks[i] == null) continue;
-                            bookMarks[i] = playerSaveData.SaveBookMarks[i];
+                    if (SaveData.Instance.data.saveBookMarks[i] == null) continue;
+                            bookMarks[i] = SaveData.Instance.data.saveBookMarks[i];
                 }
             }
             else
             {
-                bookMarks = playerSaveData.SaveBookMarks;
+                bookMarks = SaveData.Instance.data.saveBookMarks;
             }
 
-            saveData.data.SaveBookMarks = bookMarks;
+            saveData.data.saveBookMarks = bookMarks;
             return bookMarks;
         }
-        set => playerSaveData.SaveBookMarks = value;
+        set => SaveData.Instance.data.saveBookMarks = value;
     }
     public List<string> stageClear
     {
-        get => playerSaveData.stageClear;
-        set => playerSaveData.stageClear = value;
+        get => SaveData.Instance.data.stageClear;
+        set => SaveData.Instance.data.stageClear = value;
     }
 
     public List<string> items
     {
-        get => playerSaveData.items;
-        set => playerSaveData.items = value;
+        get => SaveData.Instance.data.items;
+        set => SaveData.Instance.data.items = value;
     }
 
     public List<string> itemPath
     {
-        get => playerSaveData.itemPath;
-        set => playerSaveData.itemPath = value;
+        get => SaveData.Instance.data.itemPath;
+        set => SaveData.Instance.data.itemPath = value;
     }
 
     public List<string> collections
     {
-        get => playerSaveData.collections;
-        set => playerSaveData.collections = value;
+        get => SaveData.Instance.data.collections;
+        set => SaveData.Instance.data.collections = value;
     }
 
     public List<string> collectionPath
     {
-        get => playerSaveData.collectionPath;
-        set => playerSaveData.collectionPath = value;
+        get => SaveData.Instance.data.collectionPath;
+        set => SaveData.Instance.data.collectionPath = value;
     }
 
     public bool isChoiceLoop
     {
-        get => playerSaveData.isChoiceLoop;
-        set => playerSaveData.isChoiceLoop = value;
+        get => SaveData.Instance.data.isChoiceLoop;
+        set => SaveData.Instance.data.isChoiceLoop = value;
     }
 
     public int loopChoiceCounter
     {
-        get => playerSaveData.loopChoiceCounter;
-        set => playerSaveData.loopChoiceCounter = value;
+        get => SaveData.Instance.data.loopChoiceCounter;
+        set => SaveData.Instance.data.loopChoiceCounter = value;
     }
 
     public int loopChoiceJumpmark
     {
-        get => playerSaveData.loopChoiceJumpmark;
-        set => playerSaveData.loopChoiceJumpmark = value;
+        get => SaveData.Instance.data.loopChoiceJumpmark;
+        set => SaveData.Instance.data.loopChoiceJumpmark = value;
     }
 
     public int replayCount
     {
-        get => playerSaveData.replayCount;
-        set => playerSaveData.replayCount = value;
+        get => SaveData.Instance.data.replayCount;
+        set => SaveData.Instance.data.replayCount = value;
     }
 
     public string prevousGameName
     {
-        get => playerSaveData.prevousGameName;
-        set => playerSaveData.prevousGameName = value;
+        get => SaveData.Instance.data.prevousGameName;
+        set => SaveData.Instance.data.prevousGameName = value;
     }
 
     public string bgm
     {
-        get => playerSaveData.bgm;
-        set => playerSaveData.bgm = value;
+        get => SaveData.Instance.data.bgm;
+        set => SaveData.Instance.data.bgm = value;
     }
 
     public string mainMenuBG
     {
-        get => playerSaveData.mainMenuBG;
-        set => playerSaveData.mainMenuBG = value;
-    }
-
-    public int toldFan
-    {
-        get => playerSaveData.toldFan;
-        set => playerSaveData.toldFan = value;
-    }
-
-    public int unlockTrueEndDrug
-    {
-        get => playerSaveData.unlockTrueEndDrug;
-        set => playerSaveData.unlockTrueEndDrug = value;
-    }
-
-    public int unlockTrueEndLoveLetter
-    {
-        get => playerSaveData.unlockTrueEndLoveLetter;
-        set => playerSaveData.unlockTrueEndLoveLetter = value;
-    }
-
-    public int ansHome
-    {
-        get => playerSaveData.ansHome;
-        set => playerSaveData.ansHome = value;
-    }
-
-    public int ansSchool
-    {
-        get => playerSaveData.ansSchool;
-        set => playerSaveData.ansSchool = value;
-    }
-
-    public int ansTheatre
-    {
-        get => playerSaveData.ansTheatre;
-        set => playerSaveData.ansTheatre = value;
-    }
-
-    public int ansBreakUp
-    {
-        get => playerSaveData.ansBreakUp;
-        set => playerSaveData.ansBreakUp = value;
-    }
-
-    public int unlockTrueEndStory
-    {
-        get => playerSaveData.unlockTrueEndStory;
-        set => playerSaveData.unlockTrueEndStory = value;
-    }
-
-    public int unlockPic
-    {
-        get => playerSaveData.unlockPic;
-        set => playerSaveData.unlockPic = value;
-    }
-
-    public int PressedResetButton
-    {
-        get => playerSaveData.PressedResetButton;
-        set => playerSaveData.PressedResetButton = value;
+        get => SaveData.Instance.data.mainMenuBG;
+        set => SaveData.Instance.data.mainMenuBG = value;
     }
 
     [Space(5)] [Header("Player Data that won't be reset")]
@@ -237,16 +176,16 @@ hasSave = false
 
     public List<string> CG
     {
-        get => playerSaveData.CG;
-        set => playerSaveData.CG = value;
+        get => SaveData.Instance.data.CG;
+        set => SaveData.Instance.data.CG = value;
     }
 
     public int currency
     {
-        get => playerSaveData.currency;
+        get => SaveData.Instance.data.currency;
         set
         {
-            playerSaveData.currency = value;
+            SaveData.Instance.data.currency = value;
             saveData.Save(SaveplayerData());
         }
     }
@@ -255,8 +194,8 @@ hasSave = false
 
     public List<string> unLockedSavept
     {
-        get => playerSaveData.unLockedSavept;
-        set => playerSaveData.unLockedSavept = value;
+        get => SaveData.Instance.data.unLockedSavept;
+        set => SaveData.Instance.data.unLockedSavept = value;
     }
 
     //Shop
@@ -268,82 +207,82 @@ hasSave = false
 
     public string SteamLanguage
     {
-        get => playerSaveData.steamLanguage;
-        set => playerSaveData.steamLanguage = value;
+        get => SaveData.Instance.data.steamLanguage;
+        set => SaveData.Instance.data.steamLanguage = value;
     }
 
     public string UserLanguage
     {
-        get => playerSaveData.userLanguage;
-        set => playerSaveData.userLanguage = value;
+        get => SaveData.Instance.data.userLanguage;
+        set => SaveData.Instance.data.userLanguage = value;
     }
 
     //DrawGame
     public List<string> cardList
     {
-        get => playerSaveData.cardList;
-        set => playerSaveData.cardList = value;
+        get => SaveData.Instance.data.cardList;
+        set => SaveData.Instance.data.cardList = value;
     }
 
     //Refund
     public List<string> refundList
     {
-        get => playerSaveData.refundList;
-        set => playerSaveData.refundList = value;
+        get => SaveData.Instance.data.refundList;
+        set => SaveData.Instance.data.refundList = value;
     }
 
     //Tester
     public bool isTester
     {
-        get => playerSaveData.isTester;
-        set => playerSaveData.isTester = value;
+        get => SaveData.Instance.data.isTester;
+        set => SaveData.Instance.data.isTester = value;
     }
 
     //Shop
     public bool boughtUnlimitedPackage
     {
-        get => playerSaveData.boughtUnlimitedPackage;
-        set => playerSaveData.boughtUnlimitedPackage = value;
+        get => SaveData.Instance.data.boughtUnlimitedPackage;
+        set => SaveData.Instance.data.boughtUnlimitedPackage = value;
     }
 
     public bool canRestore
     {
-        get => playerSaveData.canRestore;
-        set => playerSaveData.canRestore = value;
+        get => SaveData.Instance.data.canRestore;
+        set => SaveData.Instance.data.canRestore = value;
     }
 
     //Achievement
     public List<string> achievementList
     {
-        get => playerSaveData.achievementList;
-        set => playerSaveData.achievementList = value;
+        get => SaveData.Instance.data.achievementList;
+        set => SaveData.Instance.data.achievementList = value;
     }
 
     public int todayAdsCount
     {
-        get => playerSaveData.todayAdsCount;
-        set => playerSaveData.todayAdsCount = value;
+        get => SaveData.Instance.data.todayAdsCount;
+        set => SaveData.Instance.data.todayAdsCount = value;
     }
 
     private int yesterdayDate
     {
         get
         {
-            if (string.IsNullOrEmpty(playerSaveData.yesterdayDate))
+            if (string.IsNullOrEmpty(SaveData.Instance.data.yesterdayDate))
             {
-                playerSaveData.yesterdayDate = DateTime.Now.Day.ToString();
+                SaveData.Instance.data.yesterdayDate = DateTime.Now.Day.ToString();
             }
 
             int a = DateTime.Now.Day;
             
-            bool isint = int.TryParse(playerSaveData.yesterdayDate, out a);
+            bool isint = int.TryParse(SaveData.Instance.data.yesterdayDate, out a);
 
             if (isint)
                 return a;
             else
                 return DateTime.Now.Day;
         }
-        set => playerSaveData.yesterdayDate = value.ToString();
+        set => SaveData.Instance.data.yesterdayDate = value.ToString();
     }
 
     [Header("For Back Button")] public GameObject backButtonLastObj;
@@ -357,8 +296,8 @@ hasSave = false
 
     public List<int> storedBookmark
     {
-        get => playerSaveData.storedBookmark;
-        set => playerSaveData.storedBookmark = value;
+        get => SaveData.Instance.data.storedBookmark;
+        set => SaveData.Instance.data.storedBookmark = value;
     }
     private const string BossGameFuPP = "BossFuAmount";
 
@@ -412,7 +351,7 @@ hasSave = false
         }
 
         reopen = false;
-        playerSaveData = saveData.data;
+        SaveData.Instance.data = saveData.data;
     #if UNITY_ANDROID || UNITY_IOS
             int tempDateTime = yesterdayDate;
             if (int.TryParse(saveData.data.yesterdayDate, out tempDateTime))
@@ -446,7 +385,7 @@ hasSave = false
 
     private void Start()
     {
-        if (string.IsNullOrEmpty(playerSaveData.yesterdayDate)) return;
+        if (string.IsNullOrEmpty(SaveData.Instance.data.yesterdayDate)) return;
         
         int today = DateTime.Now.Day;
         int difference = today - yesterdayDate;
@@ -574,9 +513,8 @@ hasSave = false
 
     private PlayerData SaveplayerData()
     {
-        saveData.data = playerSaveData;
-        saveData.data.storedBookmark = storedBookmark;
-        return saveData.data;
+            SaveData.Instance.data.storedBookmark = storedBookmark;
+        return SaveData.Instance.data;
     }
     
 }

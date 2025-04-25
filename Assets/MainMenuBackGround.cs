@@ -28,7 +28,7 @@ namespace MainMenu
     //        Debug.Log(tempLoopInt);
             for (int i = tempLoopInt; i >= 0; i--)
             {
-                    if (GameControl.instance.playerSaveData.currentBookmark <= mainMenu[i].bookMark) continue;
+                    if (SaveData.Instance.data.currentBookmark <= mainMenu[i].bookMark) continue;
                     /*if(!String.IsNullOrEmpty(mainMenu[i].chapter)) if (FBPP.GetString(chapterPP) != mainMenu[i].chapter) continue;*/
                 bgSprite.sprite = mainMenu[i].backGround;
                 if(mainMenu[i].active !=null)

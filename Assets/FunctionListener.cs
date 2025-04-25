@@ -59,11 +59,7 @@ public class FunctionListener : MonoBehaviour
         }
     }
 
-   // private void PostProcessingFilter(int arg0) => PostProcessingController.Instance.Filter(arg0);
-    /*private void CharacterMovement(int pos,int characterId)
-    {
-        dialogueManager.characterManager.UpdatePosition(pos, dialogueManager.characterManager.characters[characterId]);
-    }*/
+
 
     private void UnlockedChapter(string a)
     {

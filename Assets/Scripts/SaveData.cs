@@ -2,22 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class SaveData : MonoBehaviour
+public class SaveData : MonoSingleton<SaveData>
 {
-    public static SaveData instance;
 
     [SerializeField]
     public PlayerData data;
 
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-    }
+
     
     public void Save(PlayerData newData)
     {
@@ -27,7 +21,6 @@ public class SaveData : MonoBehaviour
     }
     public void Load()
     {
-        //Debug.Log(FBPP.GetString("chengWingData"));
         data = JsonUtility.FromJson<PlayerData>(FBPP.GetString("chengWingData"));
     }
 
@@ -51,26 +44,13 @@ public class SaveData : MonoBehaviour
         #if UNITY_STANDALONE_WIN
         data.steamLanguage = Steamworks.SteamApps.GetCurrentGameLanguage();
         #endif
-        data.toldFan = 0;
         for (int i = 0; i < 6; i++)
-            data.SaveBookMarks.Add(new SaveBookMark()
+            data.saveBookMarks.Add(new SaveBookMark()
             {
                 hasSave = false
             });
-        data.unlockTrueEndDrug = 0;
-        data.unlockTrueEndLoveLetter = 0;
-        data.ansHome = 0;
-        data.ansSchool = 0;
-        data.ansTheatre = 0;
-        data.ansBreakUp = 0;
-        data.unlockTrueEndStory = 0;
-        data.unlockPic = 0;
-        data.PressedResetButton = 0;
-
         data.CG.Clear();
-
         data.currency = 20;
-
         data.shopRecord.Clear();
         data.unLockedSavept.Clear();
         data.saveptDatas.Clear();
@@ -101,7 +81,8 @@ public class PlayerData
     public List<string> itemPath;
     public List<string> collections;
     public List<string> collectionPath;
-    public List<SaveBookMark> SaveBookMarks;
+    public List<SaveBookMark> saveBookMarks;
+    public PlayerStat playerStat;
     public bool isChoiceLoop;
     public int loopChoiceCounter;
     public int loopChoiceJumpmark;
@@ -109,20 +90,6 @@ public class PlayerData
     public string prevousGameName;
     public string bgm;
     public string mainMenuBG;
-
-    public int toldFan;
-
-    public int unlockTrueEndDrug;
-    public int unlockTrueEndLoveLetter;
-    public int unlockTrueEndStory;
-
-    public int ansHome;                     
-    public int ansSchool;
-    public int ansTheatre;
-    public int ansBreakUp;
-    public int unlockPic;
-    public int PressedResetButton;
-
     public List<string> CG;
     
     public int currency;
@@ -141,9 +108,9 @@ public class PlayerData
     public int todayAdsCount;
     public string yesterdayDate;
     public List<int> storedBookmark;
+
     public string steamLanguage;
     public string userLanguage;
-
 }
 
 [Serializable]
@@ -157,4 +124,16 @@ public class SaveBookMark
     public string date;
     public string audio;
     public int dialogueArgue;
+}
+
+[Serializable]
+public class PlayerStat
+{
+    public int charm = 0;
+    public int intelligence = 0;
+    public int strength = 0;
+    public int money = 0;
+    public int stamina = 0;
+    
+    
 }

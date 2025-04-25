@@ -9,12 +9,12 @@ public class ResetUnlockTruthStory : MonoBehaviour
 
     public void OnChapterOpen()
     {
-        gameObject.SetActive(gameControl.unlockTrueEndStory == 1 && !gameControl.stageClear.Contains("End2"));
+        /*gameObject.SetActive(gameControl.unlockTrueEndStory == 1 && !gameControl.stageClear.Contains("End2"));*/
     }
 
     public void OnResetButtonClicked()
     {
-        SoundControl.SoundManager.PlaySfx(clickSfx);
-        gameControl.unlockTrueEndStory = 0;
+        /*SoundControl.SoundManager.PlaySfx(clickSfx);
+        gameControl.unlockTrueEndStory = 0;*/
     }
 }

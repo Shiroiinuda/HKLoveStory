@@ -118,7 +118,7 @@ public class SaveLoadData : MonoBehaviour
         GameControl.instance.currentBookmark = saveLoadManager.saveBookMarks[saveNum].bookMark;
         Debug.Log($"{saveNum} Num : {saveData.audio}");
         GameControl.instance.bgm = saveLoadManager.saveBookMarks[saveNum].audio;
-        SaveData.instance.data.bgm = saveLoadManager.saveBookMarks[saveNum].audio;
+        SaveData.Instance.data.bgm = saveLoadManager.saveBookMarks[saveNum].audio;
         Debug.Log($"Set Argue: {saveLoadManager.saveBookMarks[saveNum].dialogueArgue}");
         PlayerPrefs.SetInt(PPrefArgue,saveLoadManager.saveBookMarks[saveNum].dialogueArgue);
         SoundManager.PlaySfx("Sound3");

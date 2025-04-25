@@ -1739,21 +1739,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
             return;
         }
-
-        //For TestOnly
-        if (func1 == "LockAllEndData")
-        {
-            gameControl.unlockTrueEndDrug = 0;
-            gameControl.unlockTrueEndLoveLetter = 0;
-            gameControl.ansHome = 0;
-            gameControl.ansSchool = 0;
-            gameControl.ansTheatre = 0;
-            gameControl.ansBreakUp = 0;
-            gameControl.unlockTrueEndStory = 0;
-            gameControl.unlockPic = 0;
-
-            return;
-        }
+        
         //
 
         if (func1 == "CheckTruthData")

@@ -58,7 +58,7 @@ public class StageClearManager : MonoBehaviour
                 gameControl.unLockedSavept.Add(dialogueManager.checkNextLvDialogue.saveChapter);
                 Debug.Log($"Next Chapter : {dialogueManager.currentDialogue.nextLv}");
                 gameControl.currentBookmark = dialogueManager.currentDialogue.nextLv;
-                gameControl.playerSaveData.currentBookmark = dialogueManager.currentDialogue.nextLv;
+                SaveData.Instance.data.currentBookmark = dialogueManager.currentDialogue.nextLv;
                 loadSceneManager.FadeToLevel(3);
 #else
             if (gameControl.currency >= 10)
@@ -81,7 +81,7 @@ public class StageClearManager : MonoBehaviour
             //SavePt unlocked
             Debug.Log($"Next Chapter : {dialogueManager.currentDialogue.nextLv}");
             gameControl.currentBookmark = dialogueManager.currentDialogue.nextLv;
-            gameControl.playerSaveData.currentBookmark = dialogueManager.currentDialogue.nextLv;
+            SaveData.Instance.data.currentBookmark = dialogueManager.currentDialogue.nextLv;
             loadSceneManager.FadeToLevel(3);
         }
     }

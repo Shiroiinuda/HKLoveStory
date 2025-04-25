@@ -44,9 +44,7 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T
         Debug.LogWarning("[MonoSingleton] Duplicate instance of " + typeof(T) + " found. Destroying the new one.");
         Destroy(gameObject);
     }
-
-
-    private void OnApplicationQuit()
+    /*private void OnApplicationQuit()
     {
         _applicationIsQuitting = true;
     }
@@ -57,5 +55,5 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T
         {
             _applicationIsQuitting = true;
         }
-    }
+    }*/
 }
