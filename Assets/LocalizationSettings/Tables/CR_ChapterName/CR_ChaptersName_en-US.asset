@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CR_ChaptersName_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: e3e0a6d23d26d9944977d924587a0c24, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 22064205824
+    m_Localized: Dead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788736
+    m_Localized: Appraisal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788737
+    m_Localized: Locksmith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788738
+    m_Localized: Light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788739
+    m_Localized: Captivating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788740
+    m_Localized: Haven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788741
+    m_Localized: Encounter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788742
+    m_Localized: Always a Reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788743
+    m_Localized: Disturbing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788744
+    m_Localized: Tricked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788745
+    m_Localized: Relationships
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788746
+    m_Localized: Speechless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788747
+    m_Localized: Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788748
+    m_Localized: Misunderstanding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788749
+    m_Localized: Don't Disappear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788750
+    m_Localized: Responsibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788751
+    m_Localized: Liberation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788752
+    m_Localized: Preparations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788753
+    m_Localized: Transformation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788754
+    m_Localized: Opportunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788755
+    m_Localized: Rituals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788756
+    m_Localized: Feelings No Longer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788757
+    m_Localized: A Big Trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788758
+    m_Localized: Otaku Life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788759
+    m_Localized: A Noisy Bitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788760
+    m_Localized: When Asshole Become a Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788761
+    m_Localized: My Love My Precious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788762
+    m_Localized: We Love Hotpot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788763
+    m_Localized: Goodbye Mother
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788764
+    m_Localized: Mahjong is Not Good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788765
+    m_Localized: The Girl Who Laughs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788766
+    m_Localized: Self-Liberation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788767
+    m_Localized: Shattered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788768
+    m_Localized: Reunited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788769
+    m_Localized: Tied Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788770
+    m_Localized: Regret
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788771
+    m_Localized: Plaything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788772
+    m_Localized: New Beginning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788773
+    m_Localized: Eternal Love
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22076788774
+    m_Localized: The Truth
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: UIImageTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 965ef7fae034c51409eb2ae295cce414, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11635005657088
+    m_Localized: c14baab31885dc94d9c7ba660954c88a[ach_on]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268748819783680
+    m_Localized: 975571bd08e0e5342b0621dab60ea647[storeWORD_en]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276198679633920
+    m_Localized: fda752242494ed641b735c4e5ed7a1fe[thankyouEN]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3549939878584320
+    m_Localized: 160a9793397646548a493467712d7fe7[StartInvestigationCN]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

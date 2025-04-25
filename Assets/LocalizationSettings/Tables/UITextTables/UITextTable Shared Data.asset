@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UITextTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UITextTable
+  m_TableCollectionNameGuidString: e55fd32eb3bde7e4d89dd8c606c7011a
+  m_Entries:
+  - m_Id: 33309134848
+    m_Key: MainTitle_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912064
+    m_Key: ContactUs_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912065
+    m_Key: ContactUs_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912066
+    m_Key: CGandAchievement_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912067
+    m_Key: Collection_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912068
+    m_Key: Chapter_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912069
+    m_Key: ConfirmPay_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912070
+    m_Key: ConfirmQuit_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912071
+    m_Key: Setting_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912072
+    m_Key: Music_Setting_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912073
+    m_Key: SFx_Setting_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912074
+    m_Key: cSound_Setting_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912075
+    m_Key: Language_Setting_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912076
+    m_Key: Quit_Setting_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912077
+    m_Key: MainMenu_Setting_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912078
+    m_Key: NoJade_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912079
+    m_Key: Shop_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912080
+    m_Key: StartGame_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106368
+    m_Key: ContinueGame_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106369
+    m_Key: ConfirmEndInvestigation_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106370
+    m_Key: PressGame1_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106371
+    m_Key: PressGame2_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106372
+    m_Key: Comment_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106373
+    m_Key: MainMenu2_Subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106374
+    m_Key: Restart_BTN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106375
+    m_Key: ThinkAboutIt_Comment_BTN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106376
+    m_Key: Inventory_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106377
+    m_Key: NextChapter_BTN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106378
+    m_Key: ThinkAboutIt2_Comment_BTN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106379
+    m_Key: InventoryCollection_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106380
+    m_Key: EndInvestigation_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106381
+    m_Key: BossGame1_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106382
+    m_Key: Investigation1_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106383
+    m_Key: FindObjectGame1_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106384
+    m_Key: ChaseGame2_Tut1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106385
+    m_Key: HideAndSeekGame_Tut2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106386
+    m_Key: HideAndSeekGame_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106387
+    m_Key: ChaseGame2_Tut2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106388
+    m_Key: MoveGame1_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106389
+    m_Key: Investigation1_Tut2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106390
+    m_Key: HideAndSeekGame_Tut3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106391
+    m_Key: HoldBreathGame_UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106392
+    m_Key: SoundVolumn_UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106393
+    m_Key: JadeNecklaceDragGame_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106394
+    m_Key: PatientGame_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106395
+    m_Key: ConfirmPay_DrawGame_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106396
+    m_Key: Refund_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106397
+    m_Key: ACode_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106398
+    m_Key: BCode_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106399
+    m_Key: ACode_InputFieldText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106400
+    m_Key: BCode_InputFieldText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106401
+    m_Key: ACodeGenerate_Btn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106402
+    m_Key: BCodeSubmit_Btn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106403
+    m_Key: DrawByJade_DrawCard1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106404
+    m_Key: DrawByJade_DrawCard2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106405
+    m_Key: DrawByJade_DrawCard3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106406
+    m_Key: DrawByADS_DrawCard1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106407
+    m_Key: DrawByADS_DrawCard2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106408
+    m_Key: DrawByADS_DrawCard3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106409
+    m_Key: NoteText_DrawCard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106410
+    m_Key: CardBookText_DrawCard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106411
+    m_Key: PurchasePackBlocker_Text1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106412
+    m_Key: PurchasePackBlocker_Text2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106413
+    m_Key: Chapter_TrueEndUnlockHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106414
+    m_Key: Chapter_TrueEndStoryUnlockHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106415
+    m_Key: Shop_Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106416
+    m_Key: DrawCard_Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106417
+    m_Key: Shop_RestoreBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106418
+    m_Key: PressGame3_Tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106419
+    m_Key: ChaseGame2_Timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106420
+    m_Key: Promo_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106421
+    m_Key: CardBookText_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106422
+    m_Key: Grandpa_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106423
+    m_Key: ConfirmPay_Content_Steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106424
+    m_Key: Comment_AskCommentContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106425
+    m_Key: Load_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106426
+    m_Key: Save_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106427
+    m_Key: ConfirmSave_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106428
+    m_Key: ManualSave_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106429
+    m_Key: SettingScreen_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106430
+    m_Key: SettingFullScreen_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106431
+    m_Key: SettingWindow_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106432
+    m_Key: MainLoad_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106433
+    m_Key: ShopTips_Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106434
+    m_Key: AdsRemain_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106435
+    m_Key: AdsRefresh_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106436
+    m_Key: Refund_10JadeButton_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106437
+    m_Key: Refund_100JadeButton_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106438
+    m_Key: Refund_400JadeButton_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106439
+    m_Key: Refund_Refund10Jade_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106440
+    m_Key: Refund_Refund100Jade_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106441
+    m_Key: Refund_Refund400Jade_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106442
+    m_Key: Refund_GenerateCodeButton_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106443
+    m_Key: Refund_RefundButton_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106444
+    m_Key: PWHintText_GhostInternet
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1710234685543

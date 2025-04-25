@@ -1,0 +1,122 @@
+Key,Id,Chinese (Traditional)(zh-TW),Chinese (Simplified)(zh-CN),English (United States)(en-US)
+ChickenBowl,,把藥倒在這碗裡吧。,把药倒在这碗里吧。,Pour the medicine into this bowl.
+ChickenBowlFill,,拿給阿娟喝吧。,拿给阿娟喝吧。,Take it to Guen.
+HawthornCake,,這裡有些「山渣餅」，舒緩苦藥用的，一拼給阿娟吃吧。,这里有些「山渣饼」，舒缓苦药用的，一拼给阿娟吃吧。,Here are some haw flakes for Guen to help with the bitter taste of the Chinese medicine.
+SecurityDeskBook,,這是我的工作日程表，上面有說我需要做什麼，大致上就是每天去巡一巡樓，在每一層的指定位置簽薄吧。&看起來很簡單，但總是放心不下…,这是我的工作日程表，上面有说我需要做什么，大致上就是每天去巡一巡楼，在每一层的指定位置签薄吧。 &看起来很简单，但总是放心不下…,"This is my work schedule for the day. I need to patrol the building every day and a book on each floor. Looks simple, but I have a bad feeling about this."
+SecurityDeskCCTV,,這台監控可以看到升降機裡的情況，不過一般也不會去看吧，而且黑白畫面很落後啊。,这台监控可以看到升降机里的情况，不过一般也不会去看吧，而且黑白画面很落后啊。,"This surveillance screen shows what's going on in the elevator, but there's not much to see and the black and white picture isn't very good."
+SecurityDeskClock,,能顯示這裡的時間，話說我一天上班幾多小時啊？,能显示这里的时间，话说我一天上班几多小时啊？,Tells the time. How many hours a day do I have to work?
+SecurityDeskMigrateAgreement,,這是住戶需要簽回的搬遷同意書。&陳伯剛交帶過，還沒搬走的住戶要提醒一下，讓他們把同意書簽好，這是最棘手的…,这是住户需要签回的搬迁同意书。 &陈伯刚交带过，还没搬走的住户要提醒一下，让他们把同意书签好，这是最棘手的…,"These are the relocation consent forms that residents sign. Uncle Chan handed them to me, and the residents who haven't moved yet must sign one. This isn't going to be an easy task."
+SecurityDeskPhone,,座機電話，住客可以直接打來給我。,座机电话，住客可以直接打来给我。,A landline phone so residents can call the security desk.
+Lift,,這幢樓只有一台升降機，如果不想等待也可以走樓梯。&不過現在先看看這地下有甚麼東西吧。,这幢楼只有一台升降机，如果不想等待也可以走楼梯。 &不过现在先看看这地下有什么东西吧。,There is only one lift in this building but I can take the stairs if I don't want to wait. I'll take a look at what's on the ground floor first.
+Mailbox,,這大樓每層都有很多個單位啊，不過貌似我只需要巡邏一至六樓。這樣也好，上落走樓梯也不會太辛苦。,这大楼每层都有很多个单位啊，不过貌似我只需要巡逻一至六楼。这样也好，上落走楼梯也不会太辛苦。,"There are many flats on each floor of this building, but I only need to patrol the first to sixth floors. That's not too bad, it won't be too hard to use the stairs."
+NoticeBox,,這告示板貼著了一些住宅需知和特殊事項。&天啊，居然還有通緝告示，莫非這裡附近有連環殺人犯嗎？ ﹗,这告示板贴着了一些住宅需知和特殊事项。 &天啊，居然还有通缉告示，莫非这里附近有连环杀人犯吗？ ﹗,This bulletin board has some information for residents. It looks like there's a wanted poster. Could there be a murderer nearby?!
+SecurityRoomDoor,,保安室，不過鎖上了。,保安室，不过锁上了。,"Security room, but it's locked."
+Stair,,晚點再巡樓吧，先熟識一下環境。,晚点再巡楼吧，先熟识一下环境。,I'll patrol the building later once I'm finished checking everything on this floor.
+SecurityRoomBed,,這裡還有摺床啊？可以明正言順地睡覺？,这里还有折床啊？可以明正言顺地睡觉？,A folding deckchair? Doesn't look that comfortable.
+SecurityRoomKeyBox,,這是後備的鑰匙箱，放著某些單位的鑰匙。 &恐怕是那些已遷出的住戶留下的吧。,这是后备的钥匙箱，放着某些单位的钥匙。 &恐怕是那些已迁出的住户留下的吧。,This is a backup key box that holds keys to certain flats. Perhaps from residents who have already moved out.
+SecurityRoomWater,,有瓶水放在這裡，是給我喝的嗎？不過現在不需要，先找找手電筒吧。,有瓶水放在这里，是给我喝的吗？不过现在不需要，先找找手电筒吧。,"There is a bottle of water here, is it for me? I'm not thirsty right now, I need to find a flashlight."
+SecurityRoomCCTV,,監視鏡頭，可以查看大廈的不同地方。,监视镜头，可以查看大厦的不同地方。,Surveillance screen showing different parts of the building.
+SecurityRoomLocker,,櫃子有很多灰塵，究竟有多久沒有被碰過了？,柜子有很多灰尘，究竟有多久没有被碰过了？,This cabinet is really dusty. How long has it been since it was touched?
+SecurityRoomBoard,,有張新聞張貼在壁板上，上面寫著甚麼？……危險人渣？很恐怖啊。,有张新闻张贴在壁板上，上面写着什么？ ……危险人渣？很恐怖啊。,There's some news posted on the wall. What does it say? Dangerous and sleazy person? Sounds scary.
+Lift,,按電梯吧。,按电梯吧。,Press the button for the elevator.
+Stair,,那麼，要直接走樓梯麼？……………不對，那太蠢了。&這大廈就6層，一層一層走上樓多累人，當然是先搭電梯上最高層再往下走啊。,那么，要直接走楼梯么？ ……………不对，那太蠢了。 &这大厦就6层，一层一层走上楼多累人，当然是先搭电梯上最高层再往下走啊。,"Take the stairs? No, that seems too tiring. The most efficient way would be to take the elevator to the highest floor first and then walk down floor by floor."
+RedBook,,簽名薄，我就是要在這上面簽名…………咦？地上有的是甚麼？,签名薄，我就是要在这上面签名…………咦？地上有的是什么？,"Signature book, I just need to sign here. Huh...what is there on the ground?"
+Hula,,啊？呼拉圈，小時候也常常玩，真令人懷念呢。,啊？呼拉圈，小时候也常常玩，真令人怀念呢。,"A hula hoop. I used to play with these when I was a kid, so many memories."
+BettyApartment,,這裡是陳師奶的單位，剛才聽到她走了進去。,这里是陈师奶的单位，刚才听到她走了进去。,This is Auntie Chun's flat. I noticed her walk in a moment ago.
+ToC,,這胖大叔就躺在地上打呼，他想要喝水，看看哪裡能找到給他吧。,这胖大叔就躺在地上打呼，他想要喝水，看看哪里能找到给他吧。,The fat uncle lying on the ground snoring wanted to drink some water. I'll have to find some for him.
+EightMirror,,八卦鏡？這住戶也很迷信啊。,八卦镜？这住户也很迷信啊。,A bagua mirror? This resident must be very superstitious.
+CorridorEnd,,一層的盡頭燈光微弱，剛才嚇我的女生不會又突然出來吧…,一层的尽头灯光微弱，刚才吓我的女生不会又突然出来吧…,The light at the end of the first floor is dim. Hopefully the woman who scared me before will not suddenly come out again...
+BeerCan,,地上有著喝完了的啤酒罐，真是的，怎麼可以隨便扔垃圾。,地上有着喝完了的啤酒罐，真是的，怎么可以随便扔垃圾。,"Empty beer cans tossed the ground. Really, who just leaves them there like that?"
+Lift,,電話說垃圾堆積的地方在一樓，算了別搭升降機，直接走一層就到了。,电话说垃圾堆积的地方在一楼，算了别搭升降机，直接走一层就到了。,The person on the phone said there was a lot of garbage on the first floor. I'll just take the stairs.
+Stair,,,,
+Genuine,,「Genuine」？是誰那麼沒公德心把公家地方亂噴漆啊﹗,「Genuine」？是谁那么没公德心把公家地方乱喷漆啊﹗,Genuine? Who is so rude as to spray-paint a residential building like this?
+Apartment113,,,,
+MileStone,,「暉春三得報，心草寸言誰？」………甚麼意思啊？,「晖春三得报，心草寸言谁？」………什么意思啊？,Something about spring and heart grass...it doesn't make any sense!
+FaiChunHealthy,,門外貼著身體健康的揮春，這真是比任何東西都重要啊。,门外贴着身体健康的挥春，这真是比任何东西都重要啊。,"Posting a ""Good Health"" fai chun outside the door seems to be a popular choice."
+FaiChunGutCheng,,如意吉祥其實代表甚麼呢？就是心想事成的意思？,如意吉祥其实代表什么呢？就是心想事成的意思？,"What does ""Auspicious Wishes"" mean exactly? Does it mean all your wishes come true?"
+Lift,,,,
+Stair,,這裡才二樓，走樓梯很辛苦的，搭升降機吧。,这里才二楼，走楼梯很辛苦的，搭升降机吧。,"Walking up the stairs is too hard, I'll take the elevator."
+Notice,,大廈四處都貼著重建的公告，提醒人快點滾蛋。,大厦四处都贴着重建的公告，提醒人快点滚蛋。,"Reconstruction notices are posted all over the building, reminding people to get out."
+TrashBin,,垃圾堆積且傳出了陣陣味道……不會突然崩出甚麼嚇人的鬼怪吧。,垃圾堆积且传出了阵阵味道……不会突然崩出什么吓人的鬼怪吧。,Garbage is piling up and it smells terrible.
+BedroomLightBulb,,這燈泡不亮了，換個新燈泡看看，哪裡可以找到新的？,这灯泡不亮了，换个新灯泡看看，哪里可以找到新的？,This light bulb is not working and needs to be replaced. Where can I find a new one?
+BedroomBed,,女生的床…………色即是空空即是色…,女生的床…………色即是空空即是色…,The woman's bed...
+BedroomSmallCarbinat,,感覺這櫃子裡是放內衣喔。,感觉这柜子里是放内衣喔。,The dresser probably contains underwear so I shouldn't pry.
+BedroomBigCarbinat,,這櫃子放著那位小姐的衣物吧，話說她在公屋裡也穿這種白色裙子，不怕髒嗎？,这柜子放着那位小姐的衣物吧，话说她在公屋里也穿这种白色裙子，不怕脏吗？,"The wardrobe where she likely hangs her clothes. She's wearing such a bright white dress, isn't she afraid of getting it dirty?"
+DinningRoomBread,,「救命麵包」，果真是救命用的食糧呢。,「救命面包」，果真是救命用的食粮呢。,Life-Saving Bread is really life-saving food.
+DinningRoomLemonTea,,「媽他檸檬茶」是我最愛喝的，不過「媽他奶」也不錯。,「妈他柠檬茶」是我最爱喝的，不过「妈他奶」也不错。,"Mata Lemon Tea is my favourite, but ""Mata Milk"" is also good."
+DinningRoomCarbinat,,這櫃子裡沒有燈泡，在哪呢？,这柜子里没有灯泡，在哪呢？,There is no light bulb in this cabinet. Where is it?
+DinningRoomBox,,紙皮箱上灰塵處處，還是別碰好了。,纸皮箱上灰尘处处，还是别碰好了。,"The cardboard box is really dusty, so it’s best not to touch it."
+Bed,,床架上已沒有人睡了，變成了擺放雜物的支架。,床架上已没有人睡了，变成了摆放杂物的支架。,"Looks like nobody sleeps here anymore, it looks more like a storage shelf now."
+Kitchen,,廚房裡感覺怎麼陰風陣陣的…,厨房里感觉怎么阴风阵阵的…,It feels so windy in the kitchen...
+Blood,,地上有著乾涸了的血色液體………血嗎？不會吧。,地上有着干涸了的血色液体………血吗？不会吧。,There is dried red liquid on the ground...is it blood? I hope not.
+WoodBoard,,一些搬運時用的卡板。,一些搬运时用的卡板。,Wood pallets used for transporting goods.
+Kwan,,張先生專注地在找東西，他找的是甚麼呢？不過他頸上是不是少了甚麼東西？,张先生专注地在找东西，他找的是什么呢？不过他颈上是不是少了什么东西？,Mr. Cheung is looking for something intently. What is he looking for? I seem to remember he was wearing something around his neck before.
+Advertisement,,怎麼會在家裡貼「秘製車仔麵」的宣傳單啊，究竟有多想吃。,怎么会在家里贴「秘制车仔面」的宣传单啊，究竟有多想吃。,Why would someone put up a poster for cart noodles at home? Do you really like them that much?
+Rubbish,,一堆堆雜物，經收拾過後算是比之前好了一點，但還是很亂。,一堆堆杂物，经收拾过后算是比之前好了一点，但还是很乱。,"So much clutter. It looks a little better than before, but it's still very messy."
+Pillow,,這枕頭有多久沒洗啊…………咦？枕下面好像放著甚麼東西？,这枕头有多久没洗啊…………咦？枕下面好像放着什么东西？,How long has it been since this pillow was washed? Huh...there seems to be something under the pillow?
+Dinner,,,,
+Kitchen,,,,
+Door,,,,
+Light,,燈不亮啊﹗﹗怎麼辦？要怎樣把門撬開？,灯不亮啊﹗ ﹗怎么办？要怎样把门撬开？,There's no light!! What to do? How can I get the door open?
+Cig,,這煙頭剛熄滅，證明剛剛才扔下的，肯定是那塗鴉的人抽的吧。,这烟头刚熄灭，证明刚刚才扔下的，肯定是那涂鸦的人抽的吧。,"The cigarette butt has just been extinguished, this must have been left by the person who painted the graffiti."
+Draw,,「再不遷出殺無赦」……居然寫出這麼惡毒的恐嚇字句，還有皇法嗎？,「再不迁出杀无赦」……居然写出这么恶毒的恐吓字句，还有皇法吗？,"If you don't move out, you will be killed without mercy, who wrote such a vicious threat?"
+Spray,,一些用過的噴罐，原來把大廈的牆壁噴體的就是那個怪叫的男人？,一些用过的喷罐，原来把大厦的墙壁喷体的就是那个怪叫的男人？,"Some used spray cans, whoever was spraying the walls was the one who just screamed?"
+WheelChair,,怎麼會有張輪椅放在這裡？咦？上面放著的是甚麼書？,怎么会有张轮椅放在这里？咦？上面放着的是什么书？,"Why is there a wheelchair here? Huh, what's this book on top?"
+Bag,,謝小姐的背包想不到是這種可愛的類型啊。,谢小姐的背包想不到是这种可爱的类型啊。,I hadn't expected Miss Tse to be the sort to use a cute backpack.
+BoZiGame,,咦？波子棋？真是懷念，好久沒玩過呢。,咦？波子棋？真是怀念，好久没玩过呢。,"Chinese checkers? I really miss playing, I haven’t played it in a long time."
+GlassChocolate,,這「眼鏡巧克力」是童年常常見到的零食，沒想到謝小姐也喜歡呢。,这「眼镜巧克力」是童年常常见到的零食，没想到谢小姐也喜欢呢。,Eyeglass chocolate was always around when I was a kid. I'm surprised to see that Miss Tse likes it too.
+Apartment113Fire,,煙好大，裡頭肯定已經起火了，怎麼辦？得快點找滅火筒。,烟好大，里头肯定已经起火了，怎么办？得快点找灭火筒。,"There is so much smoke, there must be a fire inside, what should I do? I need to find a fire extinguisher quickly!"
+Stair,,不用下去了，這裡就有滅火筒啊﹗,不用下去了，这里就有灭火筒啊﹗,"No need to go down the stairs, there's a fire extinguisher here!"
+F1,,,,
+F4,,,,
+Nothing,,,,
+SecurityRoomBed,,,,
+NoticeA,,升降機裡貼著管理處的告示，這種老舊大廈，不是停電就是制水，也怪不得要重建了。,升降机里贴着管理处的告示，这种老旧大厦，不是停电就是制水，也怪不得要重建了。,"There's a notice from the management office in the elevator. This old building has power outages and water supply problems, no wonder that it needs to be rebuilt."
+NoticeB,,「最近大廈裡發現有人隨地吐痰，為己為人請注重衛生。」,「最近大厦里发现有人随地吐痰，为己为人请注重卫生。」,"Recently, someone was found spitting in the building. Please pay attention in order to maintain sanitary conditions."
+NoticeC,,「自甘墮落，小心渣女」？切勿壞過凱婷………甚麼鬼呀？,「自甘堕落，小心渣女」？切勿坏过凯婷………什么鬼呀？,"In the interest of self-preservation, beware of this sleazy woman!...what the hell?"
+LunchBox,,這陳伯，吃完的飯盒又不丟，致敬張德軍麼？,这陈伯，吃完的饭盒又不丢，致敬张德军么？,Uncle Chan didn't throw away his lunch box. Is he trying to be like Dagwan Cheung?
+KwanDrawer,,這抽屜上鎖了…,这抽屉上锁了…,This drawer is locked...
+KwanDrawerOpened,,,,
+KwanCarbinat,,櫃子裡放著張德軍的衣服，都是老男人才會穿的。,柜子里放着张德军的衣服，都是老男人才会穿的。,Just some of Dagwan Cheung's clothes in the wardrobe.
+KwanAirConditioner,,空調打開了，但是沒有風吹出來，應該是斷電了。,空调打开了，但是没有风吹出来，应该是断电了。,"The air conditioner was turned on, but there was no air blowing out. Maybe a power outage?"
+KwanPaperBox,,一個空箱子，山窮水盡。,一个空箱子，山穷水尽。,"A tattered, old empty cardboard box."
+WifeLetter,,,,
+Kitchen,,,,
+FongGhost,,方……方娟，她死盯著我啊…………別怕，不要看她…不要看她…,方……方娟，她死盯着我啊…………别怕，不要看她…不要看她…,"Guen Fong is staring at me...don't be afraid, don't look at her...don't look at her..."
+KitchenBG,,廚房……有甚麼嗎？她是在提示我進去查看嗎？,厨房……有什么吗？她是在提示我进去查看吗？,The kitchen...is there something in here? Is she telling me to go in and check it out?
+FongGhost,,方……方娟，她死盯著我啊…………別怕，不要看她…不要看她…,方……方娟，她死盯着我啊…………别怕，不要看她…不要看她…,"Guen Fong is staring at me...don't be afraid, don't look at her...don't look at her..."
+KitchenMedicinePot,,這藥煲是她想我看的東西嗎？……似乎不是。,这药煲是她想我看的东西吗？ ……似乎不是。,Does she want me to check out this medicine pot? It doesn't seem so.
+KitchenWork,,該不會是想煮飯吧？,该不会是想煮饭吧？,"She doesn't want me to cook dinner, right?"
+KitchenSink,,雖然有些碗沒洗，難不成想我替她洗碗？,虽然有些碗没洗，难不成想我替她洗碗？,"Some dirty dishes, does she want me to wash them for her?"
+KitchenStove,,,,
+Blood,,這衣服上帶了些血跡…,这衣服上带了些血迹…,There are some blood stains on this shirt...
+ChunKee,,真記………,真记………,Realtea...
+ClothButton,,鈕扣看起來完好無缺，要麼本來沒有穿著，或者是丟棄之前刻意脫了下來。,钮扣看起来完好无缺，要么本来没有穿着，或者是丢弃之前刻意脱了下来。,The shirt is buttoned up. Maybe it wasn't being worn? Or was the shirt taken off while it was still buttoned?
+Apartment101,,道士大叔的家，沒甚麼好看的吧。,道士大叔的家，没什么好看的吧。,"Nothing to see here, it's just the Taoist priest uncle's home."
+EightMirror,,現在知道八卦鏡為何會掛在這裡了，原來是道士大叔的地方。,现在知道八卦镜为何会挂在这里了，原来是道士大叔的地方。,That's why there's a bagua mirror hung here. It's the home of a Taoist priest.
+BeerCan,,容器究竟會是甚麼呢？會不會是啤酒罐？,容器究竟会是什么呢？会不会是啤酒罐？,What would make a good vessel? Maybe a beer can?
+Fu,,符咒………想起了陳伯清滅鄭小姐時所用的…………唉。,符咒………想起了陈伯清灭郑小姐时所用的…………唉。,A fuzau talisman...reminds me of the ones used by Uncle Chan to kill Miss Cheng...
+MileStone,,原來我之前看反了，應該是「誰言寸草心，報得三春暉」才對。,原来我之前看反了，应该是「谁言寸草心，报得三春晖」才对。,"Ah, it reads ""grass cannot repay the spring sun's radiance."""
+FaiChunHealthy,,門外貼著身體健康的揮春，這真是比任何東西都重要啊。,门外贴着身体健康的挥春，这真是比任何东西都重要啊。,"Posting a ""Good Health"" fai chun outside the door seems to be a popular choice."
+FaiChunGutCheng,,如意吉祥其實代表甚麼呢？就是心想事成的意思？,如意吉祥其实代表什么呢？就是心想事成的意思？,"What does ""Auspicious Wishes"" mean exactly? Does it mean all your wishes come true?"
+Lin,,笑笑比起我這個保安更厲害呢……能趕走那些惡形惡相的小混混。,笑笑比起我这个保安更厉害呢……能赶走那些恶形恶相的小混混。,Smiley is a much more effective security guard than I could ever be...
+3Floor,,3樓真的很黑，不太覺得能在這裡可以自由探索。,3楼真的很黑，不太觉得能在这里可以自由探索。,The third floor is really dark and I don’t really feel like I can explore here properly.
+EndInvestigation,,,,
+Nothing,,,,
+To3FloorStament2,,,,
+ToBadGuyStament1,,,,
+ToBadGuyStament2,,,,
+ToKwanStament1,,,,
+ToKwanStament2,,張德軍怎麼會在這裡？看來他是在找尋些甚麼，我還是不「打擾」他了。,张德军怎么会在这里？看来他是在找寻些什么，我还是不「打扰」他了。,"Why is Dagwan Cheung here? It seems that he is looking for something, so I'll leave him alone."
+TrashRoomDoor,,門上寫著垃圾房，大廈每一層的垃圾都會放在裡面，小時候能在那裡找到些小孩子不給買的雜誌。它好像上鎖了，沒有鑰匙就打不開門。,门上写着垃圾房，大厦每一层的垃圾都会放在里面，小时候能在那里找到些小孩子不给买的杂志。它好像上锁了，没有钥匙就打不开门。,"Here's the garbage room. Each floor has one in buildings like these. When I was a kid, sometimes I would find magazines here that weren't meant for children. This one is locked so I'll need the key."
+HempBag,,這裡有個綁起了的麻布袋，用索帶綁緊了，稍稍一剪就能打開吧。,这里有个绑起了的麻布袋，用索带绑紧了，稍稍一剪就能打开吧。,There's a tied-up burlap sack but it looks easily opened with scissors.
+HempBagOpen,,,,
+Rubbish,,垃圾房裡有垃圾也很正常，幸好沒有臭味傳出。,垃圾房里有垃圾也很正常，幸好没有臭味传出。,"As expected, there is some garbage in here. Fortunately, it doesn't smell too bad."
+NoFongThings,,這裡並沒有方娟的東西，連頭髮都沒有。,这里并没有方娟的东西，连头发都没有。,"There is nothing from Guen Fong's body here, not even her hair."
+RubbishA,,垃圾而已……並不是方娟身體上的東西。,垃圾而已……并不是方娟身体上的东西。,It's just garbage...
+Kitchen,,第一次見方娟就是在這裡，她在廚房顯現就是想我找到那藏起來的鐵盒。,第一次见方娟就是在这里，她在厨房显现就是想我找到那藏起来的铁盒。,It was here that I first met Guen Fong. She appeared in the kitchen.
+RubbishB,,這些不見得能找到方娟的頭髮。,这些不见得能找到方娟的头发。,Nothing from Guen Fong's body here...
+Wok,,廚具上會不會有方娟的頭髮？不可能吧…,厨具上会不会有方娟的头发？不可能吧…,Will I find something on the kitchen utensils? Doesn't seem likely...
+Stove,,這裡是找到鐵盒的地方，但沒用了，裡面沒有方娟的身體部分。,这里是找到铁盒的地方，但没用了，里面没有方娟的身体部分。,"This is where the metal box was found, but there's nothing else here."
+KitchenProps,,道士大叔說，方娟的血也是可以的，嗯……這裡沒有。,道士大叔说，方娟的血也是可以的，嗯……这里没有。,"The Taoist priest uncle said that blood was also acceptable, but that's not available here."
+ToiletWashBasin,,洗臉盆上有沒有方娟的頭髮呢？………但太黑了，很難找到頭髮啊…,洗脸盆上有没有方娟的头发呢？ ………但太黑了，很难找到头发啊…,Could there be hair on the sink? It’s so dark that I can't tell...

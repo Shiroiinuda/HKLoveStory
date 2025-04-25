@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: InventoryItemDescription_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 2c0a64b9bb624cc4ebf7855a0c61ef58, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 45230317568
+    m_Localized: Chinese medicine that is very strongly-flavoured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094784
+    m_Localized: A key to the security office.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094785
+    m_Localized: A must-have tool for patrol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094786
+    m_Localized: Gum picked up from the ground.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094787
+    m_Localized: Unopened bottle of water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094788
+    m_Localized: A new light bulb.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094789
+    m_Localized: A useful tool for forcing things open.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094790
+    m_Localized: A freshly-laundered women's top.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094791
+    m_Localized: A recipe book called "Super Time-Saving Kitchen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094792
+    m_Localized: Tool used to extinguish or control small fires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094793
+    m_Localized: A towel with blood stains.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094794
+    m_Localized: A drawer key picked up at Dagwan Cheung's place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094795
+    m_Localized: Auntie Chun's signed relocation consent form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094796
+    m_Localized: Dagwan Cheung's signed relocation consent form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094797
+    m_Localized: Smiley's signed relocation consent form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094798
+    m_Localized: Yueting Cheng's signed relocation consent form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094799
+    m_Localized: Yeung Wang's signed relocation consent from, but there's something
+      odd about it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094800
+    m_Localized: Weihung Yu's signed relocation consent form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289088
+    m_Localized: The eyeglass shape of this pack of chocolates is very nostalgic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289089
+    m_Localized: Applying it to the body can help heal sprains.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289090
+    m_Localized: A pendant on a red string that Dagwan Cheung has been seen wearing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289091
+    m_Localized: Whose jade ring is this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289092
+    m_Localized: The patterns engraved on it are the same as the ones on the jewellery
+      box.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289093
+    m_Localized: A lighter picked up from the ground.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289094
+    m_Localized: Tube light bulb used in the hallways found in the store room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289095
+    m_Localized: A paper flower folded by Smiley.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289096
+    m_Localized: It's tightly sealed with a rubber band. What could be inside here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289097
+    m_Localized: The diamond ring tossed by Yin Shek from her ex.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289098
+    m_Localized: A lollipop in the shape of a ring loved by kids everywhere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289099
+    m_Localized: A key to the garbage room on the first floor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289100
+    m_Localized: A key to the store room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289101
+    m_Localized: A pack of tissues.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289102
+    m_Localized: A sacred tool used to deal with Guen Fong's spirit body.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289103
+    m_Localized: A used hair elastic from Yankiew Tse, what is the point of this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289104
+    m_Localized: Unknown fetus, wtf?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289105
+    m_Localized: Going to Chui Hung Nightclub will surely be a great time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289106
+    m_Localized: How sleazy is she? This picture does look familiar though.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289107
+    m_Localized: Ha Lam will take you into a mysterious world of joy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289108
+    m_Localized: Leave Cheung Wing Building quietly, do it soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289109
+    m_Localized: Rumour has it that a severed limb was found left in a room in this
+      hotel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289110
+    m_Localized: As the saying goes, a deliberate inaction is better than a blind
+      action. No decoration is the best decoration.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289111
+    m_Localized: This daily newspaper is very famous, rich in content, and a must-read
+      for scumbags.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289112
+    m_Localized: Wow, the real estate market is rough, but isn't saying "owner is
+      begging to die" a bit dramatic?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289113
+    m_Localized: I haven't heard of this real estate company before.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289114
+    m_Localized: People who spit are disgusting! This poster illustrates it well.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289115
+    m_Localized: Who would call this taxi?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289116
+    m_Localized: It must have worked. There's a lot of garbage under this poster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289117
+    m_Localized: After this advertisement with Miss Vitama spokespeople came out,
+      it wasn't long until Mrs. Vitama, Mama Vitama, and Gramma Vitama all followed
+      suit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289118
+    m_Localized: A poster reminding people not to litter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289119
+    m_Localized: Pu-erh soda may be the best tasting soda in the world. Does this
+      model look familiar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289120
+    m_Localized: This makes no sense, what does no smoking have to do with this picture?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289121
+    m_Localized: This vest looks really skimpy, who would buy this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289122
+    m_Localized: Is this the legendary cart noodles that everyone talks about?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289123
+    m_Localized: These days, everyone should pay attention to hygiene.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

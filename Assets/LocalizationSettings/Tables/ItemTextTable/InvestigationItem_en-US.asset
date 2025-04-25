@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: InvestigationItem_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 25210da4e28df8d44a4fe70b02d3f131, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 132849328128
+    m_Localized: Pour the medicine into this bowl.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105344
+    m_Localized: Take it to Guen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105345
+    m_Localized: Here are some haw flakes for Guen to help with the bitter taste
+      of the Chinese medicine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105346
+    m_Localized: This is my work schedule for the day. I need to patrol the building
+      every day and a book on each floor. Looks simple, but I have a bad feeling
+      about this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105347
+    m_Localized: This surveillance screen shows what's going on in the elevator,
+      but there's not much to see and the black and white picture isn't very good.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105348
+    m_Localized: Tells the time. How many hours a day do I have to work?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105349
+    m_Localized: These are the relocation consent forms that residents sign. Uncle
+      Chan handed them to me, and the residents who haven't moved yet must sign one.
+      This isn't going to be an easy task.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105350
+    m_Localized: A landline phone so residents can call the security desk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105351
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105352
+    m_Localized: There are many flats on each floor of this building, but I only
+      need to patrol the first to sixth floors. That's not too bad, it won't be too
+      hard to use the stairs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105353
+    m_Localized: This bulletin board has some information for residents. It looks
+      like there's a wanted poster. Could there be a murderer nearby?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105354
+    m_Localized: Security room, but it's locked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105355
+    m_Localized: No need to go down the stairs, there's a fire extinguisher here!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105356
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105357
+    m_Localized: This is a backup key box that holds keys to certain flats. Perhaps
+      from residents who have already moved out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105358
+    m_Localized: There is a bottle of water here, is it for me? I'm not thirsty right
+      now, I need to find a flashlight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105359
+    m_Localized: Surveillance screen showing different parts of the building.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105360
+    m_Localized: This cabinet is really dusty. How long has it been since it was
+      touched?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105361
+    m_Localized: There's some news posted on the wall. What does it say? Dangerous
+      and sleazy person? Sounds scary.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105362
+    m_Localized: Signature book, I just need to sign here. Huh...what is there on
+      the ground?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105363
+    m_Localized: A hula hoop. I used to play with these when I was a kid, so many
+      memories.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105364
+    m_Localized: This is Auntie Chun's flat. I noticed her walk in a moment ago.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105365
+    m_Localized: The fat uncle lying on the ground snoring wanted to drink some water.
+      I'll have to find some for him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299648
+    m_Localized: That's why there's a bagua mirror hung here. It's the home of a
+      Taoist priest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299649
+    m_Localized: The light at the end of the first floor is dim. Hopefully the woman
+      who scared me before will not suddenly come out again...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299650
+    m_Localized: What would make a good vessel? Maybe a beer can?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299651
+    m_Localized: Genuine? Who is so rude as to spray-paint a residential building
+      like this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299653
+    m_Localized: Ah, it reads "grass cannot repay the spring sun's radiance."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299654
+    m_Localized: Posting a "Good Health" fai chun outside the door seems to be a
+      popular choice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299655
+    m_Localized: What does "Auspicious Wishes" mean exactly? Does it mean all your
+      wishes come true?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299656
+    m_Localized: Reconstruction notices are posted all over the building, reminding
+      people to get out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299657
+    m_Localized: Garbage is piling up and it smells terrible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299658
+    m_Localized: This light bulb is not working and needs to be replaced. Where can
+      I find a new one?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299659
+    m_Localized: The woman's bed...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299660
+    m_Localized: The dresser probably contains underwear so I shouldn't pry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299661
+    m_Localized: The wardrobe where she likely hangs her clothes. She's wearing such
+      a bright white dress, isn't she afraid of getting it dirty?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299662
+    m_Localized: Life-Saving Bread is really life-saving food.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299663
+    m_Localized: Mata Lemon Tea is my favourite, but "Mata Milk" is also good.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299664
+    m_Localized: There is no light bulb in this cabinet. Where is it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299665
+    m_Localized: "The cardboard box is really dusty, so it\u2019s best not to touch
+      it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299666
+    m_Localized: Looks like nobody sleeps here anymore, it looks more like a storage
+      shelf now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299667
+    m_Localized: It was here that I first met Guen Fong. She appeared in the kitchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299668
+    m_Localized: There are some blood stains on this shirt...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299669
+    m_Localized: Wood pallets used for transporting goods.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299670
+    m_Localized: Mr. Cheung is looking for something intently. What is he looking
+      for? I seem to remember he was wearing something around his neck before.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299671
+    m_Localized: Why would someone put up a poster for cart noodles at home? Do you
+      really like them that much?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299672
+    m_Localized: As expected, there is some garbage in here. Fortunately, it doesn't
+      smell too bad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299673
+    m_Localized: How long has it been since this pillow was washed? Huh...there seems
+      to be something under the pillow?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299676
+    m_Localized: There's no light!! What to do? How can I get the door open?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299677
+    m_Localized: The cigarette butt has just been extinguished, this must have been
+      left by the person who painted the graffiti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299678
+    m_Localized: If you don't move out, you will be killed without mercy, who wrote
+      such a vicious threat?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299679
+    m_Localized: Some used spray cans, whoever was spraying the walls was the one
+      who just screamed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299680
+    m_Localized: Why is there a wheelchair here? Huh, what's this book on top?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299681
+    m_Localized: I hadn't expected Miss Tse to be the sort to use a cute backpack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299682
+    m_Localized: "Chinese checkers? I really miss playing, I haven\u2019t played
+      it in a long time."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299683
+    m_Localized: Eyeglass chocolate was always around when I was a kid. I'm surprised
+      to see that Miss Tse likes it too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299684
+    m_Localized: There is so much smoke, there must be a fire inside, what should
+      I do? I need to find a fire extinguisher quickly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299688
+    m_Localized: There's a notice from the management office in the elevator. This
+      old building has power outages and water supply problems, no wonder that it
+      needs to be rebuilt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299689
+    m_Localized: Recently, someone was found spitting in the building. Please pay
+      attention in order to maintain sanitary conditions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299690
+    m_Localized: In the interest of self-preservation, beware of this sleazy woman!...what
+      the hell?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299691
+    m_Localized: Uncle Chan didn't throw away his lunch box. Is he trying to be like
+      Dagwan Cheung?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299692
+    m_Localized: This drawer is locked...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299694
+    m_Localized: Just some of Dagwan Cheung's clothes in the wardrobe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299695
+    m_Localized: The air conditioner was turned on, but there was no air blowing
+      out. Maybe a power outage?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299696
+    m_Localized: A tattered, old empty cardboard box.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299698
+    m_Localized: Guen Fong is staring at me...don't be afraid, don't look at her...don't
+      look at her...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299699
+    m_Localized: The kitchen...is there something in here? Is she telling me to go
+      in and check it out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299700
+    m_Localized: Does she want me to check out this medicine pot? It doesn't seem
+      so.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299701
+    m_Localized: She doesn't want me to cook dinner, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299702
+    m_Localized: Some dirty dishes, does she want me to wash them for her?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299704
+    m_Localized: Realtea...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299705
+    m_Localized: The shirt is buttoned up. Maybe it wasn't being worn? Or was the
+      shirt taken off while it was still buttoned?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299706
+    m_Localized: Nothing to see here, it's just the Taoist priest uncle's home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299707
+    m_Localized: A fuzau talisman...reminds me of the ones used by Uncle Chan to
+      kill Miss Cheng...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299708
+    m_Localized: Smiley is a much more effective security guard than I could ever
+      be...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299709
+    m_Localized: "The third floor is really dark and I don\u2019t really feel like
+      I can explore here properly."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299715
+    m_Localized: Why is Dagwan Cheung here? It seems that he is looking for something,
+      so I'll leave him alone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493952
+    m_Localized: Here's the garbage room. Each floor has one in buildings like these.
+      When I was a kid, sometimes I would find magazines here that weren't meant
+      for children. This one is locked so I'll need the key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493953
+    m_Localized: There's a tied-up burlap sack but it looks easily opened with scissors.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493955
+    m_Localized: There is nothing from Guen Fong's body here, not even her hair.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493956
+    m_Localized: It's just garbage...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493957
+    m_Localized: Nothing from Guen Fong's body here...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493958
+    m_Localized: Will I find something on the kitchen utensils? Doesn't seem likely...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493959
+    m_Localized: This is where the metal box was found, but there's nothing else
+      here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493960
+    m_Localized: The Taoist priest uncle said that blood was also acceptable, but
+      that's not available here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493961
+    m_Localized: "Could there be hair on the sink? It\u2019s so dark that I can't
+      tell..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: InventoryItemName_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: f16ad0c93d202974fac9458994301485, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 115514269696
+    m_Localized: Traditional Chinese Medicine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115543629824
+    m_Localized: Security Room Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115543629825
+    m_Localized: Flashlight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115543629826
+    m_Localized: Chewing Gum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824128
+    m_Localized: Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824129
+    m_Localized: Light Bulb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824130
+    m_Localized: Crowbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824131
+    m_Localized: Women's Top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824132
+    m_Localized: Recipe Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824133
+    m_Localized: Fire Extinguisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824134
+    m_Localized: Blood-Stained Towel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824135
+    m_Localized: Drawer Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824136
+    m_Localized: Relocation Consent Form
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824137
+    m_Localized: Relocation Consent Form
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824138
+    m_Localized: Relocation Consent Form
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824139
+    m_Localized: Relocation Consent Form
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824140
+    m_Localized: Relocation Consent Form
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824141
+    m_Localized: Relocation Consent Form
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824142
+    m_Localized: Eyeglass Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824143
+    m_Localized: Liniment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824144
+    m_Localized: Jade Pendant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824145
+    m_Localized: Jade Ring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824146
+    m_Localized: Jewellery Box Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824147
+    m_Localized: Lighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824148
+    m_Localized: Tube Light Bulb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824149
+    m_Localized: Origami Flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824150
+    m_Localized: Red Plastic Bag with Unknown Contents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824151
+    m_Localized: Diamond Ring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824152
+    m_Localized: Ring Candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824153
+    m_Localized: Garbage Room Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824154
+    m_Localized: Store Room Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824155
+    m_Localized: Tissues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824156
+    m_Localized: Spray Bottle Filled with Holy Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824157
+    m_Localized: Yankiew's Used Hair Elastic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824158
+    m_Localized: Body of a Fetus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824159
+    m_Localized: Chui Hung Nightclub Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824160
+    m_Localized: Beware of Sleazy Woman Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824161
+    m_Localized: Ha Lam Happy Land Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824162
+    m_Localized: Go Quietly Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824163
+    m_Localized: Lai Sam Hotel Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824164
+    m_Localized: No Decoration Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824165
+    m_Localized: Scumbag Daily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824166
+    m_Localized: Great Waves Garden Property Listing Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824167
+    m_Localized: Shaolin Real Estate Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824168
+    m_Localized: Don't Spit Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824169
+    m_Localized: Taxi Advertisement Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824170
+    m_Localized: Don't Litter Poster 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824171
+    m_Localized: Miss Vitama Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824172
+    m_Localized: Don't Litter Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824173
+    m_Localized: Pu-erh Soda Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824174
+    m_Localized: Don't Smoke Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824175
+    m_Localized: Lei Choi Wah Vest Flyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824176
+    m_Localized: Cart Noodles Poster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115547824177
+    m_Localized: Stay Hygienic Poster
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

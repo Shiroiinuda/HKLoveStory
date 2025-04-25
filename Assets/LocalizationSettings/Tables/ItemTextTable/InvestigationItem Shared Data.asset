@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: InvestigationItem Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: InvestigationItem
+  m_TableCollectionNameGuidString: 25210da4e28df8d44a4fe70b02d3f131
+  m_Entries:
+  - m_Id: 132849328128
+    m_Key: ChickenBowl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105344
+    m_Key: ChickenBowlFill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105345
+    m_Key: HawthornCake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105346
+    m_Key: SecurityDeskBook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105347
+    m_Key: SecurityDeskCCTV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105348
+    m_Key: SecurityDeskClock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105349
+    m_Key: SecurityDeskMigrateAgreement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105350
+    m_Key: SecurityDeskPhone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105351
+    m_Key: Lift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105352
+    m_Key: Mailbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105353
+    m_Key: NoticeBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105354
+    m_Key: SecurityRoomDoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105355
+    m_Key: Stair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105356
+    m_Key: SecurityRoomBed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105357
+    m_Key: SecurityRoomKeyBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105358
+    m_Key: SecurityRoomWater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105359
+    m_Key: SecurityRoomCCTV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105360
+    m_Key: SecurityRoomLocker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105361
+    m_Key: SecurityRoomBoard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105351
+    m_Key: Lift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105355
+    m_Key: Stair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105362
+    m_Key: RedBook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105363
+    m_Key: Hula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105364
+    m_Key: BettyApartment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105365
+    m_Key: ToC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299648
+    m_Key: EightMirror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299649
+    m_Key: CorridorEnd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299650
+    m_Key: BeerCan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105351
+    m_Key: Lift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105355
+    m_Key: Stair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299651
+    m_Key: Genuine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299652
+    m_Key: Apartment113
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299653
+    m_Key: MileStone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299654
+    m_Key: FaiChunHealthy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299655
+    m_Key: FaiChunGutCheng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105351
+    m_Key: Lift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105355
+    m_Key: Stair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299656
+    m_Key: Notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299657
+    m_Key: TrashBin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299658
+    m_Key: BedroomLightBulb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299659
+    m_Key: BedroomBed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299660
+    m_Key: BedroomSmallCarbinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299661
+    m_Key: BedroomBigCarbinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299662
+    m_Key: DinningRoomBread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299663
+    m_Key: DinningRoomLemonTea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299664
+    m_Key: DinningRoomCarbinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299665
+    m_Key: DinningRoomBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299666
+    m_Key: Bed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299667
+    m_Key: Kitchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299668
+    m_Key: Blood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299669
+    m_Key: WoodBoard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299670
+    m_Key: Kwan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299671
+    m_Key: Advertisement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299672
+    m_Key: Rubbish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299673
+    m_Key: Pillow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299674
+    m_Key: Dinner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299667
+    m_Key: Kitchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299675
+    m_Key: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299676
+    m_Key: Light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299677
+    m_Key: Cig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299678
+    m_Key: Draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299679
+    m_Key: Spray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299680
+    m_Key: WheelChair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299681
+    m_Key: Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299682
+    m_Key: BoZiGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299683
+    m_Key: GlassChocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299684
+    m_Key: Apartment113Fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105355
+    m_Key: Stair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299685
+    m_Key: F1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299686
+    m_Key: F4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299687
+    m_Key: Nothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132866105356
+    m_Key: SecurityRoomBed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299688
+    m_Key: NoticeA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299689
+    m_Key: NoticeB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299690
+    m_Key: NoticeC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299691
+    m_Key: LunchBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299692
+    m_Key: KwanDrawer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299693
+    m_Key: KwanDrawerOpened
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299694
+    m_Key: KwanCarbinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299695
+    m_Key: KwanAirConditioner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299696
+    m_Key: KwanPaperBox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299697
+    m_Key: WifeLetter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299667
+    m_Key: Kitchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299698
+    m_Key: FongGhost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299699
+    m_Key: KitchenBG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299698
+    m_Key: FongGhost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299700
+    m_Key: KitchenMedicinePot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299701
+    m_Key: KitchenWork
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299702
+    m_Key: KitchenSink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299703
+    m_Key: KitchenStove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299668
+    m_Key: Blood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299704
+    m_Key: ChunKee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299705
+    m_Key: ClothButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299706
+    m_Key: Apartment101
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299648
+    m_Key: EightMirror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299650
+    m_Key: BeerCan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299707
+    m_Key: Fu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299653
+    m_Key: MileStone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299654
+    m_Key: FaiChunHealthy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299655
+    m_Key: FaiChunGutCheng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299708
+    m_Key: Lin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299709
+    m_Key: 3Floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299710
+    m_Key: EndInvestigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299687
+    m_Key: Nothing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299711
+    m_Key: To3FloorStament2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299712
+    m_Key: ToBadGuyStament1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299713
+    m_Key: ToBadGuyStament2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299714
+    m_Key: ToKwanStament1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299715
+    m_Key: ToKwanStament2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493952
+    m_Key: TrashRoomDoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493953
+    m_Key: HempBag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493954
+    m_Key: HempBagOpen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299672
+    m_Key: Rubbish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493955
+    m_Key: NoFongThings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493956
+    m_Key: RubbishA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870299667
+    m_Key: Kitchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493957
+    m_Key: RubbishB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493958
+    m_Key: Wok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493959
+    m_Key: Stove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493960
+    m_Key: KitchenProps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132874493961
+    m_Key: ToiletWashBasin
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711075334923

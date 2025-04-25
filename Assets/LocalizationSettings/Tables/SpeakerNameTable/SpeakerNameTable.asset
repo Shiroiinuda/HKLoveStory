@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: SpeakerNameTable
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 403dd98fdee9efc45a1d0ff67905504e, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 474f5158b64066f4792a7dd9adbfb5b8, type: 2}
+  - {fileID: 11400000, guid: 7ba84eff3a23a8f4e95a7025fd88e497, type: 2}
+  - {fileID: 11400000, guid: 57a4831ebe4497e4a98df8cb1c543816, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 1

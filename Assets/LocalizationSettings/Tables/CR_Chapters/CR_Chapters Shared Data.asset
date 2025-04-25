@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CR_Chapters Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CR_Chapters
+  m_TableCollectionNameGuidString: ba49984f0e9946446afec553dfbda25d
+  m_Entries:
+  - m_Id: 49763389440
+    m_Key: Chapter1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49796943872
+    m_Key: Chapter2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49796943873
+    m_Key: Chapter3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49796943874
+    m_Key: Chapter4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138176
+    m_Key: Chapter5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138177
+    m_Key: Chapter6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138178
+    m_Key: Chapter7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138179
+    m_Key: Chapter8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138180
+    m_Key: Chapter9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138181
+    m_Key: Chapter10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138182
+    m_Key: Chapter11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138183
+    m_Key: Chapter12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138184
+    m_Key: Chapter13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138185
+    m_Key: Chapter14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138186
+    m_Key: Chapter15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138187
+    m_Key: Chapter16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138188
+    m_Key: Chapter17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138189
+    m_Key: Chapter18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138190
+    m_Key: Chapter19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138191
+    m_Key: Chapter20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138192
+    m_Key: Chapter21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138193
+    m_Key: S1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138194
+    m_Key: S2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138195
+    m_Key: S3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138196
+    m_Key: S4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138197
+    m_Key: S5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138198
+    m_Key: S6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138199
+    m_Key: S7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138200
+    m_Key: S8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138201
+    m_Key: S9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138202
+    m_Key: S10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138203
+    m_Key: End1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138204
+    m_Key: End2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138205
+    m_Key: End3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138206
+    m_Key: End4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138207
+    m_Key: End5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138208
+    m_Key: End6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138209
+    m_Key: End7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138210
+    m_Key: End8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49801138211
+    m_Key: Truth
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1710841109550

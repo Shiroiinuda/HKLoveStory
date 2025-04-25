@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UITextTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: e55fd32eb3bde7e4d89dd8c606c7011a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 33309134848
+    m_Localized: The locksmith on the first floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912064
+    m_Localized: Contact Us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912065
+    m_Localized: 'If you encounter any problems or other opinions on the purchase,
+      please contact the customer service:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912066
+    m_Localized: Gallery and Achievements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912067
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912068
+    m_Localized: Chapters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912069
+    m_Localized: Are you sure to consume 10 jade unlock chapters?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912070
+    m_Localized: Are you sure you want to exit the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912071
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912072
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912073
+    m_Localized: SFx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912074
+    m_Localized: Dub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912075
+    m_Localized: LAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912076
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912077
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912078
+    m_Localized: Not enough jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912079
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33325912080
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106368
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106369
+    m_Localized: Are you sure to end the investigation?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106370
+    m_Localized: Hold down the garbage to be cleaned, it will automatically disappear
+      after a few seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106371
+    m_Localized: Clean the carton from high to low, and it will disappear automatically
+      after holding it for a few seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106372
+    m_Localized: Go to comment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106373
+    m_Localized: Table of contents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106374
+    m_Localized: Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106375
+    m_Localized: think about it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106376
+    m_Localized: Prop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106377
+    m_Localized: Next chapter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106378
+    m_Localized: Consider it again ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106379
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106380
+    m_Localized: End the investigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106381
+    m_Localized: Destroy meat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106382
+    m_Localized: You can click on the screen to investigate the scene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106383
+    m_Localized: The flashlight on the mobile screen is used to investigate the scene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106384
+    m_Localized: Don't stop! Escape!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106385
+    m_Localized: Click the button at the bottom left to the left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106386
+    m_Localized: '!! Pay attention to the volume !!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106387
+    m_Localized: Press the left and right keys to escape quickly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106388
+    m_Localized: Click the button at the bottom right to the right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106389
+    m_Localized: You can click on the scene to use the items obtained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106390
+    m_Localized: Don't move when she looks at you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106391
+    m_Localized: Gas volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106392
+    m_Localized: Volumn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106393
+    m_Localized: Find the safe buckle from the jewelry box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106394
+    m_Localized: Be careful! Don't make any sound!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106395
+    m_Localized: Are you sure you want to consume 1 jade draw?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106396
+    m_Localized: rollback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106397
+    m_Localized: Check code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106398
+    m_Localized: Exchange code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106399
+    m_Localized: Check code display position
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106400
+    m_Localized: please enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106401
+    m_Localized: Generate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106402
+    m_Localized: Exchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106403
+    m_Localized: use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106404
+    m_Localized: X1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106405
+    m_Localized: Draw a card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106406
+    m_Localized: look
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106407
+    m_Localized: advertise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106408
+    m_Localized: Draw a card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106409
+    m_Localized: '*The cards in this card machine have nothing to do with the game.
+      It is pure entertainment. Please think twice when you draw.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106410
+    m_Localized: Have a collection card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106411
+    m_Localized: Buy this gift package for once
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106412
+    m_Localized: Thank you for buying!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106413
+    m_Localized: 'Unlock conditions:
+
+      Complete the "truth" branch line.
+
+      Re
+      -play Section 20, and once again attach Fang Juan to Ping An buckle.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106414
+    m_Localized: 'Unlock conditions:
+
+      1. Get important clues from the garbage
+      room.
+
+      2. Discover more messages in Chen Shi''oming''s mouth.
+
+      3.
+      Find important clues at Zhang Dejun''s house.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106415
+    m_Localized: 'Buying need to know:
+
+
+      Thank you for visiting this store
+      page. Whether you are going to buy, buy it, or accidentally press in, there
+      are some precautions below, please pay attention.
+
+
+      -First of all, the
+      game is currently available in the iOS App Store or Google Play Store. This
+      game supports us. If you are not adult or have no way to pay, you can also
+      use the button to watch the advertisement to get jade, and we try our best
+      to provide various ways to help you enjoy the time in the game.
+
+
+      -To
+      encourage you to buy, whether you buy a full -bodied gift package or only buy
+      20 jade, we will also remove the advertisements between all cards, but pay
+      attention to the function of watching the advertisement on this page after
+      paying. Misty thinks that the advertisement here will also be removed.
+
+      -Who
+      whether you buy jade or look at advertisements, you can only be used in this
+      work. You can''t transfer jade to our other games, such as "the braid girl
+      on the second floor of the urban legend" or "the second floor of the Ghost
+      Building", so please pay attention to the quantity when buying. The jade required
+      for the entire game should only require 310 capsules.
+
+
+      -The jade in
+      the full -bodied gift package has 400 capsules, which is enough for you to
+      play the whole work. The reason for setting 500 capsules is to avoid adding
+      some branch content in the future. You can also have jade to unlock, and the
+      remaining jade cannot be transferred to other places.
+
+
+      -The entire game
+      belongs to a single -machine without connecting work, which means that there
+      is no server to record your progress or the number of jade. So if you want
+      to delete the game reinstallation, or install it on the new mobile phone, this
+      game cannot be transferred to the progress transfer work, so please pay attention.
+
+
+      -If
+      you want to buy jade you can buy at least after the new mobile phone or new
+      installation, you can click the "recovery button" of the purchase page, the
+      platform will detect and return the jade you have purchased. If you still can''t,
+      you can also email us directly to discuss the transition of jade. We will try
+      to satisfy your situation. Email: info@genuine-studio.com
+
+
+      Finally,
+      thank you for your time. We are a small team who wants to make good content
+      to give you entertainment. Please forgive me. You also ask you to support the
+      genuine version. Although it is very cool to understand that you don''t have
+      to spend to play games, this is a devastating harm to us. Please'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106416
+    m_Localized: "Explanation of the card machine:\n\n-The items in this drawing
+      machine have nothing to do with the game plot and gameplay.\n\n-The card with
+      a total of 100 cards. The probability of each extraction of each time is 1/100,
+      the card may be repeated, and the repeated cards will not return to jade or
+      draw opportunities.\n\n-The styles contained in the card are from Genuine Studio's
+      past game characters. The works include \"Xiaolin Zhengxue's Revenge Room\",
+      \"The Puzzle of Xiaolin Zhengxue\", \"Duanmi Fei VS Xiaolin Zhengxue\", \"Destiny
+      reversal\", \"\u748E \u748E \u748E \u748E \u748E \u748E \u748E\" Who kills
+      love \",\" Dangerous Scum \",\" Rain Night Butcher \",\" Heartbeat House House
+      \",\" Urban Legend Takeaway \",\" Locksmith on the first floor of Menggi Building
+      \", and\" Kill Game \".\n\n-This game does not set up online archives for stand
+      -alone games. If any drawing card is deleted, it will be lost, and it needs
+      to be removed again."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106417
+    m_Localized: Restore to buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106418
+    m_Localized: Move the bricks from high to low, and the bricks will be removed
+      after holding up for a few seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106419
+    m_Localized: 'time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106420
+    m_Localized: Fellow game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106421
+    m_Localized: Card book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106422
+    m_Localized: Ya Bo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106423
+    m_Localized: Are you sure you want to unlock the chapter?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106424
+    m_Localized: 'Do you like this game?
+
+      Welcome to comment!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106425
+    m_Localized: Read file
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106426
+    m_Localized: Archive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106427
+    m_Localized: Determine the cover archive?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106428
+    m_Localized: Manually
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106429
+    m_Localized: screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106430
+    m_Localized: full screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106431
+    m_Localized: window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106432
+    m_Localized: Read file
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106433
+    m_Localized: '*The above price is the current currency of the user'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106434
+    m_Localized: 'Ads Remain Today:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106435
+    m_Localized: (Refresh every day)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106436
+    m_Localized: 10 jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106437
+    m_Localized: 100 jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106438
+    m_Localized: 400 jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106439
+    m_Localized: Restore 10 jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106440
+    m_Localized: Restore 100 jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106441
+    m_Localized: Restore 400 jade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106442
+    m_Localized: Generate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106443
+    m_Localized: Exchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33330106444
+    m_Localized: Enter four -digit passwords
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,2186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogueTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: ddc6a5ca04ec38b469256da6a5e9914b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 25986850816
+    m_Localized: "(\u2026\u2026)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850817
+    m_Localized: (Huh?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850818
+    m_Localized: Hey, how can you be in a daze? It's okay?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850819
+    m_Localized: Huh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850820
+    m_Localized: (Here ... the lifting machine?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850821
+    m_Localized: (Then these people are ...? Well, my neck hurts.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850822
+    m_Localized: State in advance, don't drag your legs, I won't take care of you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850823
+    m_Localized: Wait ... Are you really ... don't you be afraid? ... Farewell! This
+      building ... I will definitely meet those things again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850824
+    m_Localized: (Those things ... I know, he is talking about ghosts, those scary
+      ghosts.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850825
+    m_Localized: Don't tell me that you are afraid of ghosts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850826
+    m_Localized: You are so easy to say How fierce this building is! And those rules
+      ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850827
+    m_Localized: Funny, I'm just an ordinary dealer, don't say that the rules are
+      irregular, don't scare yourself?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850828
+    m_Localized: (I notice the delivery backpack on my back.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850829
+    m_Localized: (I am a sender, these people are all, we came to this building to
+      takeaway.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850830
+    m_Localized: (Originally, this is just a normal job, but there are extremely
+      unusual things here ... The rules they say ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850831
+    m_Localized: Show the rules, there are ten in total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850832
+    m_Localized: (I don't know who wrote it, but if we do not follow the rules above,
+      we will have horrible things ... what is it? I seem to know, but I can't remember
+      it.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850833
+    m_Localized: Ding-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850835
+    m_Localized: Don't talk nonsense, go out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850837
+    m_Localized: Hey, you, go out with good things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850839
+    m_Localized: .................... I'm annoying!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850842
+    m_Localized: (This building is where we need to send takeaway.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850843
+    m_Localized: Don't you know how you send it, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850844
+    m_Localized: forget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850845
+    m_Localized: I remember
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850846
+    m_Localized: I don't remember it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850847
+    m_Localized: Alas, do you have to teach for takeaway? Are you not sick?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850848
+    m_Localized: Let me simply say it with you. There are a few takeaways in your
+      backpack, which number is written on each of them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850849
+    m_Localized: We have to be responsible for this building with two floors, starting
+      from 101 to 116, and 16 units on each floor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850850
+    m_Localized: Just go to that room according to the number you want to send each
+      takeaway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850851
+    m_Localized: After going to that room?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850852
+    m_Localized: The guests in the bell responded to the door, and then took the
+      takeaway to them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850853
+    m_Localized: (That's it? That's really just a takeaway.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850854
+    m_Localized: A long -haired man glanced at one of your backpacks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850855
+    m_Localized: This meal in your hand happens to be in front of you, you go to
+      the bell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850856
+    m_Localized: (Lock the bell, then give meals, that's it.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850857
+    m_Localized: I remember
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850858
+    m_Localized: Just remember,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850859
+    m_Localized: A long -haired man glanced at one of your backpacks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850860
+    m_Localized: This meal in your hand happens to be in front of you, you go to
+      the bell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850861
+    m_Localized: Bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850862
+    m_Localized: Ding Dong-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850863
+    m_Localized: Animation open door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850864
+    m_Localized: After opening the door, one hand was found out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25986850865
+    m_Localized: What are you standing, take the takeaway to him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045120
+    m_Localized: Click your hand, take the takeaway box with your hand and close
+      the door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045121
+    m_Localized: Take the takeaway box and close the door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045122
+    m_Localized: boom!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045123
+    m_Localized: (How do you feel that this family is weird ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045124
+    m_Localized: That's fine? Don't you need to collect money?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045125
+    m_Localized: They have paid all, so they are just delivered, but ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045126
+    m_Localized: Why do you have a leisurely chat in this corridor ... Are you afraid?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045127
+    m_Localized: (These four eyes have been afraid of something since just now.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045128
+    m_Localized: I have finished it over there, go to the second floor first, you
+      can send it yourself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045129
+    m_Localized: ah! I ... I'm with you, it seems safer to follow you ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045130
+    m_Localized: Hum, it's really wasteful, let's go with you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045131
+    m_Localized: You can disappear in the darkness if you don't care if you don't
+      care if you don't care about glasses.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045132
+    m_Localized: You ... seem to be familiar with the process or something, have
+      you done this for a long time?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045133
+    m_Localized: No, the first day of today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045134
+    m_Localized: Eh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045135
+    m_Localized: After all, a man with a long hair also left your sight and walked
+      a different direction from you. And what he said made you feel inexplicable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045136
+    m_Localized: (Send me the meal ... I have to send the meals in my hand.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045137
+    m_Localized: (Where is the second takeaway delivery?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045138
+    m_Localized: Go to 1xx to get the second takeaway, click the ring bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045139
+    m_Localized: Animation open door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045140
+    m_Localized: Open the door and then red umbrella ghosts come out (normal look)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045141
+    m_Localized: You ... your takeaway is delivered.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045142
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045143
+    m_Localized: Thank you, I really thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045144
+    m_Localized: No ... you're welcome.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045145
+    m_Localized: Huh? It seems to be raining, do you want an umbrella?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045146
+    m_Localized: rain? No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045147
+    m_Localized: I have a lot of ... umbrella, I can borrow you what you need.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045148
+    m_Localized: No, thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045149
+    m_Localized: close the door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045150
+    m_Localized: (How do you think the residents here are weird?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045151
+    m_Localized: (The room here, each door has such a mail box ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045152
+    m_Localized: Want to ... see if you look at it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045153
+    m_Localized: want
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045154
+    m_Localized: don't want
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045155
+    m_Localized: (Just look at it, it's not bad ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045156
+    m_Localized: Animated, open, and see that there are many umbrella inside
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045157
+    m_Localized: (There are really many umbrellas in this woman's house ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045158
+    m_Localized: "(do not\u2026\u2026\u2026)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045159
+    m_Localized: (You have to continue the meal, but then again ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045160
+    m_Localized: (How did I become a sender? I obviously ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045161
+    m_Localized: ah! Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045162
+    m_Localized: (?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045163
+    m_Localized: (This sound? Whose scream is it?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045164
+    m_Localized: The sound came from the other direction of the first floor, and
+      your mind immediately remembered the appearance of the long -haired man.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045165
+    m_Localized: Investigate, go to the other side of the first floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045166
+    m_Localized: When you arrived at the place where the sound just came, he didn't
+      find the trace of long -haired men.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045167
+    m_Localized: Strange, didn't the sound come from here? Why is anyone gone?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045168
+    m_Localized: What is the ground underground?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045169
+    m_Localized: Pick up the takeaway box on the ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045170
+    m_Localized: Get "finished takeaway box".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045171
+    m_Localized: Roar -
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045172
+    m_Localized: (what happend?!)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045173
+    m_Localized: Ah ... ah Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045174
+    m_Localized: Sin ghost animation, and then destroy you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045175
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045176
+    m_Localized: Open my eyes again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045177
+    m_Localized: "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045178
+    m_Localized: Huh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045179
+    m_Localized: Sure enough, you also failed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045180
+    m_Localized: Lost ... failure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045181
+    m_Localized: It seems that these rules cannot be disobeyed, otherwise ......
+      Otherwise ................
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045182
+    m_Localized: What's wrong, why can't I think of it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045183
+    m_Localized: The rules you said ... Is the thing written here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045184
+    m_Localized: If you do it according to this rule, there will be some horrible
+      things, and then we don't know what ... we will return to this lifting machine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045185
+    m_Localized: (ah?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045186
+    m_Localized: I knew what I made mistakes. Just now I heard footsteps but ignored
+      it. It should be violated Article 8.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045187
+    m_Localized: Display rules Article 8 pictures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045188
+    m_Localized: 8. If you hear your footsteps on the first floor, please find the
+      room to hide in the empty room immediately, and do not come out until the end
+      of the sound.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045189
+    m_Localized: You have to hide in the room when you hear the footsteps, but you
+      do nothing ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045190
+    m_Localized: It seems that it is, what kind of rules did you commit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045191
+    m_Localized: (What kind of rules did I commit it?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045192
+    m_Localized: Article 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045193
+    m_Localized: Article 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045194
+    m_Localized: Maybe ... Article 6?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045195
+    m_Localized: This is the first floor, not the second floor. It does not fail
+      because of this rule.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045196
+    m_Localized: Also ... but I really don't know which rules I have committed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045197
+    m_Localized: (But I must have violated what rules, so I saw those horrible things
+      ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045198
+    m_Localized: Also.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045199
+    m_Localized: Article 9, I picked up a takeaway on the ground.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045200
+    m_Localized: "on the ground? \u2026\u2026\u2026\u2026 It should be like this.
+      Recycling the box is not your job."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045201
+    m_Localized: So as long as you violate any rules, those horrible things will
+      come out and then take us ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045202
+    m_Localized: have no idea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045203
+    m_Localized: Ding-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045204
+    m_Localized: Be careful this time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045205
+    m_Localized: You followed the long -haired man to step out of the lift, and immediately
+      touched the other two of the other two who just sent to the second floor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045206
+    m_Localized: How did you ... how did you come out in the lift? Could it be ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045207
+    m_Localized: Well, as you said, but you are okay on the second floor?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045208
+    m_Localized: This stinky boy stopped every two steps, and he didn't send a few
+      copies at all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045209
+    m_Localized: This is really ... so scary! Especially on the second floor ...
+      I really can't stand it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045210
+    m_Localized: Be careful not to foul, the task is still completed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045211
+    m_Localized: No, think about it seriously, how do I feel that this errand will
+      never be done?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045212
+    m_Localized: (Can't do it ... finished?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045213
+    m_Localized: Because there is a waste material like you, don't stick to me, I
+      will get it out for myself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045214
+    m_Localized: Do you ... don't you think it is strange? Suddenly what rules we
+      follow ... This place ... won't be a curse?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045215
+    m_Localized: If you are afraid, go to the lifting machine and wait, but I will
+      not send you those lists.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045216
+    m_Localized: Don't, Brother! Do you help me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045217
+    m_Localized: Neuropathy, why do I want to help you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045218
+    m_Localized: The first article of the rules said that the takeaway must be sent
+      by yourself. If you don't send it, you will foul.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045219
+    m_Localized: ............ What should I do?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045220
+    m_Localized: Is this the test of this guts?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045221
+    m_Localized: Footsteps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045222
+    m_Localized: special! Listen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045223
+    m_Localized: "This sound ... is footsteps \u662F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045224
+    m_Localized: Oops! Hurry up and hide in the empty room!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045225
+    m_Localized: Wow ... Wow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045226
+    m_Localized: (Is there something approaching, long hair want us to find a place
+      to hide?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045227
+    m_Localized: Find the vacant room immediately and hide in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045228
+    m_Localized: Find the room and click in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045229
+    m_Localized: At the time of the moment, you found a vacant room. After pushing
+      the door and entering, you quickly close the door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045230
+    m_Localized: The sound of footsteps outside is getting closer and closer, the
+      faster your heartbeat is intensified, and your tension is sweating.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045231
+    m_Localized: "so close\u2026\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045232
+    m_Localized: What exactly is it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045233
+    m_Localized: You can see the situation outside from the anti -theft eye ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045234
+    m_Localized: Anti -theft eye, then look at you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045235
+    m_Localized: Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045236
+    m_Localized: (What is this ... what?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045237
+    m_Localized: There are ghosts in this building ... and also attack us! As long
+      as we do not follow the rules, they will ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045238
+    m_Localized: "It \u2019s not normal to think here ... too weird, basically not
+      like the world of normal people ..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045239
+    m_Localized: Alas ... My neck hurts ...... No ... not only that, my abdominal
+      cavity also has drama ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045240
+    m_Localized: It seems that I have experienced any damage before, but there is
+      no wound on my body ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045241
+    m_Localized: You endure the pain and sit slowly in the room. There is nothing
+      in this room, obviously no one lives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045242
+    m_Localized: You look around, the darkness makes you feel a little suffocated
+      ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045243
+    m_Localized: Soon, your pain relieved a little bit, and pay attention to the
+      only part of the notice in the room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045244
+    m_Localized: A piece of paper sticking to the wall, what text is written on it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045245
+    m_Localized: Show the guest rules of the guest, but the garbled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045246
+    m_Localized: I don't understand, you don't understand the text above.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045247
+    m_Localized: (What exactly is this building? Why is there such a horrible thing
+      ... and I ... why can we see them?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045248
+    m_Localized: (And I ... how can I stay here?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045249
+    m_Localized: At this time, there was no movement outside, and the sound of footsteps
+      no longer appeared. You look at the anti -theft eye again ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045250
+    m_Localized: Anti -theft eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045251
+    m_Localized: It seems that those scary things are gone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045252
+    m_Localized: You have the courage, open the closed door, and come out of the
+      room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045253
+    m_Localized: The corridor is as empty as before, and it still has the kind of
+      silence that makes people hairy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045254
+    m_Localized: (What about the others? Are you all left?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045255
+    m_Localized: (Maybe it's all left ... I still have some delivery on the second
+      floor in my hand, first look at the second floor.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045256
+    m_Localized: Survey until the second floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045257
+    m_Localized: Going to the second floor trembling, the trace of the three of them
+      found.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045258
+    m_Localized: He is fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045259
+    m_Localized: You ... it's okay, that's fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045260
+    m_Localized: This is the second floor and the second floor on the second floor.
+      You have to be careful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045261
+    m_Localized: (Code on the second floor ... What are there?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045262
+    m_Localized: When you were in the room just now, did you notice the paper on
+      the wall?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045263
+    m_Localized: Well, yes, because of its style, it is very similar to that dependent
+      rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045264
+    m_Localized: Yes, I know that my suspicion is reasonable, but I don't understand
+      the above content.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045265
+    m_Localized: (There is also the same paper in the room as the lifting machine,
+      but everyone does not understand the content in the same way ... What does
+      this mean?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045266
+    m_Localized: Don't manage it first, our task is to finish the take -out in our
+      hands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045267
+    m_Localized: Then continue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045268
+    m_Localized: ah! Bind Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045269
+    m_Localized: Loading, then return to the lifting machine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045270
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045271
+    m_Localized: I ... I am back here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045272
+    m_Localized: For ... why?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25991045273
+    m_Localized: Ah ... my heart ... my chest pain in my chest ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239424
+    m_Localized: Investigate, out of the elevator until you go to the second floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239425
+    m_Localized: He is back again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239426
+    m_Localized: Just now, you should hide.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239427
+    m_Localized: (Hide ... Get up?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239428
+    m_Localized: But it's not bad, you are still back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239429
+    m_Localized: (I'm back? What happened ... what happened?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239430
+    m_Localized: Hey, did you notice the paper on the wall when you were in the room
+      just now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239431
+    m_Localized: The strong man said to the other two.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239432
+    m_Localized: Well, yes, because of its style, it is very similar to that dependent
+      rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239433
+    m_Localized: Yes, I know that my suspicion is reasonable, but I don't understand
+      the above content.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239434
+    m_Localized: "(What are they talking about? ............ I don\u2019t understand,
+      because I didn\u2019t find the room to go in at all.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239435
+    m_Localized: Don't manage it first, our task is to finish the take -out in our
+      hands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239436
+    m_Localized: Then continue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239437
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239438
+    m_Localized: Are you OK?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239439
+    m_Localized: "No right ... this is wrong\uFE57 Do not you think so?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239440
+    m_Localized: "(No right? \u2026\u2026\u2026)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239441
+    m_Localized: (Yes, this is really wrong, why can't you think it is normal?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239442
+    m_Localized: Why should we continue? Why do we continue to deliver meals?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239443
+    m_Localized: No ... this is wrong ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239444
+    m_Localized: The four -eyed man was obviously scared. He began to be incoherent
+      and panicked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239445
+    m_Localized: Looking at the takeaway in my hand, it is 214 units.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239446
+    m_Localized: (But I still have to give this meal first.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239447
+    m_Localized: Investigation, go to 214 units to ring the bell and give me the
+      meal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239448
+    m_Localized: Do you have something to give me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239449
+    m_Localized: (The appearance of this guest looks normal, it should be okay.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239450
+    m_Localized: Oh yes, this is your takeaway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239451
+    m_Localized: Thank you, starved to death, really can't hold it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239452
+    m_Localized: (I suddenly had a trace of impulse in my mind.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239453
+    m_Localized: Then I eat first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239454
+    m_Localized: Wait a while
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239455
+    m_Localized: oh? What do you have?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239456
+    m_Localized: I want to ask you ... ask you something, are you convenient?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239457
+    m_Localized: It is convenient and convenient. What do you want to ask me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239458
+    m_Localized: You are the resident here ... this place ... I mean this building,
+      do you feel unusual?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239459
+    m_Localized: unusual?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239460
+    m_Localized: Yes, this is here ... Isn't it very fierce here? Do you often see
+      those scary ... ghost?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239461
+    m_Localized: Ah, ghost?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239462
+    m_Localized: It seems that you don't know anything? But it's no wonder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239463
+    m_Localized: Do you know what?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239464
+    m_Localized: I know, of course, I know, but I can't say.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239465
+    m_Localized: For ... why?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239466
+    m_Localized: No, you are a takeaway, I just can't say.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239467
+    m_Localized: I am a takeaway ... so you can't say?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239468
+    m_Localized: Don't think too much, just do your job well, I'm going to eat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239469
+    m_Localized: ah! Wait! Ai!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239470
+    m_Localized: Ka click-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239471
+    m_Localized: What does she mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239472
+    m_Localized: The female resident said something that like, and did not answer
+      anything you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239473
+    m_Localized: But she also seemed to know that there was a scary ghost here, but
+      there was no meaning to be afraid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239474
+    m_Localized: You feel even more puzzled, but this feeling has not affected any
+      of your actions. You still think about giving the meals on your hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239475
+    m_Localized: When you plan to leave this unit, you notice that the room next
+      to 214 has an extremely conspicuous and distinctive atmosphere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239476
+    m_Localized: Fortune 216
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239477
+    m_Localized: Room 216 ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239478
+    m_Localized: (Here ... this is Room 216, there is not a saying in the rules ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239479
+    m_Localized: 'The last close -up of the rules: Do not disturb the residents No.
+      216.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239480
+    m_Localized: ("Can't disturb the residents No. 216")
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239481
+    m_Localized: "When you think of the rules, you will attract horrible monsters.
+      You immediately dispel the idea of \u200B\u200Bcuriosity and quickly leave
+      this scope."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239482
+    m_Localized: Go before the other direction of the corridor, and send out the
+      last takeaway in your hand ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239483
+    m_Localized: The three "partners" gathered at the rear stairs and shouted from
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239484
+    m_Localized: Hello! Nympho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239485
+    m_Localized: The man with four eyes suddenly shouted, and everyone's eyes fell
+      on him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239486
+    m_Localized: Are you ... are you crazy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239487
+    m_Localized: Intersection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239488
+    m_Localized: The things here ... can you see it? Those are not normal people?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239489
+    m_Localized: so what?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239490
+    m_Localized: "Those ... those are ghosts! This place is inexplicable at all\uFE57
+      Are you still indifferent to takeaway? Crazy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239491
+    m_Localized: if not? Don't work?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239492
+    m_Localized: Neuropathy! You are all neuropathy! How can this work be done? Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239493
+    m_Localized: I'm not crazy with you I gotta go!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239494
+    m_Localized: Those four -eyed man rushed down the stairs with fear, presumably
+      he was going to escape in the direction of the exit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239495
+    m_Localized: Looking at the back of the ladder and the screaming of the ears
+      away, the two people in front of you stood still in place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239496
+    m_Localized: (The four -eyed man ... he is normal ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239497
+    m_Localized: (Anyone who sees this is definitely going to run. Who would see
+      such a scene and can continue?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239498
+    m_Localized: Chase him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239499
+    m_Localized: Not chase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239500
+    m_Localized: "(I think the practice of a four -eyed man is right ...\uFE57 This
+      place is unusual at all.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239501
+    m_Localized: (Can't stay here, we must leave. We must leave.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239502
+    m_Localized: You don't say anything, the two men standing along those four eyes,
+      the two men standing on the second floor just stared at the disappearance of
+      your disappearance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239503
+    m_Localized: When you return to the first floor, the exit in the memory is on
+      the right hand side of the lift.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239504
+    m_Localized: You are afraid that you will encounter any ghosts again, and you
+      want to speed up your steps, but you look everywhere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239505
+    m_Localized: (Exit, you have to leave this place as soon as possible.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239506
+    m_Localized: At the moment when the escape door was almost there, the four -eye
+      figure appeared in front of him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239507
+    m_Localized: "Huh? Bind you! What\u2019s wrong with you? Isn't it going to leave?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239508
+    m_Localized: Those four -eyed men just looked at you with intention. He didn't
+      move, and he didn't speak. He stood so, and he couldn't see a hint of magic
+      in his eyes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239509
+    m_Localized: Hello? Nympho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239510
+    m_Localized: The man's head fell, leaving only his body, and the ghosts in the
+      black room appeared.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239511
+    m_Localized: "Wow! \u2026\u2026Wow! Bind Bind"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239512
+    m_Localized: You ... what are you? You ... what are you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239513
+    m_Localized: I feel that the huge ghost will be different in your head in the
+      next second, and you hurry to escape from the direction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239514
+    m_Localized: Running along the stairs again, the fear in your eyes makes Fang
+      Cai's two people feel puzzled.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239515
+    m_Localized: Why are you back? Didn't you say you want to go?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239516
+    m_Localized: No no ........... There is ... where ... where ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239517
+    m_Localized: Can't escape, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239518
+    m_Localized: Eh? Nympho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239519
+    m_Localized: If you can't escape, you can't escape, if you escape, it will be
+      the same as you see.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239520
+    m_Localized: What ... what?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239521
+    m_Localized: It is difficult for you to believe what he said, but if you witnessed
+      it just now, you know that this is not a joke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239522
+    m_Localized: You can't escape, no one can escape.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239523
+    m_Localized: But ... what the hell is here? Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239524
+    m_Localized: You are a takeaway, we are all, we have to send the takeaway, that's
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239525
+    m_Localized: "takeout\u2026\u2026? I am not ... I am not a takeaway"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239526
+    m_Localized: Don't question, you are.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239527
+    m_Localized: It seems to be quite unreasonable. You want to say something in
+      your mouth, but you can't say it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239528
+    m_Localized: You can't just say it, but soon, you agree with them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239529
+    m_Localized: I'm a takeaway ... I'm here to take out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239530
+    m_Localized: Then continue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239531
+    m_Localized: "(I think the practice of a four -eyed man is right ...\uFE57 This
+      place is unusual at all.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239532
+    m_Localized: (But I don't move, my legs have no impulse to move at all.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239533
+    m_Localized: Don't care about him, he loves what he loves.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239534
+    m_Localized: (Why do I feel so strange? What is this wrong thought?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239535
+    m_Localized: (There is also a meal for Room 204, let's finish it before watching.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239536
+    m_Localized: Survey, go to 204, after the bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239537
+    m_Localized: Send it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239538
+    m_Localized: Hello, your takeaway is here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239539
+    m_Localized: Come on.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239540
+    m_Localized: "good\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239541
+    m_Localized: Forehead? Why is it only that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239542
+    m_Localized: Um?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239543
+    m_Localized: Haha, really, why don't you die?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239544
+    m_Localized: Who eats such a little thing? I said, you will not just give the
+      beggar for the beggar, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239545
+    m_Localized: "what are you talking about? \u2026 I'm just responsible for delivery."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239546
+    m_Localized: Meal meal, haha, you bastard.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239547
+    m_Localized: How much takeaway do you have?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239548
+    m_Localized: What?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239549
+    m_Localized: I ask you! How many takeaways do you have?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239550
+    m_Localized: No ... no more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239551
+    m_Localized: Take it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239552
+    m_Localized: Take it to me
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239553
+    m_Localized: Take it Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239554
+    m_Localized: Ah ... ah Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239555
+    m_Localized: Run away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239556
+    m_Localized: Calm response
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239557
+    m_Localized: You looked at the picture of the resident suddenly changed his face,
+      scared his soul, and quickly turned back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239558
+    m_Localized: But when you look back, you immediately wake up to be the second
+      floor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239559
+    m_Localized: I didn't have enough time to regret it, a horrible face appeared
+      in front of your eyes ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239560
+    m_Localized: Wow! Bind Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239561
+    m_Localized: Loading, lifting machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239562
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239563
+    m_Localized: what happend? Nympho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239564
+    m_Localized: Pain ... hurt me ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239565
+    m_Localized: Here, I return to the lifting machine again, that is, ... I foul?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239566
+    m_Localized: Fully ... that ghost came out ... Turn me ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239567
+    m_Localized: Although you can't remember what happened after the ghost came out,
+      it is certain that as long as you commit rules, you will see those ghosts,
+      and then you will return to this lifting machine after losing consciousness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239568
+    m_Localized: This must be related ... this can also explain what I am doing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239569
+    m_Localized: The mood has not been flat, and the weird phenomenon appears again,
+      and it will not give you a chance to breathe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239570
+    m_Localized: You restrain your heart that you want to pull your legs, because
+      you know that as long as you look back, you will commit one of the rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239571
+    m_Localized: Code on the second floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239572
+    m_Localized: You calm down, watching the disturbing resident in front of you,
+      tagging lightly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239573
+    m_Localized: "I do n\u2019t have many takeaways in my hand, and even if there
+      are, I \u2019m not able to give you."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239574
+    m_Localized: What did you say? Bind Bring me takeaway Bring it! Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239575
+    m_Localized: You look at him almost crazy, you seem to realize that the guest,
+      or all of these guests, seem to be looking forward to the takeaway you send.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239576
+    m_Localized: But the desire for food is not simply hungry. There seems to be
+      some parts behind this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239577
+    m_Localized: You don't care about the guests anymore, and turn back through the
+      empty room at the end of the corridor. This is a way to avoid the rules of
+      the crime.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239578
+    m_Localized: Back to the first floor, the lift in front of you was opened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239579
+    m_Localized: "The takeaway in your hand has been finished, and your work in this
+      building should have been completed, but you have the idea of \u200B\u200Bnot
+      doing things in your mind."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239580
+    m_Localized: Entering into the lift, the sudden and strange phenomenon appeared
+      in front of me ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239581
+    m_Localized: At the top of the lift, the position of the air fan was originally
+      opened, and a deep hole was suddenly opened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239582
+    m_Localized: From that hole, there was a sound that came through, and the next
+      second, a bunch of takeaway fell into the lift from that hole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25995239583
+    m_Localized: Five takeaways, suddenly you have five new takeaways in front of
+      you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433728
+    m_Localized: No one tells you what happened, but you know that these five takeaways
+      are your things. After sending the takeaway in your hand, you will supply new
+      takeaways when you return to this lifting machine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433729
+    m_Localized: This job is not over yet, and there are no signs of finishing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433730
+    m_Localized: Get 5 takeaways
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433731
+    m_Localized: What the hell does this happen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433732
+    m_Localized: Investigation, free takeaway, until the four -eyed baby sent to
+      the unit 205 (the following will also write 5 meals to relative guest dialogue)
+      (103 first)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433733
+    m_Localized: Open the door in the room, see the person who plagiarizes the face
+      vomiting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433734
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433735
+    m_Localized: Do you take the takeaway to him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433736
+    m_Localized: Give
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433737
+    m_Localized: Not given
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433738
+    m_Localized: Sir, your takeaway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433739
+    m_Localized: "vomit\u2026\u2026\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433740
+    m_Localized: Hey ... are you okay?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433741
+    m_Localized: "\u2026\u2026\u2026vomit\u2026\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433742
+    m_Localized: The vomiting man picked up your takeaway and closed the door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433743
+    m_Localized: ............ Is he okay?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433744
+    m_Localized: Return to investigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433745
+    m_Localized: (He seems to be not normal in this situation, let's not give him
+      first.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433746
+    m_Localized: The vomiting man closed the door when you saw that you didn't give
+      the takeaway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433747
+    m_Localized: When you looked at him from the mailbox mouth on the door, he found
+      that he was just vomiting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433748
+    m_Localized: (Have you eaten the wrong thing? But I didn't take the takeaway
+      to him ... Shouldn't it foul?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433749
+    m_Localized: Investigation, but after taking a step, I reached out and killed
+      you with my eyes. Loading, 103 takeaway is gone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433750
+    m_Localized: Loading, 103 takeaway is gone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433751
+    m_Localized: LIP survey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433752
+    m_Localized: Two right hands out of the room out of the room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433753
+    m_Localized: Intersection Bind Nympho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433754
+    m_Localized: (Two ... right hand?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433755
+    m_Localized: The people in the room did not show up, but the weird sense made
+      you say nothing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433756
+    m_Localized: Do you take the takeaway to him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433757
+    m_Localized: Give
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433758
+    m_Localized: Not given
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433759
+    m_Localized: You hand over the takeaway, and the two hands grab and grab it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433760
+    m_Localized: When the door is closed, you clearly hear the sound of snatching
+      in the house, the curiosity drive, you look at the letter box on the door ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433761
+    m_Localized: The picture saw two hands grabbing takeaway, and then one of them
+      grabbed it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433762
+    m_Localized: (This household ... don't need to grab food?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433763
+    m_Localized: Two hands grabbed the mailbox entrance, then there was another hands
+      in front of the eyes, and then killed it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433764
+    m_Localized: ah! Bind Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433765
+    m_Localized: Loading, 106 takeaway is gone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433766
+    m_Localized: LIP survey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433767
+    m_Localized: (Too nice ... Who will have two ... right hand?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433768
+    m_Localized: You dare not take the takeaway to each other. Who knows that the
+      two hands in the next second will shrink back and replace it, but two pairs
+      are staring at your eyes and emerging in the door clearance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433769
+    m_Localized: Two ghosts rush to reach for you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433770
+    m_Localized: Take the takeaway to me
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433771
+    m_Localized: Give me right!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433772
+    m_Localized: Give me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433773
+    m_Localized: Ghost ... ghost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433774
+    m_Localized: Turning corridor vision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433775
+    m_Localized: You know that you are right, don't give the takeaway to the weird
+      person, but you know that it is impossible to be a person at all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433776
+    m_Localized: Return to investigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433777
+    m_Localized: Children in the room come out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433778
+    m_Localized: Trouble you, brother.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433779
+    m_Localized: Do you take the takeaway to this kid?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433780
+    m_Localized: Give
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433781
+    m_Localized: Not given
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433782
+    m_Localized: You're welcome, this is yours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433783
+    m_Localized: Thank you, brother.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433784
+    m_Localized: You are hesitant and dare not take the takeaway to her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433785
+    m_Localized: Don't give me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433786
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433787
+    m_Localized: I look normal, you should take the takeaway to me. I'm hello for
+      my brother, otherwise you will have trouble.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433788
+    m_Localized: Mill ... trouble?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433789
+    m_Localized: (I suddenly thought of Article 7 of the rules, "Normal resident
+      must give him takeaway, otherwise the consequences will be at your own risk.")
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433790
+    m_Localized: (Indeed ... this child looks normal, if I judge wrong, it is a foul.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433791
+    m_Localized: You finally took the takeaway to her, and she accepted politely.
+      After everything, this move is really correct.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433792
+    m_Localized: Thank you, brother.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433793
+    m_Localized: It is rare to hear such a polite guest, you can't help but want
+      to say a few more words to her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433794
+    m_Localized: kid! Wait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433795
+    m_Localized: Brother, what's the matter?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433796
+    m_Localized: do you live alone? What is the family?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433797
+    m_Localized: "Don\u2019t be there, only I am alone."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433798
+    m_Localized: Oh ... by the way, I want to ask you, do you know what happened
+      in this building?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433799
+    m_Localized: whats the matter? Brother, what do you want to know?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433800
+    m_Localized: It's everything in this place ... Have you seen the horrible ghosts
+      in this building?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433801
+    m_Localized: Ghost?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433802
+    m_Localized: Well, I know it is abnormal at a glance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433803
+    m_Localized: The child was sideways, as if thinking, and then narrowed his eyes
+      and said to you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433804
+    m_Localized: Everyone here is normal, the most abnormal is your brother.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433805
+    m_Localized: After that, the little girl closed the door, leaving you full of
+      doubt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433806
+    m_Localized: Return to investigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433807
+    m_Localized: Stretch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433808
+    m_Localized: Give me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433809
+    m_Localized: (This ... paper doll??)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433810
+    m_Localized: Do you take the takeaway to this ... a person?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433811
+    m_Localized: Give
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433812
+    m_Localized: Not given
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433813
+    m_Localized: This ... this is your takeaway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433814
+    m_Localized: snort! Why is there only one copy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433815
+    m_Localized: There is only one takeaway for you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433816
+    m_Localized: We have 4, you only give 1 copy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433817
+    m_Localized: I don't know how many of you have ... but ... I only have one with
+      room 208.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433818
+    m_Localized: That's not enough, you can only fill you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433819
+    m_Localized: Eh? Intersection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433820
+    m_Localized: That strange person swallowed the takeaway ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433821
+    m_Localized: thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433822
+    m_Localized: One sip will swallow you and GameOver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433823
+    m_Localized: "(He looks extremely abnormal, that's all ... is not human\uFE57)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433824
+    m_Localized: Give me! Bind Bind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433825
+    m_Localized: sorry!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433826
+    m_Localized: You quickly close its door and leave at the end of the corridor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433827
+    m_Localized: Return to investigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433828
+    m_Localized: Huh? Intersection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433829
+    m_Localized: ..............
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433830
+    m_Localized: How can you ... how can you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433831
+    m_Localized: What did you say?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433832
+    m_Localized: No, you should not ... how can you be here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433833
+    m_Localized: I don't know what you are talking about, takeaway, don't give me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433834
+    m_Localized: Although you feel wrong, you look at his familiar and normal face,
+      and give him the takeaway without much consideration.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433835
+    m_Localized: He didn't care about you, and closed the door after taking the takeaway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433836
+    m_Localized: (No ... he ... he was not ghost ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433837
+    m_Localized: (But how could it appear in the room? He became the guest here?
+      Can't tell ... how can this be?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433838
+    m_Localized: (Could it be because he was treated by ghosts, so he unexpectedly
+      became the guest here? Or did he live here from the beginning?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433839
+    m_Localized: (No ... this is abnormal, is it related to leaving the building?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433840
+    m_Localized: (He should ... escape?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433841
+    m_Localized: (He not only escapes, but also becomes a resident here?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433842
+    m_Localized: (What ... I can't figure it out at all.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433843
+    m_Localized: (Could it be because he wants to escape, so he accidentally becomes
+      a resident here? Or does he live here from the beginning?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433844
+    m_Localized: (No ... this is abnormal, is it related to leaving the building?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433845
+    m_Localized: (Others don't know where to go ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433846
+    m_Localized: (How does this door color different? ... Room 101.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433847
+    m_Localized: You are close to that door, and the different green gate is reminiscent
+      of the rules of the second floor that the room that cannot be approached-Room
+      216.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433848
+    m_Localized: (The door of that room is red, and it is particularly conspicuous.
+      Is there any secret in this room?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433849
+    m_Localized: (There is no doorbell, no mailbox mouth, and the door lock is not
+      the same as the room, but the rules have not disclosed any information about
+      room 101, it is strange ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433850
+    m_Localized: However, compared to Room 101, the fire door next to it is the place
+      where you care most.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433851
+    m_Localized: Because the lifting machine cannot be used, the method of being
+      able to leave the building is only the escape door in front of you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433852
+    m_Localized: "(But\u2026)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433853
+    m_Localized: (Four eyes he clearly wants to escape, but the tall ghost will do
+      him ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433854
+    m_Localized: (It's just that he hasn't died, and it has become a resident here
+      ... Is there any connection between this?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433855
+    m_Localized: (I can't always be a sender here all the time, this work feels endless.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433856
+    m_Localized: "(and\u2026)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433857
+    m_Localized: (I didn't say that we couldn't leave at all in the rules ... Could
+      it be that we have been misunderstood, no one stops us at all? ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433858
+    m_Localized: (However, the four eyes he clearly wanted to escape, but in the
+      end he became the guest here ...)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433859
+    m_Localized: (What happened in the middle?)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433860
+    m_Localized: (I can't always be a sender here all the time. This work feels endless.
+      The gap that I think of the time is only here.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433861
+    m_Localized: never mind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433862
+    m_Localized: escape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433864
+    m_Localized: "(If you don\u2019t try it, there is no way out, I don\u2019t believe
+      I can\u2019t get out of this building.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433865
+    m_Localized: You put all your concerns, take a breath, and prepare to push away
+      the heavy door.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433866
+    m_Localized: But I haven't pushed it away completely, the situation I expected
+      in my heart still happened ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433867
+    m_Localized: A huge figure flashed in front of your eyes, his fierce appearance
+      makes you almost suffocate ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25999433868
+    m_Localized: Before he wanted to make a shout, his hands had held your neck firmly
+      until you lost all consciousness.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

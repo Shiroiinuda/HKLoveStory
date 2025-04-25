@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: InventoryItemDescription Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: InventoryItemDescription
+  m_TableCollectionNameGuidString: 2c0a64b9bb624cc4ebf7855a0c61ef58
+  m_Entries:
+  - m_Id: 45230317568
+    m_Key: MedicianPot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094784
+    m_Key: SecurityRoomKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094785
+    m_Key: FlashLight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094786
+    m_Key: ChewingGum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094787
+    m_Key: SecurityRoomWater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094788
+    m_Key: DrawerLightBulb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094789
+    m_Key: Crowbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094790
+    m_Key: Cloth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094791
+    m_Key: Recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094792
+    m_Key: FireExtinguisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094793
+    m_Key: BloodyRag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094794
+    m_Key: DrawerKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094795
+    m_Key: Agreement_Betty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094796
+    m_Key: Agreement_Kwan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094797
+    m_Key: Agreement_Lin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094798
+    m_Key: Agreement_Ting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094799
+    m_Key: Agreement_YongFake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45247094800
+    m_Key: Agreement_Yu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289088
+    m_Key: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289089
+    m_Key: DietaryWine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289090
+    m_Key: JadeNecklace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289091
+    m_Key: JadeRing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289092
+    m_Key: JewelryBoxKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289093
+    m_Key: Lighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289094
+    m_Key: LightPipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289095
+    m_Key: PaperFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289096
+    m_Key: PlasticBag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289097
+    m_Key: Ring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289098
+    m_Key: RingCandy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289099
+    m_Key: TrashRoomKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289100
+    m_Key: StoreRoomKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289101
+    m_Key: Temple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289102
+    m_Key: WaterSpray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289103
+    m_Key: YanQHairTie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289104
+    m_Key: Baby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289105
+    m_Key: ChiHungAdvertisement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289106
+    m_Key: BadGirlPoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289107
+    m_Key: HaLamAdvertisement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289108
+    m_Key: LeaveHomeSafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289109
+    m_Key: LeeSumAvertisement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289110
+    m_Key: NoDecorationPoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289111
+    m_Key: Poster2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289112
+    m_Key: SellHousePoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289113
+    m_Key: SiuLamRentHouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289114
+    m_Key: SpittingPoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289115
+    m_Key: TaxiPoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289116
+    m_Key: ThrowRubbishPoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289117
+    m_Key: VitaPoster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289118
+    m_Key: ThrowRubbishPoster2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289119
+    m_Key: Poley
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289120
+    m_Key: NoSmoke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289121
+    m_Key: LeeChoiWa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289122
+    m_Key: GenuineNoodles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45251289123
+    m_Key: KeepCleanPoster
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711075291185

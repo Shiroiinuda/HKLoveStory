@@ -1,0 +1,183 @@
+Key,Chinese (Traditional)(zh-TW),Chinese (Simplified)(zh-CN),English (United States)(en-US)
+MainTitle_Title,一樓的鎖匠,一楼的锁匠,The locksmith on the first floor
+ContactUs_Title,聯絡我們,联络我们,Contact Us
+ContactUs_Content,如購買上遇到任何問題或 其他意見，請聯絡客服：,如购买上遇到任何问题或 其他意见，请联络客服：,"If you encounter any problems or other opinions on the purchase, please contact the customer service:"
+CGandAchievement_Title,圖庫及成就,图库及成就,Gallery and Achievements
+Collection_Title,收藏,收藏,Collection
+Chapter_Title,選擇章節,选择章节,Chapters
+ConfirmPay_Content,確定要消耗10個玉石解鎖章節嗎?,确定要消耗10个玉石解锁章节吗?,Are you sure to consume 10 jade unlock chapters?
+ConfirmQuit_Content,確定要退出遊戲?,确定要退出游戏?,Are you sure you want to exit the game?
+Setting_Title,設定,设置,Settings
+Music_Setting_Subtitle,音樂,音乐,BGM
+SFx_Setting_Subtitle,音效,音效,SFx
+cSound_Setting_Subtitle,配音,配音,Dub
+Language_Setting_Subtitle,語言,语言,LAN
+Quit_Setting_Subtitle,退出遊戲,退出游戏,Quit
+MainMenu_Setting_Subtitle,首頁,首页,Menu
+NoJade_Content,不夠玉石,不够玉石,Not enough jade
+Shop_Title,商店,商店,Shop
+StartGame_Title,開始遊戲,开始游戏,Start
+ContinueGame_Title,繼續遊戲,继续游戏,Continue
+ConfirmEndInvestigation_Content,確定要結束調查嗎?,确定要结束调查吗?,Are you sure to end the investigation?
+PressGame1_Tut,按住要清理的垃圾，幾秒後它會自動消失,按住要清理的垃圾，几秒后它会自动消失,"Hold down the garbage to be cleaned, it will automatically disappear after a few seconds"
+PressGame2_Tut,由高至低清理紙箱，按住幾秒後它會自動消失,由高至低清理纸箱，按住几秒后它会自动消失,"Clean the carton from high to low, and it will disappear automatically after holding it for a few seconds"
+Comment_Title,前往評論,前往评论,Go to comment
+MainMenu2_Subtitle,目錄,目录,Table of contents
+Restart_BTN,重來,重来,Again
+ThinkAboutIt_Comment_BTN,考慮一下,考虑一下,think about it
+Inventory_Title,道具,道具,Prop
+NextChapter_BTN,下一章,下一章,Next chapter
+ThinkAboutIt2_Comment_BTN,再考慮一下嘛……,再考虑一下嘛……,Consider it again ...
+InventoryCollection_Title,收藏品,收藏品,Collection
+EndInvestigation_Title,結束調查,结束调查,End the investigation
+BossGame1_Tut,快消滅肉塊!,快消灭肉块!,Destroy meat!
+Investigation1_Tut,可以點擊螢幕上的道具以調查場景,可以点击萤幕上的道具以调查场景,You can click on the screen to investigate the scene
+FindObjectGame1_Tut,移動螢幕上的手電筒以調查場景,移动萤幕上的手电筒以调查场景,The flashlight on the mobile screen is used to investigate the scene
+ChaseGame2_Tut1,不要停!快逃!,不要停!快逃!,Don't stop! Escape!
+HideAndSeekGame_Tut2,點擊左下方的按鈕向左行,点击左下方的按钮向左行,Click the button at the bottom left to the left
+HideAndSeekGame_Tut,!!注意音量!!,!!注意音量!!,!! Pay attention to the volume !!
+ChaseGame2_Tut2,快速按下左右兩個鍵進行逃跑,快速按下左右两个键进行逃跑,Press the left and right keys to escape quickly
+MoveGame1_Tut,點擊右下方的按鈕向右行,点击右下方的按钮向右行,Click the button at the bottom right to the right
+Investigation1_Tut2,可以點擊場景使用取得的物品,可以点击场景使用取得的物品,You can click on the scene to use the items obtained
+HideAndSeekGame_Tut3,她望向你時請勿動,她望向你时请勿动,Don't move when she looks at you
+HoldBreathGame_UI,氣量,气量,Gas volume
+SoundVolumn_UI,音量,音量,Volumn
+JadeNecklaceDragGame_Tut,從首飾箱裡找出平安扣,从首饰箱里找出平安扣,Find the safe buckle from the jewelry box
+PatientGame_Tut,小心! 別發出任何聲響!,小心! 别发出任何声响!,Be careful! Don't make any sound!
+ConfirmPay_DrawGame_Content,確定要消耗1個玉石抽獎?,确定要消耗1个玉石抽奖?,Are you sure you want to consume 1 jade draw?
+Refund_Title,復原,回滚,rollback
+ACode_Title,核對碼,核对码,Check code
+BCode_Title,兌換碼,兑换码,Exchange code
+ACode_InputFieldText,核對碼顯示位置,核对码显示位置,Check code display position
+BCode_InputFieldText,請輸入,请输入,please enter
+ACodeGenerate_Btn,產生,产生,produce
+BCodeSubmit_Btn,兌換,兑换,exchange
+DrawByJade_DrawCard1,用,用,use
+DrawByJade_DrawCard2,X1粒,X1粒,X1
+DrawByJade_DrawCard3,抽卡,抽卡,Draw a card
+DrawByADS_DrawCard1,看,看,look
+DrawByADS_DrawCard2,廣告,广告,advertise
+DrawByADS_DrawCard3,抽卡,抽卡,Draw a card
+NoteText_DrawCard,*此抽卡機內的卡牌跟遊戲全無關連，純屬娛樂，抽取時請三思。,*此抽卡机内的卡牌跟游戏全无关连，纯属娱乐，抽取时请三思。,*The cards in this card machine have nothing to do with the game. It is pure entertainment. Please think twice when you draw.
+CardBookText_DrawCard,己有收藏卡,己有收藏卡,Have a collection card
+PurchasePackBlocker_Text1,此禮包限買一次,此礼包限买一次,Buy this gift package for once
+PurchasePackBlocker_Text2,感謝您的講買!,感谢您的讲买!,Thank you for buying!
+Chapter_TrueEndUnlockHint,"解鎖條件：
+完成「真相」支線。
+重玩第20節，並再次把方娟依附在平安扣中。","解锁条件：
+完成「真相」支线。
+重玩第20节，并再次把方娟依附在平安扣中。","Unlock conditions:
+Complete the ""truth"" branch line.
+Re -play Section 20, and once again attach Fang Juan to Ping An buckle."
+Chapter_TrueEndStoryUnlockHint,"解鎖條件：
+1. 從垃圾房裡獲得重要線索。
+2. 在陳師奶口中探知更多訊息。
+3. 在張德軍家找到重要線索。","解锁条件：
+1. 从垃圾房里获得重要线索。
+2. 在陈师奶口中探知更多讯息。
+3. 在张德军家找到重要线索。","Unlock conditions:
+1. Get important clues from the garbage room.
+2. Discover more messages in Chen Shi'oming's mouth.
+3. Find important clues at Zhang Dejun's house."
+Shop_Info,"購買需知：
+
+感謝你到訪這商店頁，無論你是準備購買、已經購買還是不小心按了進來的朋友們，以下有些注意事項敬請你們留意的。
+
+-首先，遊戲目前只有在ios app store或google play store裡下載才能正常的進行付費，如果你是從第三方下載此應用，很抱歉你是無法進行任何購買活動的，建議你尋找合法的渠道下載這遊戲來支持我們。若你未成年或沒辦法進行付費，也可以靠點擊觀看廣告的按鈕來獲得玉石，我們儘力地提供各種方式幫助你能享受到在遊戲裡的時間。
+
+-為鼓勵你進行購買，無論你是買了全通禮包還是只買了20玉石，我們也一律去掉所有關卡間的廣告，但留意付費後這頁面的觀看廣告拿玉石的功能仍然存在的，不要誤以為這裡的廣告也會去掉喔﹗
+-無論你是購買玉石還是看廣告拿玉石，都只可以用於本作品之中。你無法把玉石轉移到我們的其他遊戲例如""都市傳說外賣""或""猛鬼大廈之二樓的辮子姑娘""等，所以購買時請注意數量。通關整個遊戲所需的玉石應該只需要310粒。
+
+-全通禮包裡的玉石有400粒，足夠你玩全整個作品。設定500粒的原因是為免日後我們想要追加一些支線內容，你也可以有玉石進行解鎖而已，剩下的玉石依舊不能轉移到其他地方上喔。
+
+-整個遊戲屬於單機無連線作品，意味著沒有服務器來記錄你的進度或玉石數量。所以如果你要刪掉遊戲重裝，或要在新手機安裝，此作並沒能做進度轉移工作的，敬請留意。
+
+-如果你希望能至少購買過的玉石可以在新手機或新安裝後使用，可以點擊一下購買頁的""恢復按鈕""，平台會檢測並還返你已購過的玉石。如還是不能，也可以直接電郵我們商討轉移玉石的事情，我們會儘量滿足你的情況，電郵：info@genuine-studio.com
+
+最後感謝你的時間，我們是一家希望做出好內容來給予大家娛樂的小團隊，有不足的地方請多多見諒。也請你們支持正版，雖然明白不用花費來玩遊戲很爽，但這對我們是毀滅性的傷害，拜託了﹗","购买需知：
+
+感谢你到访这商店页，无论你是准备购买、已经购买还是不小心按了进来的朋友们，以下有些注意事项敬请你们留意的。
+
+-首先，游戏目前只有在ios app store或google play store里下载才能正常的进行付费，如果你是从第三方下载此应用，很抱歉你是无法进行任何购买活动的，建议你寻找合法的渠道下载这游戏来支持我们。若你未成年或没办法进行付费，也可以靠点击观看广告的按钮来获得玉石，我们尽力地提供各种方式帮助你能享受到在游戏里的时间。
+
+-为鼓励你进行购买，无论你是买了全通礼包还是只买了20玉石，我们也一律去掉所有关卡间的广告，但留意付费后这页面的观看广告拿玉石的功能仍然存在的，不要误以为这里的广告也会去掉喔﹗
+-无论你是购买玉石还是看广告拿玉石，都只可以用于本作品之中。你无法把玉石转移到我们的其他游戏例如""都市传说外卖""或""猛鬼大厦之二楼的辫子姑娘""等，所以购买时请注意数量。通关整个游戏所需的玉石应该只需要310粒。
+
+-全通礼包里的玉石有400粒，足够你玩全整个作品。设定500粒的原因是为免日后我们想要追加一些支线内容，你也可以有玉石进行解锁而已，剩下的玉石依旧不能转移到其他地方上喔。
+
+-整个游戏属于单机无连线作品，意味着没有服务器来记录你的进度或玉石数量。所以如果你要删掉游戏重装，或要在新手机安装，此作并没能做进度转移工作的，敬请留意。
+
+-如果你希望能至少购买过的玉石可以在新手机或新安装后使用，可以点击一下购买页的""恢复按钮""，平台会检测并还返你已购过的玉石。如还是不能，也可以直接电邮我们商讨转移玉石的事情，我们会尽量满足你的情况，电邮：info@genuine-studio.com
+
+最后感谢你的时间，我们是一家希望做出好内容来给予大家娱乐的小团队，有不足的地方请多多见谅。也请你们支持正版，虽然明白不用花费来玩游戏很爽，但这对我们是毁灭性的伤害，拜托了﹗","Buying need to know:
+
+Thank you for visiting this store page. Whether you are going to buy, buy it, or accidentally press in, there are some precautions below, please pay attention.
+
+-First of all, the game is currently available in the iOS App Store or Google Play Store. This game supports us. If you are not adult or have no way to pay, you can also use the button to watch the advertisement to get jade, and we try our best to provide various ways to help you enjoy the time in the game.
+
+-To encourage you to buy, whether you buy a full -bodied gift package or only buy 20 jade, we will also remove the advertisements between all cards, but pay attention to the function of watching the advertisement on this page after paying. Misty thinks that the advertisement here will also be removed.
+-Who whether you buy jade or look at advertisements, you can only be used in this work. You can't transfer jade to our other games, such as ""the braid girl on the second floor of the urban legend"" or ""the second floor of the Ghost Building"", so please pay attention to the quantity when buying. The jade required for the entire game should only require 310 capsules.
+
+-The jade in the full -bodied gift package has 400 capsules, which is enough for you to play the whole work. The reason for setting 500 capsules is to avoid adding some branch content in the future. You can also have jade to unlock, and the remaining jade cannot be transferred to other places.
+
+-The entire game belongs to a single -machine without connecting work, which means that there is no server to record your progress or the number of jade. So if you want to delete the game reinstallation, or install it on the new mobile phone, this game cannot be transferred to the progress transfer work, so please pay attention.
+
+-If you want to buy jade you can buy at least after the new mobile phone or new installation, you can click the ""recovery button"" of the purchase page, the platform will detect and return the jade you have purchased. If you still can't, you can also email us directly to discuss the transition of jade. We will try to satisfy your situation. Email: info@genuine-studio.com
+
+Finally, thank you for your time. We are a small team who wants to make good content to give you entertainment. Please forgive me. You also ask you to support the genuine version. Although it is very cool to understand that you don't have to spend to play games, this is a devastating harm to us. Please"
+DrawCard_Info,"抽卡機說明：
+
+-此抽卡機內的一切物品均與遊戲劇情和玩法完全無關，純粹用於遊戲內收藏所用。
+
+-抽卡機內合共100張卡牌。&&-每次抽取的機率均為1/100，卡牌有可能重覆，重覆的卡牌不會還返玉石或抽取機會。
+
+-卡牌所包含的款式均來自Genuine Studio歷來的遊戲角色，作品包括「小林正雪復仇之密室」、「小林正雪抉擇之惑」、「端木斐VS小林正雪」、「命運之逆轉」、「瓔珞事件薄誰殺了愛情」、「危險人渣」、「雨夜屠夫」、「心跳度假屋」、「都市傳說外賣」、「猛鬼大廈一樓的鎖匠」以及「時殺遊戲」。
+
+-此遊戲為單機遊戲不設網上存檔，任何抽取的卡牌若把遊戲刪除便會喪失，需要重新抽取。","抽卡机说明：
+
+-此抽卡机内的一切物品均与游戏剧情和玩法完全无关，纯粹用于游戏内收藏所用。
+
+-抽卡机内合共100张卡牌。 &&-每次抽取的机率均为1/100，卡牌有可能重覆，重覆的卡牌不会还返玉石或抽取机会。
+
+-卡牌所包含的款式均来自Genuine Studio历来的游戏角色，作品包括「小林正雪复仇之密室」、「小林正雪抉择之惑」、「端木斐VS小林正雪」、「命运之逆转」、「璎珞事件薄谁杀了爱情」、「危险人渣」、「雨夜屠夫」、「心跳度假屋」、「都市传说外卖」、「猛鬼大厦一楼的锁匠」以及「时杀游戏」。
+
+-此游戏为单机游戏不设网上存档，任何抽取的卡牌若把游戏删除便会丧失，需要重新抽取。","Explanation of the card machine:
+
+-The items in this drawing machine have nothing to do with the game plot and gameplay.
+
+-The card with a total of 100 cards. The probability of each extraction of each time is 1/100, the card may be repeated, and the repeated cards will not return to jade or draw opportunities.
+
+-The styles contained in the card are from Genuine Studio's past game characters. The works include ""Xiaolin Zhengxue's Revenge Room"", ""The Puzzle of Xiaolin Zhengxue"", ""Duanmi Fei VS Xiaolin Zhengxue"", ""Destiny reversal"", ""璎 璎 璎 璎 璎 璎 璎"" Who kills love "","" Dangerous Scum "","" Rain Night Butcher "","" Heartbeat House House "","" Urban Legend Takeaway "","" Locksmith on the first floor of Menggi Building "", and"" Kill Game "".
+
+-This game does not set up online archives for stand -alone games. If any drawing card is deleted, it will be lost, and it needs to be removed again."
+Shop_RestoreBtn,恢復購買,恢复购买,Restore to buy
+PressGame3_Tut,由高至低移走磚塊，按住幾秒後磚塊會被移走,由高至低移走砖块，按住几秒后砖块会被移走,"Move the bricks from high to low, and the bricks will be removed after holding up for a few seconds"
+ChaseGame2_Timer,時間:,时间:,time:
+Promo_Text,同廠遊戲,同厂游戏,Fellow game
+CardBookText_Title,卡簿,卡簿,Card book
+Grandpa_Text,呀伯,呀伯,Ya Bo
+ConfirmPay_Content_Steam,確定要解鎖章節?,确定要解锁章节?,Are you sure you want to unlock the chapter?
+Comment_AskCommentContent,"喜歡這遊戲嗎？
+歡迎給我們評論喔﹗","喜欢这游戏吗？
+欢迎给我们评论喔﹗","Do you like this game?
+Welcome to comment!"
+Load_Title,讀檔,读档,Read file
+Save_Title,存檔,存档,Archive
+ConfirmSave_Text,確定覆蓋存檔?,确定覆盖存档?,Determine the cover archive?
+ManualSave_Text,手動,手动,Manually
+SettingScreen_Text,螢幕,屏幕,screen
+SettingFullScreen_Text,全螢幕,全屏,full screen
+SettingWindow_Text,窗口,窗口,window
+MainLoad_Title,讀取檔案,读取档案,Read file
+ShopTips_Content,*以上價目為使用者當前的貨幣,*以上价目为使用者当前的货币,*The above price is the current currency of the user
+AdsRemain_Text,今天廣告剩餘次數:,今天广告剩余次数:,The surplus of the advertisement today:
+AdsRefresh_Text,(每天00:00刷新),(每天00:00刷新),(Refresh every day)
+Refund_10JadeButton_text,10玉石,10玉石,10 jade
+Refund_100JadeButton_text,100玉石,100玉石,100 jade
+Refund_400JadeButton_text,400玉石,400玉石,400 jade
+Refund_Refund10Jade_Title,復原10玉石,复原10玉石,Restore 10 jade
+Refund_Refund100Jade_Title,復原100玉石,复原100玉石,Restore 100 jade
+Refund_Refund400Jade_Title,復原400玉石,复原400玉石,Restore 400 jade
+Refund_GenerateCodeButton_Text,產生,产生,produce
+Refund_RefundButton_Text,兑換,兑换,exchange
+PWHintText_GhostInternet,輸入四位數字密碼,输入四位数字密码,Enter four -digit passwords

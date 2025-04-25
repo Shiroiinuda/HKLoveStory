@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UIButtonsAssets Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UIButtonsAssets
+  m_TableCollectionNameGuidString: a1d3ffd59774b1646bde3d170692b4e2
+  m_Entries:
+  - m_Id: 505969446912
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/AutoOnButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517101129728
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/AutoOnButton
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 674353975296
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/AutoOffButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682864218112
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/AutoOffButton
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1027375960064
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/LogButton_Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1039774322688
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/LogButton_Dialogue
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6381505679360
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/SkipButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6388027822080
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/SkipButton
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7122517561344
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/AutoOnButton
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7497073102848
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/LogButton_Dialogue
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7549002780672
+    m_Key: ChangRongGameScene/Canvas/StoryPanel/Dialogue Panel/ButtonPanel/SkipButton
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9509416275968
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/AutoOnButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9551908769792
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/AutoOnButton
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9581868683264
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/AutoOnButton
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9861762977792
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/AutoOffButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9898429583360
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/AutoOffButton
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9913864622080
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/AutoOffButton
+      2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10371291222016
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/LogButton_Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10405617405952
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/LogButton_Game
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10412420567040
+    m_Key: ChangRongGameScene/Canvas/GamePanel/Dialogue Panel/ButtonPanel/LogButton_Game
+      2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_KeyGenerator:
+    id: 1
+  references:
+    version: 1
+    00000000:
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 505969446912
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 517101129728
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 674353975296
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 682864218112
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 1027375960064
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 1039774322688
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 6381505679360
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 6388027822080
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 7122517561344
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 7497073102848
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 7549002780672
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 9509416275968
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 9551908769792
+          m_TableCodes:
+          - zh-CN
+          - zh-TW
+        - m_KeyId: 9581868683264
+          m_TableCodes:
+          - zh-CN
+          - zh-TW
+        - m_KeyId: 9861762977792
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 9898429583360
+          m_TableCodes:
+          - zh-CN
+          - zh-TW
+        - m_KeyId: 9913864622080
+          m_TableCodes:
+          - zh-CN
+          - zh-TW
+        - m_KeyId: 10371291222016
+          m_TableCodes:
+          - zh-TW
+          - zh-CN
+        - m_KeyId: 10405617405952
+          m_TableCodes:
+          - zh-CN
+          - zh-TW
+        - m_KeyId: 10412420567040
+          m_TableCodes:
+          - zh-CN
+          - zh-TW
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    00000001:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1710920032753
