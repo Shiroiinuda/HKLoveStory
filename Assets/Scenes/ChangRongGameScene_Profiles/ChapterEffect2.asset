@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3951010581337303539
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9846211d0660847fdb51aa7250f123e7, type: 3}
+  m_Name: RLProPulsatingVignette
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  speed:
+    overrideState: 0
+    value: 1
+  amount:
+    overrideState: 1
+    value: 1.5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: ChapterEffect2
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 2612297241467188691}
+  - {fileID: -3951010581337303539}
+  - {fileID: 4886650924971088448}
+--- !u!114 &2612297241467188691
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8767122b282ac41cdb4a7b35774b3bc4, type: 3}
+  m_Name: RLProGlitch3
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  speed:
+    overrideState: 1
+    value: 0.5
+  density:
+    overrideState: 1
+    value: 0.5
+  maxDisplace:
+    overrideState: 1
+    value: 0.5
+  mask:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  maskChannel:
+    overrideState: 0
+    value: 0
+--- !u!114 &4886650924971088448
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137742241a85042e589ba3178d08c2f4, type: 3}
+  m_Name: RLProJitter
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  twitchHorizontal:
+    overrideState: 0
+    value: 1
+  horizontalFreq:
+    overrideState: 0
+    value: 0.2
+  twitchVertical:
+    overrideState: 0
+    value: 0
+  verticalFreq:
+    overrideState: 0
+    value: 1
+  twitchVerticalInterval:
+    overrideState: 0
+    value: 1
+  stretch:
+    overrideState: 0
+    value: 1
+  stretchResolution:
+    overrideState: 0
+    value: 0.5
+  jitterHorizontal:
+    overrideState: 1
+    value: 1
+  jitterHorizontalAmount:
+    overrideState: 1
+    value: 1
+  jitterVertical:
+    overrideState: 0
+    value: 0
+  jitterVerticalAmount:
+    overrideState: 0
+    value: 1
+  jitterVerticalSpeed:
+    overrideState: 0
+    value: 1
+  unscaledTime:
+    overrideState: 0
+    value: 0
+  mask:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  maskChannel:
+    overrideState: 1
+    value: 0
