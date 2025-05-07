@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class SaveData : MonoSingleton<SaveData>
 {
@@ -42,6 +40,7 @@ public class SaveData : MonoSingleton<SaveData>
         data.bgm = "";
         data.mainMenuBG = "Normal";
         #if UNITY_STANDALONE_WIN
+        if(SteamManager.Initialized)
         data.steamLanguage = Steamworks.SteamApps.GetCurrentGameLanguage();
         #endif
         for (int i = 0; i < 6; i++)
@@ -134,6 +133,17 @@ public class PlayerStat
     public int strength = 0;
     public int money = 0;
     public int stamina = 0;
-    
-    
+}
+
+[Serializable]
+public class npcFavorability
+{
+    public int boy1;
+    public int boy2;
+    public int boy3;
+    public int boy4;
+    public int girl1;
+    public int girl2;
+    public int girl3;
+    public int girl4;
 }

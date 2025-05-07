@@ -27,6 +27,15 @@ public class CharacterManager : MonoBehaviour
     private static readonly int Actived = Animator.StringToHash("isActivated");
     public Character currentCharater;
 
+    private void Awake()
+    {
+        for (int i = 0; i < characters.Count; i++)
+        {
+            if(characters[i] !=null) continue;
+                characters.RemoveAt(i);
+        }
+    }
+
     public void DefaultActivateCharacter(int characterId, string bodySpriteName, string headSpriteName,
         string expressionSpriteName, bool needFade, string position)
     {
