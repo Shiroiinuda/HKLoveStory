@@ -24,7 +24,7 @@ public class Rewarded : MonoBehaviour
     {
         if (gameControl.todayAdsCount < 10)
         {
-            AudioManager.instance.adsStopBGM();
+            AudioManager.Instance.adsStopBGM();
             IronSource.Agent.init(initializeads.appKey, IronSourceAdUnits.REWARDED_VIDEO);
             if (IronSource.Agent.isRewardedVideoAvailable())
                 IronSource.Agent.showRewardedVideo();
@@ -40,7 +40,7 @@ public class Rewarded : MonoBehaviour
         IronSource.Agent.init(initializeads.appKey, IronSourceAdUnits.REWARDED_VIDEO);
         IronSource.Agent.shouldTrackNetworkState(true);
         GameControl.instance.isWatchingAds = false;
-        AudioManager.instance.ResetAudioAndPlay();
+        AudioManager.Instance.ResetAudioAndPlay();
     }
 
     void RewardedVideoOnAdRewardedEvent(IronSourcePlacement placement, IronSourceAdInfo adInfo)

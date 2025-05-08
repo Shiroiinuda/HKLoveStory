@@ -46,12 +46,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - bookMark: 0
-    saveChapter: 
+    saveChapter: Chapter1
     nextLv: -1
     chapterState: 1
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 1
+    speakerName: Player
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -96,12 +96,12 @@ MonoBehaviour:
       road3: 
     mainMenu: "\r"
   - bookMark: 1
-    saveChapter: 
+    saveChapter: Chapter1
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 2
+    speakerName: Boy1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -146,12 +146,12 @@ MonoBehaviour:
       road3: 
     mainMenu: "\r"
   - bookMark: 2
-    saveChapter: 
+    saveChapter: Chapter1
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 3
+    speakerName: Boy2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -200,8 +200,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 4
+    speakerName: Boy3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -246,12 +246,12 @@ MonoBehaviour:
       road3: 
     mainMenu: "\r"
   - bookMark: 4
-    saveChapter: 
+    saveChapter: Chapter1
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 5
+    speakerName: Boy4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -300,8 +300,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 6
+    speakerName: Girl1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -350,8 +350,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 7
+    speakerName: Girl2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -400,8 +400,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 8
+    speakerName: Girl3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -450,8 +450,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 9
+    speakerName: Girl4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -596,7 +596,7 @@ MonoBehaviour:
       road3: 
     mainMenu: "\r"
   - bookMark: 11
-    saveChapter: 
+    saveChapter: LoadRandom
     nextLv: -1
     chapterState: 0
     jumpMark: -1
@@ -638,7 +638,7 @@ MonoBehaviour:
     mode: 
     investivationLabel: 
     callFuncs:
-      func1: 
+      func1: LoadRandom(""1&5"");
       func2: 
     roads:
       road1: 

@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: Character_48
   m_EditorClassIdentifier: 
   id: 48
-  bodySprites:
-  - {fileID: 21300000, guid: dfccbf9f4e3fab84b81d41c4a0738aad, type: 3}
-  headSprites:
-  - {fileID: 21300000, guid: 4808d2c63ebd2f64389bddffec0c4a73, type: 3}
-  expressionSprites:
-  - {fileID: 21300000, guid: 83bcc6041ac5274409046bb1f62c1177, type: 3}
+  bodySprites: []
+  headSprites: []
+  expressionSprites: []

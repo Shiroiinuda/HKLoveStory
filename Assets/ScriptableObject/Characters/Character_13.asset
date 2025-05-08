@@ -13,26 +13,6 @@ MonoBehaviour:
   m_Name: Character_13
   m_EditorClassIdentifier: 
   id: 13
-  bodySprites:
-  - {fileID: 21300000, guid: 3626930bc782dbb4687c3c6f3eee2499, type: 3}
-  - {fileID: 21300000, guid: 2e14450ef584a1e4b8edc4b589a0e086, type: 3}
-  - {fileID: 21300000, guid: 059cb5493945d914fa94a8e5322a4316, type: 3}
-  - {fileID: 21300000, guid: 38420bddfd883434b85d6dc48d162461, type: 3}
-  headSprites:
-  - {fileID: 21300000, guid: 4c23fef291e909d41a4eb46d63100879, type: 3}
-  - {fileID: 21300000, guid: d35b9cf98669fb548b85c2175c918b1f, type: 3}
-  - {fileID: 21300000, guid: 09706cd9bb3b16f46941b69f2881e61a, type: 3}
-  expressionSprites:
-  - {fileID: 21300000, guid: 963aae93dc8ee0f4eb00f8a1ce118bb0, type: 3}
-  - {fileID: 21300000, guid: 9cb11ddb709dd8d4f9e70eb471a96560, type: 3}
-  - {fileID: 21300000, guid: 08df354d85041164f99173393a785a69, type: 3}
-  - {fileID: 21300000, guid: bedefa52d6841754c8ee4994171a8018, type: 3}
-  - {fileID: 21300000, guid: 58c84be5d2cc3844289746a6dc9527cd, type: 3}
-  - {fileID: 21300000, guid: 79035aabf18c3254f8a4764ae970dcc2, type: 3}
-  - {fileID: 21300000, guid: 9ea76136684ac4c4bb39e48145449bf1, type: 3}
-  - {fileID: 21300000, guid: 57c8c23651256d64091f7a7837b7653c, type: 3}
-  - {fileID: 21300000, guid: a9282cc783c3e65478758d860b0b64a7, type: 3}
-  - {fileID: 21300000, guid: ca23a5525cba8344fa428832ffdddbec, type: 3}
-  - {fileID: 21300000, guid: 43ede1f4793e6bf46bda8db7f62bd378, type: 3}
-  - {fileID: 21300000, guid: 09a6f4e8c8ebb1e4fb01974c5a9eda67, type: 3}
-  - {fileID: 21300000, guid: 86fc3bb1b05c080488bf01f6cac00fcb, type: 3}
+  bodySprites: []
+  headSprites: []
+  expressionSprites: []

@@ -7,7 +7,8 @@ public class SaveData : MonoSingleton<SaveData>
 
     [SerializeField]
     public PlayerData data;
-
+    [SerializeField]
+    public SaveChapterSO chapterSaveTemp;
 
 
     
@@ -25,6 +26,7 @@ public class SaveData : MonoSingleton<SaveData>
 
     public void Initialization()
     {
+        data.saveChapter = chapterSaveTemp;
         data.currentBookmark = 0;
         data.stageClear.Clear();
         data.items.Clear();
@@ -74,6 +76,7 @@ public class SaveData : MonoSingleton<SaveData>
 [Serializable]
 public class PlayerData
 {
+    public SaveChapterSO saveChapter;
     public int currentBookmark;
     public List<string> stageClear;
     public List<string> items;
@@ -115,7 +118,6 @@ public class PlayerData
 [Serializable]
 public class SaveBookMark
 {
-
     public bool hasSave = false;
     public int bookMark;
     public string chapter;

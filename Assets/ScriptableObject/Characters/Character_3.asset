@@ -13,16 +13,6 @@ MonoBehaviour:
   m_Name: Character_3
   m_EditorClassIdentifier: 
   id: 3
-  bodySprites:
-  - {fileID: 21300000, guid: 77c9ae77554519f4c84ea0a904d0fa38, type: 3}
-  - {fileID: 21300000, guid: 66df8b1312c96c547b07c98c49ff0810, type: 3}
-  headSprites:
-  - {fileID: 21300000, guid: 251b6b2cd45573c45b3c3167383fcf6e, type: 3}
-  expressionSprites:
-  - {fileID: 21300000, guid: 5c9d58a0d956e7c4286022c80c3ee60b, type: 3}
-  - {fileID: 21300000, guid: caba550dba6d05247ab84ef4af2f5a62, type: 3}
-  - {fileID: 21300000, guid: 0e9166f9b7126cf44aa89f01cb991a89, type: 3}
-  - {fileID: 21300000, guid: 3129bda6a77b8df409f497cebed7b9d1, type: 3}
-  - {fileID: 21300000, guid: d51affb5160b97d40af36253fec8776b, type: 3}
-  - {fileID: 21300000, guid: ee9e3b3f64501b94ea8b0c9124f1fa0c, type: 3}
-  - {fileID: 21300000, guid: 67efadafa00ade144994bf4fb33fc885, type: 3}
+  bodySprites: []
+  headSprites: []
+  expressionSprites: []

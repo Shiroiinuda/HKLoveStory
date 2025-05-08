@@ -114,6 +114,14 @@ public class FunctionListener : MonoBehaviour
             GameControl.instance.OnUnlockAchievement("Amulet");
     }
 
+    private void LoadRandom(string test)
+    {
+        string[] endSuffixes = test.Split('&');
+        Int32.TryParse(endSuffixes[0], out int start);
+        Int32.TryParse(endSuffixes[1], out int end);
+
+        Debug.Log($"LoadRandom({start},{end})");
+    }
      // Main method to invoke any function
      public bool CallFunctionsByCell(string cellContent)
     {

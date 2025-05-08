@@ -827,6 +827,326 @@ MonoBehaviour:
       - 
       Flags: 00000000
       Languages_Touch: []
+    - Term: Dialogue/0
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test0
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/1
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test1
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/2
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test2
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/3
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test3
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/4
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test4
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/5
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test5
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/6
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test6
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/7
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test7
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/8
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test8
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/9
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test9
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/10
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test10
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/11
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test11
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/12
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test12
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/13
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test13
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/14
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test14
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/15
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test15
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/16
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test16
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/17
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test17
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/18
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test18
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/19
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test19
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/20
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test20
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/21
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test21
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Dialogue/22
+      TermType: 0
+      Description: 
+      Languages:
+      - Test0Test0Test0Test0Test0Test22
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Player
+      TermType: 0
+      Description: 
+      Languages:
+      - Me
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Boy1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6797\u661F\u665A"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Boy2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8607\u6C90\u6674"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Boy3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9867\u6E05\u5A49"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Boy4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6C5F\u6708\u767D"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Girl1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u738B\u666F\u6F84"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Girl2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4F55\u747E\u8A00"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Girl3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8449\u5BD2\u821F"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
+    - Term: Speaker/Girl4
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6797\u66F8\u7136"
+      - 
+      - 
+      - 
+      Flags: 00000000
+      Languages_Touch: []
     - Term: ImageUI/AutoOn
       TermType: 0
       Description: 
@@ -4392,7 +4712,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycbwK5rmVS0K7rS29dlgtp8qTxNXRsoaA5sHfEv7-ToKxEZilfRa28tnMsxyf-Rv3QUPt_A/exec
     Google_SpreadsheetKey: 1CYX1QonpQkCzo9MU4y4XX_HeCNe7gJkXzlN2YRv4A4A
     Google_SpreadsheetName: I2Loc HKLoveStory Localization
-    Google_LastUpdatedVersion: 1746593463825
+    Google_LastUpdatedVersion: 1746699043281
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2

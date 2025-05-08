@@ -29,8 +29,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public LogController logController;
     public InvestigationControl investigationControl;
     public InventoryManager inventoryManager;
-
+    public DialogueText dialogueTextScript;
     [Space(10)] [Separator("DialogueUIs and Controls")]
+    
+    
     public GameObject speakerNameBox;
 
     public TextMeshProUGUI speakerNameText;
@@ -195,7 +197,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
         Debug.Log(currentDialogue.bookMark);
 
-        StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));
+        dialogueTextScript.LoadDialogue(currentDialogue);
     }
 
     private void StartDialogue()
@@ -213,6 +215,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
     private void NextDialogue()
     {
+        
         var callFunc1 = currentDialogue.callFuncs.func1.Trim();
         var peekFunc1 = dialogueQueue.Peek().callFuncs.func1.Trim();
 
@@ -223,7 +226,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             peekFunc1 == "CheckTrueEnd" ||
             callFunc1 == "LastEndDetermination" ||
             peekFunc1 == "LastEndDetermination" || dialogueQueue.Count == 0 ||
-            isChoiceLooping == true)
+            isChoiceLooping)
         {
             skipDialogueBtn.interactable = false;
             autoOffBtn.interactable = false;
@@ -236,7 +239,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
         CheckSkipDialogueEnable();
 
-        if (currentDialogue.itemModify.addItem != "")
+        /*if (currentDialogue.itemModify.addItem != "")
         {
             InventoryItems inventoryItems =
                 Resources.Load<InventoryItems>($"AddItemInventoryItems/{currentDialogue.itemModify.addItem.Trim()}");
@@ -252,7 +255,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 else
                     inventoryManager.SetGetItemPenel(inventoryItems);
             }
-        }
+        }*/
 
         if (currentDialogue.itemModify.delItem != "")
         {
@@ -287,10 +290,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             /*if (currentDialogue.fade)
                 FadeInOut.Instance.fadeAction.AddListener(CallFunctions);
             else*/
+
             if (!(currentDialogue.fade))
             {
                 CallFunctions();
-                CheckChapter();
             }
 
 
@@ -319,20 +322,26 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 DialogueBoxState(false);
                 return;
             }
-
+            Debug.Log("BB");
             if (currentDialogue.speakerID >= 0 && currentDialogue.speakerID <= 996)
             {
+                Debug.Log("CC");
                 speakerNameBox.SetActive(true);
-                if (currentDialogue.speakerID == 800 || currentDialogue.speakerID == 900)
-                    speakerNameBox.SetActive(false);
-                if (!currentDialogue.fade)
-                    ShowDialogueVisuals();
+                  if (currentDialogue.speakerID == 800 || currentDialogue.speakerID == 900)
+                  {
+                      speakerNameBox.SetActive(false);
+                  }
+                // if (!currentDialogue.fade)
+                // {
+                //     ShowDialogueVisuals();
+                // }
 //                Debug.Log(Localization.GetString($"Speaker/{currentDialogue.speakerName}"));
-                speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
-                StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));
+                /*speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
+                StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));*/
+                dialogueTextScript.LoadDialogue(currentDialogue);
                 AddToLog();
                 HandleVibration();
-
+                Debug.Log("DD");
                 if (isChoiceLooping)
                 {
                     if (currentDialogue.choicesData.isLoop == "loopjump")
@@ -344,8 +353,8 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 {
                     jumpMark = currentDialogue.jumpMark;
                 }
-
-//                Debug.Log("CALL FUNC2");
+                Debug.Log("EE");
+                Debug.Log("CALL FUNC2");
 
                 /*if (currentDialogue.fade)
                     FadeInOut.Instance.fadeAction.AddListener(CallFunctions);
@@ -353,15 +362,16 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 if (!(currentDialogue.fade))
                 {
                     CallFunctions();
-                    CheckChapter();
+        
                 }
             }
             else if (currentDialogue.speakerID >= 997 && currentDialogue.speakerID <= 999)
             {
                 DialogueBoxState(false);
 
-                speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
-                StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));
+                /*speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
+                StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));*/
+                dialogueTextScript.LoadDialogue(currentDialogue);
                 ShowChoices();
                 if (firstSentence)
                 {
@@ -388,16 +398,6 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                             Debug.Log("A");
                             dialogueText.text = Localization.GetString($"Dialogue/{currentDialogue.bookMark}");
                         }
-                    }
-                    else
-                    {
-                        Debug.Log("previousDialogue.dialogueMode == DialogueCloud");
-                        dialoguePanel.SetActive(false);
-                        bubbleText.text = "A";
-                        int num = int.Parse(previousDialogue.speakerPosition);
-                        dialogueBubble.GetComponent<RectTransform>().pivot = bubbleSpawnPts[num].pivot;
-                        dialogueBubble.GetComponent<RectTransform>().position = bubbleSpawnPts[num].position;
-                        dialogueBubbles_anim.SetTrigger("FadeIn");
                     }
                 }
             }
@@ -461,7 +461,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             FadeInOut.Instance.fadeOutAction.AddListener(() => continueButton.enabled = true);
             FadeInOut.Instance.fadeAction.AddListener(ShowDialogueVisuals);
             FadeInOut.Instance.fadeAction.AddListener(CallFunctions);
-            FadeInOut.Instance.fadeAction.AddListener(CheckChapter);
+            
             await FadeInOut.Instance.StartFadeSequence();
             return;
         }
@@ -725,16 +725,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         ShowCharacterImage();
     }
 
-    // private void SetImageSize()
-    // {
-    //     // Set the image's width and height to 1920 x 1080
-    //     bg.rectTransform.sizeDelta = new Vector2(1920f, 1920f);
-    //
-    //     // Reset the image's transformation
-    //     bg.rectTransform.localScale = Vector3.one;
-    //     bg.rectTransform.localPosition = Vector3.zero;
-    //     bg.rectTransform.localRotation = Quaternion.identity;
-    // }
+
 
 
     private void ShowCharacterImage()
@@ -824,26 +815,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             dialogueVibrateAnim.SetTrigger("Vibrate");
         }
     }
+    
 
-    /*private void StartTyping(string dialogueString, Dialogue nowDialogue)
-    {
-        currentSentence = dialogueString;
-        speakerNameText.text = Localization.GetString($"Speaker/{nowDialogue.speakerName}");
-        dialogueText.text = "";
-        narratorText.text = "";
-        centerText.text = "";
-
-        bubbleText.text = "";
-
-        if (displayLineCoroutine != null)
-        {
-            StopCoroutine(displayLineCoroutine);
-        }
-
-        displayLineCoroutine = StartCoroutine(TypeSentence(dialogueString, nowDialogue));
-    }*/
-
-    private void StartTyping(string dialogueString)
+    /*private void StartTyping(string dialogueString)
     {
         currentSentence = dialogueString;
         if (displayLineCoroutine != null)
@@ -864,93 +838,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         bubbleText.gameObject.SetActive(false);
 
         displayLineCoroutine = StartCoroutine(TypeSentence(dialogueString));
-    }
-
-    /*IEnumerator TypeSentenceword(string sentence, TextMeshProUGUI dialogueBox)
-    {
-        foreach (var letter in sentence)
-        {
-            dialogueBox.text += letter;
-            yield return new WaitForSeconds(0.1f);
-        }
     }*/
 
-    /*public IEnumerator TypeSentence(string sentence, Dialogue nowDialogue)
-    {
-        //if (currentDialogue.fade)
-        //yield return new WaitForSeconds(1);
-        Debug.Log(sentence);
-        isTyping = true;
-        if (currentlyDisplay != null)
-        {
-            StopCoroutine(currentlyDisplay);
-            currentlyDisplay = null;
-        }
-
-        if (currentDialogue.dialogueMode != "DialogueCloud")
-        {
-            switch (currentDialogue.speakerID)
-            {
-                case 800:
-                    yield return currentlyDisplay = StartCoroutine(TypeText(sentence, narratorText, 0.1f));
-                    break;
-                case 900:
-                    centerText.text += sentence;
-                    centerTextFadeIn.Play();
-                    break;
-                default:
-                {
-                    if (currentDialogue.speakerID >= 0 && currentDialogue.speakerID <= 996)
-                    {
-                        yield return currentlyDisplay = StartCoroutine(TypeText(sentence, dialogueText, 0.1f));
-                    }
-                    else if (currentDialogue.speakerID >= 997)
-                    {
-                        dialogueText.text = LocalizationManager.GetTranslation($"Dialogue/{currentDialogue.bookMark}");
-                        // LocalizeStringUpdate(dialogueLocalizeString, previousDialogue.bookMark.ToString());
-                        dialogueText.text += sentence;
-                    }
-
-                    break;
-                }
-            }
-
-
-            if (currentDialogue.speakerID == 800)
-                narratorText.text += "<sprite=15>";
-
-            else if (currentDialogue.speakerID >= 0 && currentDialogue.speakerID != 900)
-            {
-                if (!string.IsNullOrEmpty(currentSentence))
-                    dialogueText.text += "<sprite=15>";
-            }
-        }
-        else
-        {
-            yield return currentlyDisplay = StartCoroutine(TypeSentenceword(sentence, bubbleText));
-
-            if (!string.IsNullOrEmpty(currentSentence))
-                bubbleText.text += "<sprite=15>";
-
-            if (isPaused)
-            {
-                isPaused = false;
-                yield return new WaitForSeconds(1f);
-            }
-            else
-            {
-                continueButton.gameObject.SetActive(!(currentDialogue.speakerID >= 997));
-                bubbleContinueButton.gameObject.SetActive(!(currentDialogue.speakerID >= 997));
-            }
-        }
-
-        yield return new WaitForSeconds(3f);
-        isTyping = false;
-        if (autoPlay)
-            autoCoroutine = StartCoroutine(CheckAuto());
-    }*/
-
-    IEnumerator TypeSentence(string sentence)
+    
+    /*IEnumerator TypeSentence(string sentence)
     {
         //if (currentDialogue.fade)
         //yield return new WaitForSeconds(1);
@@ -1006,7 +897,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
             case 900:
                 typingText = StartCoroutine(TypeText($"{sentence}", centerText, 0f));
-                /*centerText.text = sentence;*/
+                /*centerText.text = sentence;#1#
 
                 centerTextFadeIn.Play();
                 break;
@@ -1038,7 +929,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         if(currentDialogue.speakerID != 900)
             textComponent.text += "<sprite=15>";
         yield return new WaitForSeconds(delay);
-    }
+    }*/
 
     private void ShowChoices()
     {
@@ -1167,49 +1058,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public void OnButtonClick()
     {
         Auto(false);
-        if (isTyping)
+        if (dialogueTextScript.IsTyping)
         {
             isPaused = true;
-            StopCoroutine(displayLineCoroutine);
-            StopCoroutine(currentlyDisplay);
-            if (currentDialogue.dialogueMode != "DialogueCloud")
-            {
-                switch (currentDialogue.speakerID)
-                {
-                    case 800:
-                        narratorText.text = currentSentence + "<sprite=15>";
-                        break;
-                    case 900:
-                        centerText.text = currentSentence;
-
-                        break;
-                    default:
-                    {
-                        if (currentDialogue.speakerID >= 0 && currentDialogue.speakerID <= 996)
-                        {
-                            if (!string.IsNullOrEmpty(currentSentence))
-                            {
-                                dialogueText.text = currentSentence + "<sprite=15>";
-                            }
-                        }
-
-                        break;
-                    }
-                }
-            }
-            else
-            {
-                if (currentDialogue.speakerID >= 0 && currentDialogue.speakerID <= 996)
-                {
-                    if (!string.IsNullOrEmpty(currentSentence))
-                    {
-                        bubbleText.text = currentSentence + "<sprite=15>";
-                    }
-                }
-            }
-
-            isTyping = false;
-            return;
+            dialogueTextScript.SkipTyping();
         }
         else
         {
@@ -1628,73 +1480,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
         DisplayNextSentence();
     }
-
-    //Call Functions//
-    private void CheckChapter()
-    {
-        if (currentDialogue.bookMark == 3671 || currentDialogue.bookMark == 3826 || currentDialogue.bookMark == 4368)
-        {
-            PostProcessingController.Instance.Filter(0);
-            return;
-        }
-
-        switch (currentDialogue.saveChapter)
-        {
-            case "Truth":
-                PostProcessingController.Instance.Filter(2);
-                break;
-            case "Chapter18":
-            case "Chapter17":
-            case "Chapter16":
-            case "Chapter15":
-                    PostProcessingController.Instance.Filter(0);
-                break;
-                
-            case "Chapter20":
-                if (currentDialogue.bookMark >= 3671)
-                {
-                    PostProcessingController.Instance.Filter(0);
-                    break;
-                }
-
-                Debug.Log($"Post Processing filter: 3");
-                PostProcessingController.Instance.Filter(3);
-                break;
-            case "Chapter21":
-                if (currentDialogue.bookMark >= 3826)
-                {
-                    PostProcessingController.Instance.Filter(0);
-                    break;
-                }
-                Debug.Log($"Post Processing filter: 3");
-                PostProcessingController.Instance.Filter(3);
-                break;
-            case "Chapter22":
-                if (currentDialogue.bookMark >= 4368)
-                {
-                    PostProcessingController.Instance.Filter(0);
-                    break;
-                }
-                Debug.Log($"Post Processing filter: 3");
-                PostProcessingController.Instance.Filter(3);
-                break;
-            case "Chapter23":
-                if (currentDialogue.bookMark >= 4484 && currentDialogue.bookMark <= 4502)
-                {
-                    PostProcessingController.Instance.Filter(3);
-                    break;
-                }
-                break;
-            default:
-                Debug.Log($"Post Processing filter: 1");
-                PostProcessingController.Instance.Filter(0);
-                break;
-        }
-    }
-
+    
     private void CallFunctions()
     {
-//        Debug.Log("Called Func");
+     Debug.Log("Called Func");
         string func1 = currentDialogue.callFuncs.func1.Trim();
         string func2 = currentDialogue.callFuncs.func2.Trim();
 

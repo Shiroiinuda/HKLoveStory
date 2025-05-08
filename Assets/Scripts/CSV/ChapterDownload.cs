@@ -4,9 +4,12 @@ using UnityEditor;
 using UnityEngine.Networking;
 using System.IO;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+
 public class ChapterDownload : EditorWindow
 {
     private static readonly string configPath = "Assets/Config/ChapterConfig.json";
+    private static readonly string saveDataPath = "Assets/SaveData/ChapterSaveData.asset";
     private string googleSheetID = "";
     private string googleSheetGID = "0";
     private string savePath = "Assets/Chapters/";
@@ -32,6 +35,38 @@ public class ChapterDownload : EditorWindow
             var downloader = ScriptableObject.CreateInstance<ChapterDownload>();
             downloader.DownloadCsvAsync(csvURL, $"{config.savePath}/ChapterData.csv");
         }
+    }
+
+    [MenuItem("CSV/Reset All Chapters")]
+    public static void ResetAllChapters()
+    {
+        SaveChapterSO saveData = AssetDatabase.LoadAssetAtPath<SaveChapterSO>(saveDataPath);
+        if (saveData == null)
+        {
+            Debug.LogError($"<color=#FF0000>Error:</color> SaveChapterSO not found at {saveDataPath}");
+            return;
+        }
+
+        if (saveData.chapters == null)
+        {
+            Debug.LogError("<color=#FF0000>Error:</color> No chapters found in SaveChapterSO");
+            return;
+        }
+
+        for (int i = 0; i < saveData.chapters.Count; i++)
+        {
+            if (saveData.chapters[i].chapter != null) // Only reset non-null chapters
+            {
+                ChapterSave chapterSave = saveData.chapters[i];
+                chapterSave.played = false;
+                chapterSave.favorability = new npcFavorability();
+                saveData.chapters[i] = chapterSave;
+            }
+        }
+
+        EditorUtility.SetDirty(saveData);
+        AssetDatabase.SaveAssets();
+        Debug.Log($"<color=#00FF00>Success:</color> Reset {saveData.chapters.Count} chapters");
     }
 
     private static ConfigData LoadConfigurationStatic()
@@ -83,6 +118,9 @@ public class ChapterDownload : EditorWindow
     void ProcessCsvToScriptableObject(string csvData)
     {
         string[] lines = csvData.Split('\n');
+        List<ChapterSave> allChapters = new List<ChapterSave>();
+        
+        // First, create all main chapters and their sub-chapters
         for (int i = 1; i < lines.Length; i++) // skip header
         {
             string[] splitData = lines[i].Split(',');
@@ -92,28 +130,86 @@ public class ChapterDownload : EditorWindow
             string chapterBookMark = splitData[1].Trim();
             string previousChapter1 = splitData[2].Trim();
 
-            // Determine the subfolder based on the chapter name
-            string subfolder = chapterName.StartsWith("Random") ? "Random" : "Chapter";
-            string assetPath = $"{savePath}/{subfolder}/{chapterName}.asset";
+            // Skip if it's a sub-chapter or random chapter
+            if (chapterName.Contains("_") || chapterName.StartsWith("Random")) continue;
 
-            ChapterSO chapterSO = AssetDatabase.LoadAssetAtPath<ChapterSO>(assetPath);
-            bool newCreate = chapterSO == null;
-            if (newCreate)
+            // Create main chapter
+            ChapterSO mainChapter = CreateChapter(chapterName, chapterBookMark, previousChapter1);
+            allChapters.Add(new ChapterSave
             {
-                chapterSO = ScriptableObject.CreateInstance<ChapterSO>();
+                chapter = mainChapter,
+                played = false,
+                favorability = new npcFavorability()
+            });
+
+            // Create sub-chapters (if they exist in CSV)
+            for (int j = 1; j < lines.Length; j++)
+            {
+                string[] subData = lines[j].Split(',');
+                if (subData.Length < 3) continue;
+
+                string subChapterName = subData[0].Trim();
+                if (subChapterName.StartsWith(chapterName + "_"))
+                {
+                    ChapterSO subChapter = CreateChapter(subChapterName, subData[1].Trim(), chapterName);
+                    allChapters.Add(new ChapterSave
+                    {
+                        chapter = subChapter,
+                        played = false,
+                        favorability = new npcFavorability()
+                    });
+                }
             }
 
-            chapterSO.chapterName = chapterName;
-            chapterSO.chapterBookMark = chapterBookMark;
-            chapterSO.previousChapter1 = previousChapter1;
-
-            if (newCreate)
-                AssetDatabase.CreateAsset(chapterSO, assetPath);
-            else
-                EditorUtility.SetDirty(chapterSO);
+            // Add null entries for empty chapters
+            for (int j = 1; j <= 3; j++)
+            {
+                allChapters.Add(new ChapterSave
+                {
+                    chapter = null,
+                    played = false,
+                    favorability = new npcFavorability()
+                });
+            }
         }
+
+        // Create or update SaveChapterSO
+        SaveChapterSO saveData = AssetDatabase.LoadAssetAtPath<SaveChapterSO>(saveDataPath);
+        if (saveData == null)
+        {
+            saveData = ScriptableObject.CreateInstance<SaveChapterSO>();
+            AssetDatabase.CreateAsset(saveData, saveDataPath);
+        }
+
+        saveData.chapters = allChapters;
+        EditorUtility.SetDirty(saveData);
         AssetDatabase.SaveAssets();
-        Debug.Log($"<color=#00FF00>Saved:</color> {lines.Length - 1} Chapters");
+        
+        Debug.Log($"<color=#00FF00>Saved:</color> {allChapters.Count} Chapters including null entries");
+    }
+
+    private ChapterSO CreateChapter(string chapterName, string chapterBookMark, string previousChapter1)
+    {
+        string subfolder = chapterName.StartsWith("Random") ? "Random" : "Chapter";
+        string assetPath = $"{savePath}/{subfolder}/{chapterName}.asset";
+
+        ChapterSO chapterSO = AssetDatabase.LoadAssetAtPath<ChapterSO>(assetPath);
+        bool newCreate = chapterSO == null;
+        if (newCreate)
+        {
+            chapterSO = ScriptableObject.CreateInstance<ChapterSO>();
+        }
+
+        chapterSO.chapterName = chapterName;
+        chapterSO.chapterBookMark = chapterBookMark;
+        chapterSO.previousChapter1 = previousChapter1;
+
+        if (newCreate)
+            AssetDatabase.CreateAsset(chapterSO, assetPath);
+        else
+            EditorUtility.SetDirty(chapterSO);
+
+        return chapterSO;
     }
 
     private Task<string> DownloadCSV(string url)

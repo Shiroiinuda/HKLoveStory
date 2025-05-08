@@ -13,18 +13,6 @@ MonoBehaviour:
   m_Name: Character_24
   m_EditorClassIdentifier: 
   id: 24
-  bodySprites:
-  - {fileID: 21300000, guid: da59ef3f16f9b0247ac00857ca52abfd, type: 3}
-  - {fileID: 21300000, guid: 2fb80af3db832c3419532124750f38e5, type: 3}
-  - {fileID: 21300000, guid: f63362c6814eabe4a88be0fe7465d4cd, type: 3}
-  headSprites:
-  - {fileID: 21300000, guid: 8914926e39e90cd42bb6e07c2222dda1, type: 3}
-  - {fileID: 21300000, guid: 5f2ac3888f9212343b59c0df21522bfc, type: 3}
-  expressionSprites:
-  - {fileID: 21300000, guid: 38642a8be40a5834b9be42714f7d6bd0, type: 3}
-  - {fileID: 21300000, guid: 1f55def99ebb6534d9e48f2dec3e5d5d, type: 3}
-  - {fileID: 21300000, guid: 06194f3737be546469b0108a58fa4c0e, type: 3}
-  - {fileID: 21300000, guid: 68b3ef06344f06f4ab6dbcc1b389bba8, type: 3}
-  - {fileID: 21300000, guid: ffa558a3f5b78a14a8339a067f8801e1, type: 3}
-  - {fileID: 21300000, guid: a8f8d079f039c3f45871bc56b677450a, type: 3}
-  - {fileID: 21300000, guid: 4a2665f396fbb3b449f1f44ad00c7ab7, type: 3}
+  bodySprites: []
+  headSprites: []
+  expressionSprites: []
