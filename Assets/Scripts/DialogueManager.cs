@@ -35,15 +35,15 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     
     public GameObject speakerNameBox;
 
-    public TextMeshProUGUI speakerNameText;
+    /*public TextMeshProUGUI speakerNameText;*/
 
     public GameObject dialoguePanel;
     public GameObject settingButton;
     public GameObject inventoryButton;
 
-    public TextMeshProUGUI dialogueText;
+    /*public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI narratorText;
-    public TextMeshProUGUI centerText;
+    public TextMeshProUGUI centerText;*/
     public PlayableDirector centerTextFadeIn;
 
     public GameObject bubbleDialoguePanel;
@@ -373,7 +373,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));*/
                 dialogueTextScript.LoadDialogue(currentDialogue);
                 ShowChoices();
-                if (firstSentence)
+                /*if (firstSentence)
                 {
                     if (previousDialogueMode != "DialogueCloud")
                     {
@@ -399,7 +399,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                             dialogueText.text = Localization.GetString($"Dialogue/{currentDialogue.bookMark}");
                         }
                     }
-                }
+                }*/
             }
 
             firstSentence = false;
@@ -1037,9 +1037,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public void EndDialogue()
     {
         speakerNameText.text = "";
-        dialogueText.text = "";
-        narratorText.text = "";
-        centerText.text = "";
+        // dialogueText.text = "";
+        // narratorText.text = "";
+        // centerText.text = "";
 
         bubbleText.text = "";
 

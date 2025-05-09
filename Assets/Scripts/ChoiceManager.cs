@@ -48,7 +48,7 @@ public class ChoiceManager : MonoBehaviour
         deActive();
 
         dialogueManager.continueButton.gameObject.SetActive(true);
-        dialogueManager.dialogueText.text = "";
+        // dialogueManager.dialogueText.text = "";
 
         dialogueManager.bubbleContinueButton.gameObject.SetActive(true);
         dialogueManager.bubbleText.text = "";
