@@ -41,8 +41,8 @@ MonoBehaviour:
       TermType: 9
       Description: 
       Languages:
-      - qiji-combo SDF
-      - qiji-fallback SDF
+      - NotoSerifCJKtc-Bold SDF
+      - NotoSerifCJKtc-Bold SDF
       - EngFont SDF
       - 
       Flags: 00000000
