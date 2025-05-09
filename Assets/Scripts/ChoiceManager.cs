@@ -50,8 +50,9 @@ public class ChoiceManager : MonoBehaviour
         dialogueManager.continueButton.gameObject.SetActive(true);
         // dialogueManager.dialogueText.text = "";
 
+        /*
         dialogueManager.bubbleContinueButton.gameObject.SetActive(true);
-        dialogueManager.bubbleText.text = "";
+        dialogueManager.bubbleText.text = "";*/
 
         dialogueManager.DisplayNextSentence();
     }

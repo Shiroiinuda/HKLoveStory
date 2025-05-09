@@ -80,7 +80,42 @@ public class DialogueText : MonoBehaviour
         }
         isTyping = false;
     }
+    public void SkipTyping(Dialogue dialogue)
+    {
+        currentDialogue = dialogue;
+        if (!isTyping) return;
 
+        
+        if (displayLineCoroutine != null)
+        {
+            StopCoroutine(displayLineCoroutine);
+            displayLineCoroutine = null;
+        }
+
+        if (typingText != null)
+        {
+            StopCoroutine(typingText);
+            typingText = null;
+        }
+
+        // Display full text immediately
+        switch (currentDialogue.speakerID)
+        {
+            case 800: // Narrator
+                if (narrativeText != null)
+                {
+                    narrativeText.text = currentSentence + "<sprite=15>";
+                }
+                break;
+            case var id when id >= 0 && id <= 996: // Normal dialogue
+                if (dialogueText != null && !string.IsNullOrEmpty(currentSentence))
+                {
+                    dialogueText.text = currentSentence + "<sprite=15>";
+                }
+                break;
+        }
+        isTyping = false;
+    }
     private void StartTyping(string dialogueString)
     {
         isTyping = true;

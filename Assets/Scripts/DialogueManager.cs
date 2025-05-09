@@ -34,16 +34,12 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     
     
     public GameObject speakerNameBox;
-
-    /*public TextMeshProUGUI speakerNameText;*/
+    
 
     public GameObject dialoguePanel;
     public GameObject settingButton;
     public GameObject inventoryButton;
-
-    /*public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI narratorText;
-    public TextMeshProUGUI centerText;*/
+    
     public PlayableDirector centerTextFadeIn;
 
     public GameObject bubbleDialoguePanel;
@@ -51,7 +47,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public List<RectTransform> bubbleSpawnPts;
     public TextMeshProUGUI bubbleText;
     public Animator dialogueBubbles_anim;
-    public Button bubbleContinueButton;
+    // public Button bubbleContinueButton;
 
     public Button continueButton;
     public Queue<Dialogue> dialogueQueue;
@@ -137,7 +133,6 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         if (dataPrefabs == null && Resources.Load<DialogueData>("DialogueDataPrefab"))
             dataPrefabs = Resources.Load<DialogueData>("DialogueDataPrefab");
-        //skipDialogueBtn.onClick.AddListener(SkipToNextImportantDialogue);
 
         previousDialogueMode = "";
 
@@ -297,7 +292,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             }
 
 
-            continueButton.enabled = false;
+            ContinueButtonState(false);
             Auto(false);
 
             if (!currentDialogue.fade)
@@ -307,8 +302,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         }
         else
         {
-            continueButton.enabled = true;
-            bubbleContinueButton.enabled = true;
+            ContinueButtonState(true);
             UpdateCharacters();
 
             if (currentDialogue.chapterState == 1)
@@ -367,11 +361,11 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             }
             else if (currentDialogue.speakerID >= 997 && currentDialogue.speakerID <= 999)
             {
-                DialogueBoxState(false);
+                DialogueBoxState(true);
 
                 /*speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
                 StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));*/
-                dialogueTextScript.LoadDialogue(currentDialogue);
+                dialogueTextScript.SkipTyping(previousDialogue);
                 ShowChoices();
                 /*if (firstSentence)
                 {
@@ -711,7 +705,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private void ShowDialogueVisuals()
     {
         continueButton.enabled = !currentDialogue.fade;
-        bubbleContinueButton.enabled = !currentDialogue.fade;
+        // bubbleContinueButton.enabled = !currentDialogue.fade;
 
         if (currentDialogue.imgEffect != previousDialogue.imgEffect || currentDialogue.imgEffect == "")
         {
@@ -941,7 +935,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             case 997:
                 // Display choice 1 and set it to jump to dialogue ID 10
 
-                ContinueButtonState(false);
+                ContinueButtonStates(false);
 
                 //Show choicePanel and 997ChoiceBox
                 choicePanel.SetActive(true);
@@ -976,7 +970,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 // Display choice 1 and set it to jump to dialogue ID 10
 
                 continueButton.gameObject.SetActive(false);
-                bubbleContinueButton.gameObject.SetActive(false);
+                // bubbleContinueButton.gameObject.SetActive(false);
 
                 //Show choicePanel and 998ChoiceBox
                 choicePanel.SetActive(true);
@@ -1001,7 +995,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 // Display choice 1 and set it to jump to dialogue ID 10
 
                 continueButton.gameObject.SetActive(false);
-                bubbleContinueButton.gameObject.SetActive(false);
+                // bubbleContinueButton.gameObject.SetActive(false);
 
                 //Show choicePanel and 997ChoiceBox
                 choicePanel.SetActive(true);
@@ -1036,7 +1030,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
     public void EndDialogue()
     {
-        speakerNameText.text = "";
+        // speakerNameText.text = "";
         // dialogueText.text = "";
         // narratorText.text = "";
         // centerText.text = "";
@@ -1050,7 +1044,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         Debug.Log($"ContinueButtonState{state}");
         continueButton.enabled = state;
-        bubbleContinueButton.enabled = state;
+        // bubbleContinueButton.enabled = state;
     }
 
     public bool investDialogue;

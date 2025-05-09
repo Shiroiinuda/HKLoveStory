@@ -749,9 +749,9 @@ MonoBehaviour:
     saveChapter: 
     nextLv: -1
     chapterState: 0
-    jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    jumpMark: 17
+    speakerID: 997
+    speakerName: Choice1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -799,9 +799,9 @@ MonoBehaviour:
     saveChapter: 
     nextLv: -1
     chapterState: 0
-    jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    jumpMark: 18
+    speakerID: 998
+    speakerName: Choice2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -849,9 +849,9 @@ MonoBehaviour:
     saveChapter: 
     nextLv: -1
     chapterState: 0
-    jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    jumpMark: 19
+    speakerID: 999
+    speakerName: Choice3
     speakerPosition: NoShow
     choicesData:
       key: 
