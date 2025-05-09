@@ -17,6 +17,7 @@ public class Choices : MonoBehaviour
     public bool clicked;
     public string choiceMode;
     public InventoryItems unlockChoiceItem;
+    public Dialogue dialogue;
 
     private void Start() =>
         choiceBtn.onClick.AddListener(() => choiceManager.OnChoiceButtonClicked(this));

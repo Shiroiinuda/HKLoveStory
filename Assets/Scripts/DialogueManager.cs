@@ -362,38 +362,8 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             else if (currentDialogue.speakerID >= 997 && currentDialogue.speakerID <= 999)
             {
                 DialogueBoxState(true);
-
-                /*speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
-                StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));*/
                 dialogueTextScript.SkipTyping(previousDialogue);
                 ShowChoices();
-                /*if (firstSentence)
-                {
-                    if (previousDialogueMode != "DialogueCloud")
-                    {
-                        if (previousDialogue.speakerID == 800 || previousDialogue.speakerID == 900)
-                            speakerNameText.text = "";
-                        else if (previousDialogue.speakerID >= 0 && previousDialogue.speakerID <= 996)
-                            speakerNameText.text = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
-                        ;
-
-
-                        if (previousDialogue.speakerID == 800)
-                            narratorText.text = Localization.GetString($"Dialogue/{currentDialogue.bookMark}");
-                        // LocalizeStringUpdate(narratorLocalizeString, currentDialogue.bookMark.ToString(),
-                        //     "ChengWIngDialogue");
-                        // Debug.Log("test");
-                        else if (previousDialogue.speakerID == 900)
-                        {
-                            centerText.text = Localization.GetString($"Dialogue/{currentDialogue.bookMark}");
-                        }
-                        else if (previousDialogue.speakerID >= 0 && previousDialogue.speakerID <= 996)
-                        {
-                            Debug.Log("A");
-                            dialogueText.text = Localization.GetString($"Dialogue/{currentDialogue.bookMark}");
-                        }
-                    }
-                }*/
             }
 
             firstSentence = false;

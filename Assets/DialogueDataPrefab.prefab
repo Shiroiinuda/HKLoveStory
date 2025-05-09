@@ -500,8 +500,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 800
+    speakerName: Narration
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -550,8 +550,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 800
+    speakerName: Narration
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -650,8 +650,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 800
+    speakerName: Narration
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -700,8 +700,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 800
+    speakerName: Narration
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -900,8 +900,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 2
+    speakerName: Boy1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -950,8 +950,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 3
+    speakerName: Boy2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1000,8 +1000,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 4
+    speakerName: Boy3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1050,8 +1050,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 5
+    speakerName: Boy4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1100,8 +1100,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 6
+    speakerName: Girl1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1150,8 +1150,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 7
+    speakerName: Girl2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1200,8 +1200,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 8
+    speakerName: Girl3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1250,8 +1250,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 9
+    speakerName: Girl4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1300,8 +1300,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 2
+    speakerName: Boy1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1350,8 +1350,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 3
+    speakerName: Boy2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1400,8 +1400,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 4
+    speakerName: Boy3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1450,8 +1450,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 5
+    speakerName: Boy4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1500,8 +1500,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 6
+    speakerName: Girl1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1550,8 +1550,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 7
+    speakerName: Girl2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1600,8 +1600,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 8
+    speakerName: Girl3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1650,8 +1650,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 9
+    speakerName: Girl4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1700,8 +1700,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 2
+    speakerName: Boy1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1750,8 +1750,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 3
+    speakerName: Boy2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1800,8 +1800,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 4
+    speakerName: Boy3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1850,8 +1850,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 5
+    speakerName: Boy4
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1900,8 +1900,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 6
+    speakerName: Girl1
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -1950,8 +1950,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 7
+    speakerName: Girl2
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -2000,8 +2000,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 8
+    speakerName: Girl3
     speakerPosition: NoShow
     choicesData:
       key: 
@@ -2050,8 +2050,8 @@ MonoBehaviour:
     nextLv: -1
     chapterState: 0
     jumpMark: -1
-    speakerID: 0
-    speakerName: 
+    speakerID: 9
+    speakerName: Girl4
     speakerPosition: NoShow
     choicesData:
       key: 

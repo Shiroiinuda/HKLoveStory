@@ -1,4 +1,5 @@
 using System.Collections;
+using DG.Tweening;
 using EasierLocalization;
 using I2.Loc;
 using TMPro;
@@ -13,7 +14,9 @@ public class DialogueText : MonoBehaviour
     [SerializeField] private TextMeshProUGUI narrativeText;
     [SerializeField] private TextMeshProUGUI speakerName;
     [SerializeField] private Image dialogueBox;
-
+    [SerializeField] private Image arrow;
+    [SerializeField] private Sprite dialogueSprite; 
+    [SerializeField] private Sprite narrtiveSprite;
     [Header("State")]
     [SerializeField, ReadOnly] private string currentSentence;
     [SerializeField, ReadOnly] private string currentSpeakerName;
@@ -28,9 +31,10 @@ public class DialogueText : MonoBehaviour
 
     public void LoadDialogue(Dialogue dialogue)
     {
+        
         currentDialogue = dialogue;
         currentSpeakerName = Localization.GetString($"Speaker/{currentDialogue.speakerName}");
-        
+
         // Handle Speaker UI
         if (speakerName != null)
         {
@@ -45,6 +49,28 @@ public class DialogueText : MonoBehaviour
         StartTyping(Localization.GetString($"Dialogue/{currentDialogue.bookMark}"));
     }
 
+    private void StartUIAnimation()
+    {
+        arrow.gameObject.SetActive(false);
+        switch (currentDialogue.speakerID)
+        {
+            case 800: 
+                if (dialogueBox != null && narrtiveSprite != null)
+                {
+                    dialogueBox.sprite = narrtiveSprite;
+                }
+                break;
+
+            case var id when id >= 0 && id <= 996:
+                if (dialogueBox != null  && dialogueSprite != null)
+                {
+                    dialogueBox.sprite = dialogueSprite;
+                }
+                break;
+        }
+        dialogueBox.rectTransform.sizeDelta = new Vector2(dialogueBox.rectTransform.sizeDelta.x,33);
+        dialogueBox.rectTransform.DOSizeDelta(new Vector2(dialogueBox.rectTransform.sizeDelta.x,400), 0.75f).SetEase(Ease.OutCubic);
+    }
     public void SkipTyping()
     {
         if (!isTyping) return;
@@ -79,6 +105,7 @@ public class DialogueText : MonoBehaviour
                 break;
         }
         isTyping = false;
+        arrow.gameObject.SetActive(true);
     }
     public void SkipTyping(Dialogue dialogue)
     {
@@ -115,6 +142,7 @@ public class DialogueText : MonoBehaviour
                 break;
         }
         isTyping = false;
+        arrow.gameObject.SetActive(true);
     }
     private void StartTyping(string dialogueString)
     {
@@ -138,17 +166,20 @@ public class DialogueText : MonoBehaviour
             narrativeText.text = "";
             narrativeText.gameObject.SetActive(false);
         }
-        
+
+        StartUIAnimation();
         displayLineCoroutine = StartCoroutine(TypeSentence(dialogueString));
     }
 
     private IEnumerator TypeSentence(string sentence)
     {
+        yield return new WaitForSeconds(0.25f);
         isTyping = true;
         yield return TypeDefaultDialogue(sentence);
         
         yield return new WaitForSeconds(0.1f); // Small pause at end
         isTyping = false;
+        arrow.gameObject.SetActive(true);
     }
 
     private IEnumerator TypeDefaultDialogue(string sentence)
